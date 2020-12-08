@@ -17,8 +17,8 @@ print(str1[2:8:1])
 
 # 2、卖橘子的计算器：写一段代码，提示用户输入橘子的价格，和重量，最后计算出应该支付的金额！
 # （不需要校验数据，都传入数字就可以了。）
-price = int(input("请输入橘子价格:"))
-weight = int(input("请输入重量:"))
+price = float(input("请输入橘子价格:"))
+weight = float(input("请输入重量:"))
 money = price * weight
 print(money)
 
