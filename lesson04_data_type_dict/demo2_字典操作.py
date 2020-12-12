@@ -27,3 +27,6 @@ print(movies.values())
 
 #同时获取key,value
 print(movies.items())
+
+a = {1:"周末",2:"周末"}
+print(a[2])
