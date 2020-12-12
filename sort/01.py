@@ -10,5 +10,9 @@ a="abcd"
 b=a[::-1]
 print(b)
 
+seq = [3,1]
+seq.append(seq[0]+seq[1])
+print(seq)
+
 
 
