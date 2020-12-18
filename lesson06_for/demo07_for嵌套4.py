@@ -19,15 +19,15 @@ for case in cases:
         #adict["url"] = "login"
         #adict["method"] = "post"
         adict[keys[idx]] = data
-    print(adict)
+    #print(adict)
     lst.append(adict)
 print(lst)
 
-
-lst = ["a","b","c"]
-for i in lst:
-    print(i)
-
-lst = ["a","b","c"]
-for index,i in enumerate(lst):
-    print(index,i)
+#
+# lst = ["a","b","c"]
+# for i in lst:
+#     print(i)
+#
+# lst = ["a","b","c"]
+# for index,i in enumerate(lst):
+#     print(index,i)

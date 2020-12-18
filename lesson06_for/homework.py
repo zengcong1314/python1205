@@ -1,8 +1,23 @@
 #使用for打印九九乘法表
 for i in range (1,10):
     for j in range (1,i+1):
+
+        #i = 1,j = 1
+        #i = 2,j = 2
+        #i = 3,j = 3
         print( "{}*{}={}".format(j,i,i*j),end="\t")
     print()
+
+for i in range(1, 10):
+    for j in range(1, 10):
+        if j <= i:
+        # i = 1,j = 1
+        # i = 2,j = 2
+        # i = 3,j = 3
+            print("{}*{}={}".format(j, i, i * j), end="\t")
+    print()
+
+
 
 # 你的微信好友当中有 5 个推销的，他们存在一个列表 black_list=['卖茶叶', '卖面膜', '卖保险', '卖花生', '卖手机']
 # 当中, 请依次把这 5 个人分别从 black_list 当中删除，最后 black_list 为空。（不要使用 clear）
@@ -12,6 +27,17 @@ for i in range(0,len(black_list)):
         black_list.pop(-1)
         print(black_list)
 print(black_list)
+
+#列表是可变类型
+#for循环，index += 1
+#不要在循环当中去直接修改列表
+#提前copy
+# black_list_copy = black_list[::]
+# for name in black_list_copy:
+#     black_list.remove(name)
+# print(black_list)
+
+
 
 # 编写如下程序
 # a.用户输入1-7七个数字，分别代表周一到周日
@@ -74,6 +100,9 @@ for i in range (5,1000):
     if i % 2 != 0:
         print(i,end=" ")
 
+for i in range(5,1000,2):
+    print(i)
+
 
 
 # 使用循环实现排序算法（冒泡，选择等算法选择一个，请自行了解。）
@@ -85,6 +114,7 @@ for i in range (0,len(a)-1): # 这个循环负责设置冒泡排序进行的次�
             temp = a[j]
             a[j] = a[j+1]
             a[j+1] = temp
+            # a[j],a[j+1] = a[j+1],a[j]
             print(a)
 print(a)
 
