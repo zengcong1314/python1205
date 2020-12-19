@@ -16,3 +16,18 @@ print(seq)
 
 
 
+# a = "hello"
+# b = "hello"
+# print(id(a))   # 输出 140506224367496
+# print(id(b))   # 输出 140506224367496
+# print(a is b)  # 输出 True
+# print(a == b)  # 输出 True
+
+
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(id(a))   # 输出 140506224299464
+print(id(b))   # 输出 140506224309576
+print(a is b)  # 输出 False
+print(a == b)  # 输出 True

@@ -7,6 +7,7 @@
 #写出一个程序，接受一个字符串，然后输出该字符串反转后的字符串。（字符串长度不超过1000）
 
 #斐波那契数列
+
 #冒烟
 #大整数加法
 # n = int(input())
@@ -50,21 +51,71 @@
 
 #把字符串变成列表，用列表的reverse函数
 #Python join() 方法用于将序列中的元素以指定的字符连接生成一个新的字符串。
-str = 'adsfdfgfhg'
-print(list(str))
-def string_reverse2(string):
-    new_str = list(str)
-    new_str.reverse()
-    print(new_str)
-    #print(str(new_str))
-    return ''.join(new_str)
-if __name__ == "__main__":
-    print(str)
-    print(string_reverse2(str))
+# str = 'adsfdfgfhg'
+# print(list(str))
+# def string_reverse2(string):
+#     new_str = list(str)
+#     new_str.reverse()
+#     print(new_str)
+#     #print(str(new_str))
+#     return ''.join(new_str)
+# if __name__ == "__main__":
+#     print(str)
+#     print(string_reverse2(str))
 
 #排序
 #冒泡排序
 #快速排序
 
+#json与字典中相互转化
+# import json
+# data_dict = "{'name':'zc','age':18}"
+# print(type(data_dict))
+# data_json = '{"name":"zc","age":18}'
+# print(type(data_json))
+# json.loads(data_json)
+# print(type(data_json))
+
+#完美数 一般指完全数，它所有的真因子（即除了自身以外的约数）的和（即因子函数），恰好等于它本身。如果一个数恰好等于它的真因子之和，则称该数为“完全数”
+# a = []
+# for i in range(1,1000):
+#     s = 0
+#     for j in range(1,i):
+#         if i%j == 0 and j < i:
+#             s = s+j
+#     if s == i:
+#         print(i)
+#         a.append(i)
+# print("1000以内的完全数为：",a)
+
+#统计一个文本中a(A)出现的次数
+
+#统计一个文本中(TXT)文件里出现最多的IP地址，并打印出来
+
+#二叉树 中序遍历
+#判断一个字符串是不是回文串？ 正读与反读都一样的字符串
+# str = input("请输入一个字符串：")
+# sort_str=str[::-1]
+# if str == sort_str:
+#     print("这个字符串{}是回文字符串".format(str))
+# else:
+#     print("这个字符串{}不是回文字符串".format(str))
+#tcp三次握手，四次挥手
+#输入一个网址之后的流程
+#http是哪层的协议
+#python中is和==的区别 is id值要一致，==id值不用一致
+#设计一下抖音上下滑动视频的测试用例
+#栈和堆的区别
+
+#输入一个字符串空格切割在统计每个字母出现的次数
+#str = input("请输入一个字符串：")
+str = "sdsfsdf"
+str = ' '.join(str)
+print(str)
+list1 = str.split(' ')
+print(list1)
+for i in set(str):
+    if list1.count(i) >= 1:
+        print("字符串{}出现的次数为{}：".format(i, list1.count(i)))
 
 

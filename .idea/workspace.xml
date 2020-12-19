@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/demo01_for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/demo02_while.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/demo03_while_forever.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/demo04_for嵌套.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/demo05_for嵌套2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/demo06_for嵌套3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/demo07_for嵌套4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson06_for/homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09_function_3_builtin/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09_function_3_builtin/demo01_作用域.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09_function_3_builtin/demo02_内置函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09_function_3_builtin/demo03_if作用域.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09_function_3_builtin/demo05_open.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson09_function_3_builtin/homework.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson04_data_type_dict/demo2_字典操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04_data_type_dict/demo2_字典操作.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/python基础.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson07_function/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson07_function/homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson08_function_2/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson08_function_2/homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/handledll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/study_Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort/study_Algorithm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,23 +63,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson06_for" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson09_function_3_builtin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zengcong\py37\lesson02_data_type" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zengcong\py37\lesson09_function_3_builtin" />
       <recent name="D:\zengcong\py37\lesson06_for" />
       <recent name="D:\zengcong\py37\lesson03_data_type_list" />
       <recent name="D:\Project\python36\lesson02_data_type" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\zengcong\py37\lesson02_data_type" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.demo06_for嵌套3">
-    <configuration name="demo04_for嵌套" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.homework">
+    <configuration name="demo02_内置函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson06_for" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson09_function_3_builtin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson06_for/demo04_for嵌套.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson09_function_3_builtin/demo02_内置函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo05_for嵌套2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo03_if作用域" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson06_for" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson09_function_3_builtin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson06_for/demo05_for嵌套2.py" />
+      <option name="SCRIPT_NAME" value="D:\zengcong\py37\lesson09_function_3_builtin\demo03_if作用域.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo06_for嵌套3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo05_open" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson06_for" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson09_function_3_builtin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson06_for/demo06_for嵌套3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson09_function_3_builtin/demo05_open.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo07_for嵌套4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo3_字符串操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +151,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson06_for" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson03_data_type_list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson06_for/demo07_for嵌套4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson03_data_type_list/demo3_字符串操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson06_for" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson09_function_3_builtin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson06_for/homework.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson09_function_3_builtin/homework.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo06_for嵌套3" />
-        <item itemvalue="Python.demo07_for嵌套4" />
-        <item itemvalue="Python.demo05_for嵌套2" />
-        <item itemvalue="Python.demo04_for嵌套" />
-        <item itemvalue="Python.homework (1)" />
+        <item itemvalue="Python.homework" />
+        <item itemvalue="Python.demo3_字符串操作" />
+        <item itemvalue="Python.demo05_open" />
+        <item itemvalue="Python.demo02_内置函数" />
+        <item itemvalue="Python.demo03_if作用域" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607741091621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1211for_while">
+      <created>1607778970062</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607778970062</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -268,45 +279,58 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="1202字符串知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="1202字符串知识" />
+    <MESSAGE value="1211for_while" />
+    <option name="LAST_COMMIT_MESSAGE" value="1211for_while" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1231" y="352" key="#xdebugger.evaluate" timestamp="1607776740275">
+    <state x="1154" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608380192253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1231" y="352" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1607776740275" />
-    <state x="550" y="81" key="CommitChangelistDialog2" timestamp="1607741090369">
+    <state x="1154" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608380192253" />
+    <state x="1231" y="352" key="#xdebugger.evaluate" timestamp="1608350116444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607741090369" />
-    <state width="1285" height="227" key="GridCell.Tab.0.bottom" timestamp="1607778818668">
+    <state x="1231" y="352" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1608350116444" />
+    <state x="550" y="81" key="CommitChangelistDialog2" timestamp="1607778968358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1285" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607778818668" />
-    <state width="1285" height="227" key="GridCell.Tab.0.center" timestamp="1607778818668">
+    <state x="550" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607778968358" />
+    <state x="853" y="289" key="FileChooserDialogImpl" timestamp="1608374290828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1285" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607778818668" />
-    <state width="1285" height="227" key="GridCell.Tab.0.left" timestamp="1607778818668">
+    <state x="853" y="289" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608374290828" />
+    <state width="1899" height="329" key="GridCell.Tab.0.bottom" timestamp="1608380196800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1285" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607778818668" />
-    <state width="1285" height="227" key="GridCell.Tab.0.right" timestamp="1607778818668">
+    <state width="1899" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
+    <state width="1899" height="329" key="GridCell.Tab.0.center" timestamp="1608380196800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1285" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607778818668" />
+    <state width="1899" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
+    <state width="1899" height="329" key="GridCell.Tab.0.left" timestamp="1608380196800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
+    <state width="1899" height="329" key="GridCell.Tab.0.right" timestamp="1608380196800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
     <state x="587" y="273" key="MultipleFileMergeDialog" timestamp="1607741117430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="273" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607741117430" />
+    <state x="892" y="256" key="Vcs.Push.Dialog.v2" timestamp="1607779136705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="892" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607779136705" />
     <state x="957" y="552" key="chooseDestDirectoryDialog" timestamp="1607162249078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="957" y="552" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607162249078" />
-    <state x="913" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1607769443715">
+    <state x="913" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1608355370928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607769443715" />
+    <state x="913" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608355370928" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,6 +349,16 @@
           <url>file://$PROJECT_DIR$/lesson06_for/demo04_for嵌套.py</url>
           <line>16</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sort/study_Algorithm.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson08_function_2/homework.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
