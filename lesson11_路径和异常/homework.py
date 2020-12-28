@@ -23,8 +23,11 @@ grouping()
 # 查找当前文件目录下是否存在 tests 子目录，如果存在，打印出 tests 目录路径；如果不存在，创建这个子目录。
 import os
 def find_file(filename):
-    if os.path.isdir(filename):
-        print("当前的文件路径为:",os.path.dirname(__file__))
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    print(current_dir)
+    test_dir = os.path.join(current_dir,"tests")
+    if os.path.isdir(test_dir):
+        print("当前的文件路径为:",test_dir)
     else:
         os.mkdir(filename)
 find_file("tests")
@@ -44,6 +47,14 @@ def write_file(filename):
             f.write("类和对象没有想象的那么难")
 write_file("demo.txt")
 
+def write_file2(filename):
+    try:
+        with open(filename,mode="x",encoding="UTF-8") as f:
+            f.write("类和对象没有想象的那么难")
+    except FileExistsError:
+        print("文件已经存在")
+write_file("demo2.txt")
+
 # 第四题：编写如下程序
 # 优化去生鲜超市买橘子程序
 # a.收银员输入橘子的价格，单位：元／斤
@@ -55,5 +66,5 @@ weight = input("请输入用户购买橘子的重量:(单位：斤)")
 try:
     pay_money = round(float(price) * float(weight),2)
     print(pay_money)
-except Exception as e:
-    print("数据无效")
+except ValueError as e:
+    print("输入数据错误：",e)
