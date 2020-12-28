@@ -19,7 +19,7 @@ print(str1[2:8:1])
 # （不需要校验数据，都传入数字就可以了。）
 price = float(input("请输入橘子价格:"))
 weight = float(input("请输入重量:"))
-money = price * weight
+money = round(price * weight,2)
 print(money)
 
 # 3.演练字符串操作
