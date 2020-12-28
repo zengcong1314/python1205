@@ -79,7 +79,7 @@
       <recent name="D:\Project\python36\lesson02_data_type" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.homework">
+  <component name="RunManager">
     <configuration name="demo02_内置函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,15 +185,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.homework" />
-        <item itemvalue="Python.demo3_字符串操作" />
-        <item itemvalue="Python.demo05_open" />
-        <item itemvalue="Python.demo02_内置函数" />
-        <item itemvalue="Python.demo03_if作用域" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -241,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607778970062</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1218内置函数与open">
+      <created>1608380359942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608380359942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -280,7 +278,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="1202字符串知识" />
     <MESSAGE value="1211for_while" />
-    <option name="LAST_COMMIT_MESSAGE" value="1211for_while" />
+    <MESSAGE value="1218内置函数与open" />
+    <option name="LAST_COMMIT_MESSAGE" value="1218内置函数与open" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1154" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608380192253">
@@ -291,38 +290,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1231" y="352" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1608350116444" />
-    <state x="550" y="81" key="CommitChangelistDialog2" timestamp="1607778968358">
+    <state x="550" y="81" key="CommitChangelistDialog2" timestamp="1608380357056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607778968358" />
+    <state x="550" y="81" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608380357056" />
     <state x="853" y="289" key="FileChooserDialogImpl" timestamp="1608374290828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="853" y="289" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608374290828" />
-    <state width="1899" height="329" key="GridCell.Tab.0.bottom" timestamp="1608380196800">
+    <state width="1899" height="429" key="GridCell.Tab.0.bottom" timestamp="1608380367664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
-    <state width="1899" height="329" key="GridCell.Tab.0.center" timestamp="1608380196800">
+    <state width="1899" height="429" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608380367664" />
+    <state width="1899" height="429" key="GridCell.Tab.0.center" timestamp="1608380367664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
-    <state width="1899" height="329" key="GridCell.Tab.0.left" timestamp="1608380196800">
+    <state width="1899" height="429" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608380367664" />
+    <state width="1899" height="429" key="GridCell.Tab.0.left" timestamp="1608380367664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
-    <state width="1899" height="329" key="GridCell.Tab.0.right" timestamp="1608380196800">
+    <state width="1899" height="429" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608380367664" />
+    <state width="1899" height="429" key="GridCell.Tab.0.right" timestamp="1608380367664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608380196800" />
+    <state width="1899" height="429" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608380367664" />
     <state x="587" y="273" key="MultipleFileMergeDialog" timestamp="1607741117430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="273" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607741117430" />
-    <state x="892" y="256" key="Vcs.Push.Dialog.v2" timestamp="1607779136705">
+    <state x="892" y="256" key="Vcs.Push.Dialog.v2" timestamp="1608380361873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="892" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607779136705" />
+    <state x="892" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608380361873" />
     <state x="957" y="552" key="chooseDestDirectoryDialog" timestamp="1607162249078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
