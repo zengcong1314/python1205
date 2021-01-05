@@ -1,7 +1,7 @@
 # 1  类属性和实例属性的区别是什么？？
 #类属性，所有成员都具备的特征,表示：在类定义的下面去定义变量
 #实例属性：个体（对象）具备的特征，这些特征可以一样，也可以不一样,在方法里定义的属性
-
+#对象能够获取类属性，类不能获取实例属性
 # 2 类属性如何定义？
 #在类定义的下面去定义变量
 class Car:
@@ -31,19 +31,19 @@ stu = student("zc","18","女","90,2","98","90","学生会主席")
 
 
 # 4 给你生活中遇到的 3 种事物分别定义 3 个类，并分别添加几个类属性。
-class People:
-    age = True
-    name = True
-    height = True
+class moneky:
+    eat = "banana"
+    intest = "climbing tree"
 
-class Animal:
-    name = True
-    weight = True
-    bodySize = True
 
-class toy:
-    size = True
-    name = True
+class woman:
+    sex = "女"
+    interest = "beatiful"
+
+
+class teacher:
+    identity = "teacher_student"
+    festival = "Teachers Day"
 
 
 # 5 定义一个登录的测试用例类LoginTestCase 登录url地址为："http://www.xxxx.com/login" 请求方法为："post" 、 请自行分辨下列属性，应该定义为类属性还是实例属性

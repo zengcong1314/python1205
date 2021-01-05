@@ -1,0 +1,14 @@
+1、super()
+2、getattr(),setattr()
+3、logging 模块：日志记录
+
+方法
+表示行为 ====》 函数
+
+日志的方式：
+- 1、print
+- 2、logging 日志处理模块
+
+
+日志格式：
+http://docs.python.org/zh-cn/3/library/logging.html
