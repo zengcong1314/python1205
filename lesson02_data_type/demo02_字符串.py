@@ -21,3 +21,5 @@ zxcsd"""
 print(last_name)
 
 #注释：三引号，字符串：三个引号
+import keyword
+print(keyword.kwlist)

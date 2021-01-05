@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13_类和对象2/homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14_logging日志处理/d01_super.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14_logging日志处理/d02_getattr,setattr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14_logging日志处理/d03_print日志.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14_logging日志处理/d04_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14_logging日志处理/d05_完整得日志处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14_logging日志处理/homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14_logging日志处理/总结" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson02_data_type/demo02_字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02_data_type/demo02_字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson03_data_type_list/demo5_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson03_data_type_list/demo5_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson12_类与对象/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12_类与对象/homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson13_类和对象2/d01_类属性和实例属性.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13_类和对象2/d01_类属性和实例属性.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson13_类和对象2/d02_self.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13_类和对象2/d02_self.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson13_类和对象2/d03_方法.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13_类和对象2/d03_方法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson13_类和对象2/d05_继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13_类和对象2/d05_继承.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/python基础.xmind" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,22 +30,26 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python36$demo04_.coverage" NAME="demo04_异常捕获 Coverage Results" MODIFIED="1608799581098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
+    <SUITE FILE_PATH="coverage/python36$homework__2_.coverage" NAME="homework (2) Coverage Results" MODIFIED="1609228114343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson13_类和对象2" />
     <SUITE FILE_PATH="coverage/python36$demo10_if.coverage" NAME="demo10_if嵌套 Coverage Results" MODIFIED="1607591127365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson05_if" />
+    <SUITE FILE_PATH="coverage/python36$d03_logging.coverage" NAME="d03_logging Coverage Results" MODIFIED="1609827684398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
     <SUITE FILE_PATH="coverage/python36$demo03_name__1_.coverage" NAME="demo03_name (1) Coverage Results" MODIFIED="1608776976249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
+    <SUITE FILE_PATH="coverage/python36$d02.coverage" NAME="d02 Coverage Results" MODIFIED="1609826055835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
     <SUITE FILE_PATH="coverage/python36$demo06_.coverage" NAME="demo06_捕获所有的异常 Coverage Results" MODIFIED="1608866836787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
     <SUITE FILE_PATH="coverage/python36$demo03__.coverage" NAME="demo03_数据运算_算数运算 Coverage Results" MODIFIED="1607577937278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson05_if" />
     <SUITE FILE_PATH="coverage/python36$d01_module.coverage" NAME="d01_module Coverage Results" MODIFIED="1608780867200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
     <SUITE FILE_PATH="coverage/python36$d02_file.coverage" NAME="d02_file Coverage Results" MODIFIED="1608794234788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$homework.coverage" NAME="homework Coverage Results" MODIFIED="1609122570817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
+    <SUITE FILE_PATH="coverage/python36$homework.coverage" NAME="homework Coverage Results" MODIFIED="1609839078780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
     <SUITE FILE_PATH="coverage/python36$demo3_.coverage" NAME="demo3_数据类型总结 Coverage Results" MODIFIED="1607414335749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson04_data_type_dict" />
-    <SUITE FILE_PATH="coverage/python36$demo02_.coverage" NAME="demo02_模块 Coverage Results" MODIFIED="1608641343739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10_模块和路径" />
+    <SUITE FILE_PATH="coverage/python36$demo02_.coverage" NAME="demo02_字符串 Coverage Results" MODIFIED="1609723134002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1608102561925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson07_function" />
     <SUITE FILE_PATH="coverage/python36$demo5_.coverage" NAME="demo5_不定长参数 Coverage Results" MODIFIED="1608193894225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
     <SUITE FILE_PATH="coverage/python36$demo06_for3.coverage" NAME="demo06_for嵌套3 Coverage Results" MODIFIED="1608205304983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson06_for" />
     <SUITE FILE_PATH="coverage/python36$demo07_for4.coverage" NAME="demo07_for嵌套4 Coverage Results" MODIFIED="1608208633714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson06_for" />
+    <SUITE FILE_PATH="coverage/python36$d01.coverage" NAME="d01 Coverage Results" MODIFIED="1609742314252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
     <SUITE FILE_PATH="coverage/python36$demo5_set.coverage" NAME="demo5_set Coverage Results" MODIFIED="1607415081619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson04_data_type_dict" />
     <SUITE FILE_PATH="coverage/python36$demo6_.coverage" NAME="demo6_函数之间的调用 Coverage Results" MODIFIED="1608194872548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
-    <SUITE FILE_PATH="coverage/python36$d03_.coverage" NAME="d03_类属性 Coverage Results" MODIFIED="1609139040268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson12_类与对象" />
+    <SUITE FILE_PATH="coverage/python36$d03_.coverage" NAME="d03_方法 Coverage Results" MODIFIED="1609227114633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson13_类和对象2" />
     <SUITE FILE_PATH="coverage/python36$demo03_name.coverage" NAME="demo03_name Coverage Results" MODIFIED="1608642380087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10_模块和路径" />
     <SUITE FILE_PATH="coverage/python36$demo05_.coverage" NAME="demo05_捕获多个异常 Coverage Results" MODIFIED="1608801633297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
     <SUITE FILE_PATH="coverage/python36$1202homework.coverage" NAME="1202homework Coverage Results" MODIFIED="1607001619190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01_homework" />
@@ -44,77 +66,20 @@
     <SUITE FILE_PATH="coverage/python36$demo08_.coverage" NAME="demo08_主动抛出异常 Coverage Results" MODIFIED="1608867014370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
     <SUITE FILE_PATH="coverage/python36$tuple1204.coverage" NAME="tuple1204 Coverage Results" MODIFIED="1607092534441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/python36$demo03_.coverage" NAME="demo03_异常 Coverage Results" MODIFIED="1608796084807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
+    <SUITE FILE_PATH="coverage/python36$d02_self.coverage" NAME="d02_self Coverage Results" MODIFIED="1609223263791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson13_类和对象2" />
     <SUITE FILE_PATH="coverage/python36$demo3_return.coverage" NAME="demo3_return Coverage Results" MODIFIED="1608260052095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
-    <SUITE FILE_PATH="coverage/python36$d05_.coverage" NAME="d05_实例属性 Coverage Results" MODIFIED="1609142698801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson12_类与对象" />
+    <SUITE FILE_PATH="coverage/python36$d05_.coverage" NAME="d05_完整得日志处理 Coverage Results" MODIFIED="1609833973569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
     <SUITE FILE_PATH="coverage/python36$demo4_.coverage" NAME="demo4_参数 Coverage Results" MODIFIED="1608191104802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
     <SUITE FILE_PATH="coverage/python36$demo01__1_.coverage" NAME="demo01 (1) Coverage Results" MODIFIED="1608186520238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
+    <SUITE FILE_PATH="coverage/python36$d04_logging.coverage" NAME="d04_logging Coverage Results" MODIFIED="1609830450557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_类属性.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py">
+        <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d06_self.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/homework.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d01_分组捕获.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python20/Python_Automated_Testing_20/bigdata/Common/httprequest.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d02_类.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_对象.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="1240">
+              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -134,21 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson05_/homework.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo01.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo02.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo3_赋值.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo08_运算总结.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo06_成员.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/homework.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo09_if.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo10_if嵌套.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo03_数据运算_算数运算.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo04_赋值.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo05_比较.py" />
-        <option value="$PROJECT_DIR$/lesson05_if/demo07_逻辑.py" />
-        <option value="$PROJECT_DIR$/lesson06_for/homework.py" />
-        <option value="$PROJECT_DIR$/lesson07_function/demo02.py" />
         <option value="$PROJECT_DIR$/lesson07_function/demo01.py" />
         <option value="$PROJECT_DIR$/lesson07_function/homework.py" />
         <option value="$PROJECT_DIR$/lesson08_function_2/demo02.py" />
@@ -183,8 +133,23 @@
         <option value="$PROJECT_DIR$/lesson12_类与对象/d03_对象.py" />
         <option value="$PROJECT_DIR$/lesson12_类与对象/d03_类属性.py" />
         <option value="$PROJECT_DIR$/lesson12_类与对象/d06_self.py" />
-        <option value="$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py" />
+        <option value="$PROJECT_DIR$/lesson13_类和对象2/d01_类属性和实例属性.py" />
         <option value="$PROJECT_DIR$/lesson12_类与对象/homework.py" />
+        <option value="$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py" />
+        <option value="$PROJECT_DIR$/lesson13_类和对象2/d02_self.py" />
+        <option value="$PROJECT_DIR$/lesson13_类和对象2/d03_方法.py" />
+        <option value="$PROJECT_DIR$/lesson02_data_type/demo02_字符串.py" />
+        <option value="$PROJECT_DIR$/lesson03_data_type_list/demo5_list.py" />
+        <option value="$PROJECT_DIR$/exam.py" />
+        <option value="$PROJECT_DIR$/lesson13_类和对象2/d05_继承.py" />
+        <option value="$PROJECT_DIR$/lesson14_logging日志处理/d01.py" />
+        <option value="$PROJECT_DIR$/lesson14_logging日志处理/d02.py" />
+        <option value="$PROJECT_DIR$/lesson13_类和对象2/homework.py" />
+        <option value="$PROJECT_DIR$/lesson14_logging日志处理/d03_logging.py" />
+        <option value="$PROJECT_DIR$/lesson14_logging日志处理/总结" />
+        <option value="$PROJECT_DIR$/lesson14_logging日志处理/d04_logging.py" />
+        <option value="$PROJECT_DIR$/lesson14_logging日志处理/d05_完整得日志处理.py" />
+        <option value="$PROJECT_DIR$/lesson14_logging日志处理/homework.py" />
       </list>
     </option>
   </component>
@@ -195,10 +160,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="555" />
-    <option name="y" value="19" />
-    <option name="width" value="993" />
-    <option name="height" value="937" />
+    <option name="x" value="419" />
+    <option name="y" value="71" />
+    <option name="width" value="1411" />
+    <option name="height" value="892" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -215,6 +180,26 @@
               <item name="python36" type="b2602c69:ProjectViewProjectNode" />
               <item name="python36" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson07_function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson08_function_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson14_logging日志处理" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -224,22 +209,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python20/Python_Automated_Testing_20/bigdata/Common/httprequest.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python/python_11/API_AUTO/Test_API/mylog.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\python36\lesson10_模块和路径" />
+      <recent name="D:\zengcong\py37\lesson02_data_type" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\python36\lesson14_logging日志处理" />
       <recent name="D:\Project\python36\lesson11_路径和异常" />
       <recent name="D:\Project\python36" />
       <recent name="D:\Project\python36\lesson08_function_2" />
       <recent name="D:\Project\python36\lesson07_function" />
-      <recent name="D:\Project\python36\lesson05_if" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\python36\lesson10_模块和路径" />
-      <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.homework (1)">
-    <configuration name="d03_对象" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.homework">
+    <configuration name="d02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,12 +248,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson12_类与对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson14_logging日志处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson12_类与对象/d03_对象.py" />
+      <option name="SCRIPT_NAME" value="D:\Project\python36\lesson14_logging日志处理\d02_getattr,setattr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +284,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="d05_实例属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d03_logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,12 +292,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson12_类与对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson14_logging日志处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py" />
+      <option name="SCRIPT_NAME" value="D:\Project\python36\lesson14_logging日志处理\d03_print日志.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,7 +306,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo05_捕获多个异常" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d04_logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,12 +314,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson11_路径和异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson14_logging日志处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Project\python36\lesson11_路径和异常\demo07_捕获多个异常.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson14_logging日志处理/d04_logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,7 +328,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d05_完整得日志处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,12 +336,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson12_类与对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson14_logging日志处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson12_类与对象/homework.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson14_logging日志处理/d05_完整得日志处理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,12 +358,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson11_路径和异常" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson14_logging日志处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson11_路径和异常/homework.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson14_logging日志处理/homework.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,10 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.homework (1)" />
-        <item itemvalue="Python.d05_实例属性" />
-        <item itemvalue="Python.d03_对象" />
         <item itemvalue="Python.homework" />
+        <item itemvalue="Python.d05_完整得日志处理" />
+        <item itemvalue="Python.d04_logging" />
+        <item itemvalue="Python.d03_logging" />
+        <item itemvalue="Python.d02" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +410,8 @@
       <workItem from="1608714948038" duration="30934000" />
       <workItem from="1609121811399" duration="18318000" />
       <workItem from="1609149591992" duration="98000" />
-      <workItem from="1609207717897" duration="466000" />
+      <workItem from="1609207717897" duration="19894000" />
+      <workItem from="1609730933862" duration="20608000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -496,11 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1609149623567</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="【1225 类与对象】">
+      <created>1609208204868</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609208204868</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177166000" />
+    <option name="totallyTimeSpent" value="217202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,19 +507,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1427784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1185226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25363827" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35491905" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35343036" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35343036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4778047" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.26403326" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3900156" />
@@ -536,6 +531,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15988156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3403694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.353562" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.26403326" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3900156" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32815734" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -626,207 +644,20 @@
           <line>64</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson13_类和对象2/homework.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson14_logging日志处理/homework.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson06_for/demo06_for嵌套3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson06_for/demo07_for嵌套4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo5_不定长参数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo6_函数之间的调用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson09_function_3_builtin/demo01_作用域.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson09_function_3_builtin/demo02_内置函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo02_列表操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo3_return.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" selection-start-line="22" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo4_参数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson09_function_3_builtin/demo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson09_function_3_builtin/demo03_if作用域.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson09_function_3_builtin/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10_模块和路径/demo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10_模块和路径/demo1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locust_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
-          <folding>
-            <element signature="e#1#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson11_路径和异常/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson11_路径和异常/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson11_路径和异常/data/case.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-939671136/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson09_function_3_builtin/demo05_open.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson11_路径和异常/demo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson03_data_type_list/homework.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson04_data_type_dict/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson05_if/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson06_for/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2320">
-          <caret line="116" column="39" lean-forward="true" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson07_function/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson08_function_2/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson01/demo01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-951" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson02_data_type/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson10_模块和路径/d01_open.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson10_模块和路径/demo02_模块.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -904,27 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_类属性.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d06_self.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d01_分组捕获.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -935,24 +745,235 @@
     <entry file="file://$PROJECT_DIR$/../python20/Python_Automated_Testing_20/bigdata/Common/httprequest.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d02_类.py">
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d06_self.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_类属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_对象.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="240">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/d01_类属性和实例属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/d02_self.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/d04_类和对象作用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson02_data_type/demo03_如何知道我的数据类型是字符串.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03_data_type_list/demo3_字符串操作.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-939671136/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="488" column="21" selection-start-line="488" selection-start-column="16" selection-end-line="488" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03_data_type_list/demo5_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson03_data_type_list/demo6_list修改操作.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson02_data_type/demo02_字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson01/demo01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson02_data_type/demo01_变量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/d05_继承.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/d03_方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/自动化/py36/作业/1228/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/d02_getattr,setattr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/d01_super.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/d03_print日志.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/d04_logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d02_类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07_function/demo01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo4_参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson08_function_2/demo5_不定长参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/zc.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/python_11/API_AUTO/Test_API/mylog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/zc1.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/python36.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/d05_完整得日志处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python37/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1936" selection-start-line="1936" selection-end-line="1936" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
         </state>
       </provider>
     </entry>
