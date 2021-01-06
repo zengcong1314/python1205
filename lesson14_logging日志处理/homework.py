@@ -30,6 +30,8 @@ def get_logger(filename, level, msg):
     elif level == "CRITICAL":
         logger.critical(msg)
 
+    logger.removeHandler(handler)
+
 get_logger("zc.log","INFO","这是一条日志信息")
 
 
@@ -62,6 +64,7 @@ class My_Log:
             logger.error(msg)
         elif level == "CRITICAL":
             logger.critical(msg)
+        logger.removeHandler(handler)
 mlog = My_Log()
 mlog.mylog("zc1.log","INFO","这是一条完美得日志信息")
 

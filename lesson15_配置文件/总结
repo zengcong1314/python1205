@@ -1,0 +1,11 @@
+1、封装 logger
+封装：函数、类
+最常用的日志格式：
+%(levelname)s 打印级别
+%(filename)s  哪一个文件
+%(lineno)s  行号，哪一行
+%(message)s 最终显示的日志信息
+%(asctime)s 时间
+%(name)s 日志收集器名字
+
+2、配置文件
