@@ -23,14 +23,15 @@ def test_add2():
     test_开头的函数"""
     res = add(3,4)
     expected = 9
-    assert res == expected
+    #assert res == expected
     # 断言
     # 预期结果与实际结果比对，如果assert通过，程序正常执行。
     # assert不通过，会报错，AssertionError
-    # try:
-    #     assert expected == res
-    # except AssertionError as e:
-    #     logging.error("断言失败",e)
+    try:
+        assert expected == res
+    except AssertionError as e:
+        logging.error("error",e)
+        print("测试失败")
 def test_minus():
     print("第二个用例有没有执行")
     assert 3 -2 == -1
