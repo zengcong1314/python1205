@@ -9,7 +9,7 @@ def login(username,password):
     else:
         return "登录失败"
 
-@pytest.mark.success
+
 def test_login_success():
     res = login('yuz','123456')
     expected = "登录成功"
@@ -34,7 +34,13 @@ def test_login_password_Null():
     res = login('yuz','')
     expected = "登录失败"
     assert res == expected
-def test_login_password_Null():
+
+def test_login_password_Null2():
+    res = login('yuz','234')
+    expected = "登录失败"
+    assert res == expected
+
+def test_login_password_Null3():
     res = login('yuz','234')
     expected = "登录失败"
     assert res == expected

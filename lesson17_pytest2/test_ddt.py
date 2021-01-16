@@ -30,3 +30,5 @@ def test_login(info):
     p = info['password']
     exp = info['expected']
     assert exp == login(u,p)
+
+

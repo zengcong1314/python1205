@@ -34,9 +34,5 @@ def test_login_password_Null():
     res = login('yuz','')
     expected = "登录失败"
     assert res == expected
-def test_login_password_Null():
-    res = login('yuz','234')
-    expected = "登录失败"
-    assert res == expected
 
 #运行命令 pytest -m success
