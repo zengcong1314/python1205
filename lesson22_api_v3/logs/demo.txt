@@ -1,0 +1,6 @@
+time: 2021-01-22 16:44:48,296---ERROR:root:用例失败：assert 1 == 2---test_register.py---25
+time: 2021-01-22 16:47:40,304---ERROR:root:用例失败：assert 1 == 2---test_register.py---25
+time: 2021-01-22 16:48:24,684---ERROR:root:用例失败：assert 1 == 2---test_register.py---25
+time: 2021-01-22 16:51:30,040---ERROR:root:用例失败：assert 1 == 2---test_register.py---25
+time: 2021-01-22 16:53:24,558---ERROR:root:用例失败：assert 1 == 2---test_register.py---25
+time: 2021-01-22 16:53:33,722---ERROR:root:用例失败：assert 1 == 2---test_register.py---25
