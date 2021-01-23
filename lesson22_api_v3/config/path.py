@@ -22,3 +22,8 @@ if not os.path.exists(reports_path):
 logs_path = os.path.join(root_path,'logs')
 if not os.path.exists(logs_path):
     os.mkdir(logs_path)
+
+# data 路径
+data_path = os.path.join(root_path,'data')
+if not os.path.exists(data_path):
+    os.mkdir(data_path)
