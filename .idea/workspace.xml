@@ -1,203 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="【0104 日志】">
-      <change afterPath="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d01_requests库_get.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d01_requests库_post.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d03_requests_通用请求.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/common/db_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/common/excel_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/common/logger_hander.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/common/request_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/common/yaml_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/config/path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/test/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson22_api_v2/test/test_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson01/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson01/web_html.py" afterDir="false" />
+    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson21_api_v1/上课代码/test_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson22_api_v2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson22_api_v2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/python基础.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson01/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson01/总结.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python36$d02request.coverage" NAME="d02request Coverage Results" MODIFIED="1610778665728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19_接口2" />
-    <SUITE FILE_PATH="coverage/python36$demo10_if.coverage" NAME="demo10_if嵌套 Coverage Results" MODIFIED="1607591127365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson05_if" />
-    <SUITE FILE_PATH="coverage/python36$d03_logging.coverage" NAME="d03_logging Coverage Results" MODIFIED="1609827684398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
-    <SUITE FILE_PATH="coverage/python36$d02.coverage" NAME="d02 Coverage Results" MODIFIED="1609826055835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
-    <SUITE FILE_PATH="coverage/python36$demo06_.coverage" NAME="demo06_捕获所有的异常 Coverage Results" MODIFIED="1608866836787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$d01_module.coverage" NAME="d01_module Coverage Results" MODIFIED="1608780867200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$server_session.coverage" NAME="server_session Coverage Results" MODIFIED="1610765464984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19_接口2" />
-    <SUITE FILE_PATH="coverage/python36$homework.coverage" NAME="homework Coverage Results" MODIFIED="1610800185481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19_接口2" />
-    <SUITE FILE_PATH="coverage/python36$demo3_.coverage" NAME="demo3_数据类型总结 Coverage Results" MODIFIED="1607414335749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson04_data_type_dict" />
-    <SUITE FILE_PATH="coverage/python36$demo02_.coverage" NAME="demo02_字符串 Coverage Results" MODIFIED="1609723134002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
-    <SUITE FILE_PATH="coverage/python36$pytest_in_test__py.coverage" NAME="pytest in test_什么是单元测试.py Coverage Results" MODIFIED="1610194967499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson16_pytest" />
-    <SUITE FILE_PATH="coverage/python36$server.coverage" NAME="server Coverage Results" MODIFIED="1610459781799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson18_接口" />
-    <SUITE FILE_PATH="coverage/python36$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1608102561925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson07_function" />
-    <SUITE FILE_PATH="coverage/python36$demo06_for3.coverage" NAME="demo06_for嵌套3 Coverage Results" MODIFIED="1608205304983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson06_for" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_test_ddt_test_login.coverage" NAME="pytest for test_ddt.test_login Coverage Results" MODIFIED="1610197153604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_pytest2" />
-    <SUITE FILE_PATH="coverage/python36$d01.coverage" NAME="d01 Coverage Results" MODIFIED="1609742314252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
-    <SUITE FILE_PATH="coverage/python36$pytest_in_test_register_py.coverage" NAME="pytest in test_register.py Coverage Results" MODIFIED="1611305603767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22_api_v2/test" />
-    <SUITE FILE_PATH="coverage/python36$demo6_.coverage" NAME="demo6_函数之间的调用 Coverage Results" MODIFIED="1608194872548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
-    <SUITE FILE_PATH="coverage/python36$d03_.coverage" NAME="d03_方法 Coverage Results" MODIFIED="1609227114633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson13_类和对象2" />
-    <SUITE FILE_PATH="coverage/python36$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1610763449234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19_接口2" />
-    <SUITE FILE_PATH="coverage/python36$path.coverage" NAME="path Coverage Results" MODIFIED="1611305336464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22_api_v2/config" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_test_login_test_login_1.coverage" NAME="pytest for test_login.test_login_1 Coverage Results" MODIFIED="1610179099101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_" />
-    <SUITE FILE_PATH="coverage/python36$demo03_name.coverage" NAME="demo03_name Coverage Results" MODIFIED="1608642380087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10_模块和路径" />
-    <SUITE FILE_PATH="coverage/python36$1202homework.coverage" NAME="1202homework Coverage Results" MODIFIED="1607001619190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01_homework" />
-    <SUITE FILE_PATH="coverage/python36$demo07_.coverage" NAME="demo07_逻辑 Coverage Results" MODIFIED="1607582215750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson05_if" />
-    <SUITE FILE_PATH="coverage/python36$homework2.coverage" NAME="homework2 Coverage Results" MODIFIED="1610800432929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson19_接口2" />
-    <SUITE FILE_PATH="coverage/python36$pytest_in_test_ddt_py.coverage" NAME="pytest in test_ddt.py Coverage Results" MODIFIED="1610197347007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_pytest2" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_test_demo_test_demo.coverage" NAME="pytest for test_demo.test_demo Coverage Results" MODIFIED="1610176855522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_test_fixture_test_login.coverage" NAME="pytest for test_fixture.test_login Coverage Results" MODIFIED="1610201291289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_pytest2" />
-    <SUITE FILE_PATH="coverage/python36$demo2_.coverage" NAME="demo2_字典操作 Coverage Results" MODIFIED="1607412880747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson04_data_type_dict" />
-    <SUITE FILE_PATH="coverage/python36$d01_open.coverage" NAME="d01_open Coverage Results" MODIFIED="1608629643334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson10_模块和路径" />
-    <SUITE FILE_PATH="coverage/python36$d06_ini.coverage" NAME="d06_ini配置文件 Coverage Results" MODIFIED="1609947467910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson15_配置文件" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_test_register_test_register.coverage" NAME="pytest for test_register.test_register Coverage Results" MODIFIED="1611304379032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22_api_v2/test" />
-    <SUITE FILE_PATH="coverage/python36$pytest_in_homework_pytest__py.coverage" NAME="pytest in test_homework.py Coverage Results" MODIFIED="1610244647530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_pytest2" />
-    <SUITE FILE_PATH="coverage/python36$tuple1204.coverage" NAME="tuple1204 Coverage Results" MODIFIED="1607092534441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/python36$demo03_.coverage" NAME="demo03_异常 Coverage Results" MODIFIED="1608796084807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_homework_test_login_username_failure.coverage" NAME="pytest for homework.test_login_username_failure Coverage Results" MODIFIED="1610178996676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson16_pytest" />
-    <SUITE FILE_PATH="coverage/python36$d04_logging.coverage" NAME="d04_logging Coverage Results" MODIFIED="1609830450557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson14_logging日志处理" />
-    <SUITE FILE_PATH="coverage/python36$demo04_.coverage" NAME="demo04_异常捕获 Coverage Results" MODIFIED="1608799581098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$homework__2_.coverage" NAME="homework (2) Coverage Results" MODIFIED="1609228114343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson13_类和对象2" />
-    <SUITE FILE_PATH="coverage/python36$demo03_name__1_.coverage" NAME="demo03_name (1) Coverage Results" MODIFIED="1608776976249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1610118812915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson16_pytest" />
-    <SUITE FILE_PATH="coverage/python36$demo03__.coverage" NAME="demo03_数据运算_算数运算 Coverage Results" MODIFIED="1607577937278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson05_if" />
-    <SUITE FILE_PATH="coverage/python36$d02_file.coverage" NAME="d02_file Coverage Results" MODIFIED="1608794234788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$pytest_in_test_fixture_py.coverage" NAME="pytest in test_fixture.py Coverage Results" MODIFIED="1610244543968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_pytest2" />
-    <SUITE FILE_PATH="coverage/python36$d03_requests_.coverage" NAME="d03_requests_通用请求 Coverage Results" MODIFIED="1610865711088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson20_开始项目实施/上课代码" />
-    <SUITE FILE_PATH="coverage/python36$demo5_.coverage" NAME="demo5_不定长参数 Coverage Results" MODIFIED="1608193894225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
-    <SUITE FILE_PATH="coverage/python36$demo07_for4.coverage" NAME="demo07_for嵌套4 Coverage Results" MODIFIED="1608208633714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson06_for" />
-    <SUITE FILE_PATH="coverage/python36$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1610179145377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson17_" />
-    <SUITE FILE_PATH="coverage/python36$run.coverage" NAME="run Coverage Results" MODIFIED="1611305613015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson22_api_v2" />
-    <SUITE FILE_PATH="coverage/python36$demo5_set.coverage" NAME="demo5_set Coverage Results" MODIFIED="1607415081619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson04_data_type_dict" />
-    <SUITE FILE_PATH="coverage/python36$demo05_.coverage" NAME="demo05_捕获多个异常 Coverage Results" MODIFIED="1608801633297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$demo1_.coverage" NAME="demo1_字典 Coverage Results" MODIFIED="1607411318595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson04_data_type_dict" />
-    <SUITE FILE_PATH="coverage/python36$excel.coverage" NAME="excel Coverage Results" MODIFIED="1608789480092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$homework__1_.coverage" NAME="homework (1) Coverage Results" MODIFIED="1609949222136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson15_配置文件" />
-    <SUITE FILE_PATH="coverage/python36$demo09_if.coverage" NAME="demo09_if Coverage Results" MODIFIED="1607586783506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson05_if" />
-    <SUITE FILE_PATH="coverage/python36$d01_.coverage" NAME="d01_什么是单元测试 Coverage Results" MODIFIED="1610109261059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson16_pytest" />
-    <SUITE FILE_PATH="coverage/python36$demo4_print.coverage" NAME="demo4_print Coverage Results" MODIFIED="1607414584237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson04_data_type_dict" />
-    <SUITE FILE_PATH="coverage/python36$d01_requests.coverage" NAME="d01_requests库 Coverage Results" MODIFIED="1610812584385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson20_开始项目实施/上课代码" />
     <SUITE FILE_PATH="coverage/python36$01.coverage" NAME="01 Coverage Results" MODIFIED="1607094061630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/python36$demo02.coverage" NAME="demo02 Coverage Results" MODIFIED="1608104957478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson07_function" />
-    <SUITE FILE_PATH="coverage/python36$d01_requests_post.coverage" NAME="d01_requests库_post Coverage Results" MODIFIED="1610864425664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson20_开始项目实施/上课代码" />
-    <SUITE FILE_PATH="coverage/python36$demo08_.coverage" NAME="demo08_主动抛出异常 Coverage Results" MODIFIED="1608867014370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson11_路径和异常" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_homework_test_login_username_Null.coverage" NAME="pytest for homework.test_login_username_Null Coverage Results" MODIFIED="1610178990860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson16_pytest" />
-    <SUITE FILE_PATH="coverage/python36$d02_self.coverage" NAME="d02_self Coverage Results" MODIFIED="1609223263791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson13_类和对象2" />
-    <SUITE FILE_PATH="coverage/python36$demo3_return.coverage" NAME="demo3_return Coverage Results" MODIFIED="1608260052095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
-    <SUITE FILE_PATH="coverage/python36$d05_.coverage" NAME="d05_配置文件 Coverage Results" MODIFIED="1609920397500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson15_配置文件" />
-    <SUITE FILE_PATH="coverage/python36$demo4_.coverage" NAME="demo4_参数 Coverage Results" MODIFIED="1608191104802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
-    <SUITE FILE_PATH="coverage/python36$demo01__1_.coverage" NAME="demo01 (1) Coverage Results" MODIFIED="1608186520238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson08_function_2" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#32#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/config/path.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/common/logger_hander.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/test/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson19_接口2/homework2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="26" column="27" selection-start-line="27" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/test/test_register.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="25" column="15" lean-forward="true" selection-start-column="5" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="6" selection-start-column="6" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson22_api_v2/config/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <SUITE FILE_PATH="coverage/python36$demo04_.coverage" NAME="demo04_字符串索引 Coverage Results" MODIFIED="1606994991900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
+    <SUITE FILE_PATH="coverage/python36$demo05_.coverage" NAME="demo05_字符串切片 Coverage Results" MODIFIED="1607000925012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
+    <SUITE FILE_PATH="coverage/python36$demo02_.coverage" NAME="demo02_字符串 Coverage Results" MODIFIED="1606985103685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
+    <SUITE FILE_PATH="coverage/python36$1202homework.coverage" NAME="1202homework Coverage Results" MODIFIED="1607001619190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01_homework" />
+    <SUITE FILE_PATH="coverage/python36$tuple1204.coverage" NAME="tuple1204 Coverage Results" MODIFIED="1607092534441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/python36$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1606980672958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01" />
+    <SUITE FILE_PATH="coverage/python36$demo03_.coverage" NAME="demo03_如何知道我的数据类型是字符串 Coverage Results" MODIFIED="1606986272751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
+    <SUITE FILE_PATH="coverage/python36$demo06_.coverage" NAME="demo06_字符串操作 Coverage Results" MODIFIED="1607001253684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -205,149 +36,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/lesson16_pytest/总结.md" />
-        <option value="$PROJECT_DIR$/lesson17_/homework_pytest 数据驱动测试夹具和测试报告.py" />
-        <option value="$PROJECT_DIR$/lesson16_pytest/test_login.py" />
-        <option value="$PROJECT_DIR$/lesson17_/test_demo.py" />
-        <option value="$PROJECT_DIR$/lesson17_/test_login.py" />
-        <option value="$PROJECT_DIR$/lesson17_/总结.md" />
-        <option value="$PROJECT_DIR$/lesson16_pytest/test_什么是单元测试.py" />
-        <option value="$PROJECT_DIR$/lesson17_pytest2/test_login.py" />
-        <option value="$PROJECT_DIR$/lesson17_pytest2/test_fixture.py" />
-        <option value="$PROJECT_DIR$/lesson17_pytest2/homework_pytest 数据驱动测试夹具和测试报告.py" />
-        <option value="$PROJECT_DIR$/lesson17_pytest2/conftest.py" />
-        <option value="$PROJECT_DIR$/lesson17_pytest2/lesson17_homeword/test_homework.py" />
-        <option value="$PROJECT_DIR$/lesson17_pytest2/总结.md" />
-        <option value="$PROJECT_DIR$/lesson17_pytest2/test_ddt.py" />
-        <option value="$PROJECT_DIR$/lesson16_pytest/pytest.ini" />
-        <option value="$PROJECT_DIR$/lesson16_pytest/test_homework.py" />
-        <option value="$PROJECT_DIR$/lesson16_pytest/homework.py" />
-        <option value="$PROJECT_DIR$/lesson18_接口/test_homework.py" />
-        <option value="$PROJECT_DIR$/lesson18_接口/homework.py" />
-        <option value="$PROJECT_DIR$/lesson18_接口/server.py" />
-        <option value="$PROJECT_DIR$/lesson18_接口/1.md" />
-        <option value="$PROJECT_DIR$/lesson19_接口2/server.py" />
-        <option value="$PROJECT_DIR$/lesson19_接口2/server_session.py" />
-        <option value="$PROJECT_DIR$/lesson19_接口2/总结.md" />
-        <option value="$PROJECT_DIR$/lesson19_接口2/d02request.py" />
-        <option value="$PROJECT_DIR$/lesson19_接口2/homework.py" />
-        <option value="$PROJECT_DIR$/lesson19_接口2/homework2.py" />
-        <option value="$PROJECT_DIR$/lesson18_接口/总结.md" />
-        <option value="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d01_requests库.py" />
-        <option value="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d01_requests库_post.py" />
-        <option value="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d03_requests_通用请求.py" />
-        <option value="$PROJECT_DIR$/lesson20_开始项目实施/上课代码/总结.md" />
-        <option value="$PROJECT_DIR$/web/lesson01/总结.md" />
-        <option value="$PROJECT_DIR$/web/lesson01/web_html.py" />
-        <option value="$PROJECT_DIR$/web/lesson01/index.py" />
-        <option value="$PROJECT_DIR$/web/lesson01/index.html" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/test/__init__.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/README.md" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/test_register.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/common/__init__.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/common/yaml_handler.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/common/request_handler.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/common/excel_handler.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/common/db_handler.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/common/logger_hander.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/__init__.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/config/path.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/test/test_login.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/run.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/test/test_register.py" />
-        <option value="$PROJECT_DIR$/lesson22_api_v2/.gitignore" />
-      </list>
-    </option>
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="525" />
-    <option name="y" value="46" />
-    <option name="width" value="1386" />
-    <option name="height" value="1070" />
-  </component>
+  <component name="ProjectId" id="1lEq14h1Td0rrySXpwVnRmSs2Sd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python36" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson22_api_v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python/python_11/API_AUTO/Test_API/mylog.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\python36\web\lesson01" />
-      <recent name="D:\Project\python36\lesson20_开始项目实施\上课代码" />
-      <recent name="D:\Project\python36\lesson19_接口2" />
-      <recent name="D:\Project\python36\lesson18_接口" />
-      <recent name="D:\Project\python36\lesson16_pytest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\python36\lesson22_api_v2\test" />
-      <recent name="D:\Project\python36\lesson17_pytest2\lesson17_homeword" />
-      <recent name="D:\Project\python36\lesson15_配置文件" />
-      <recent name="D:\Project\python36\lesson10_模块和路径" />
       <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zengcong\py37\lesson09_function_3_builtin" />
+      <recent name="D:\zengcong\py37\lesson06_for" />
+      <recent name="D:\zengcong\py37\lesson03_data_type_list" />
+      <recent name="D:\Project\python36\lesson02_data_type" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.run">
-    <configuration name="path" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest for test_register.test_register_01">
+    <configuration name="d03_方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,12 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson22_api_v2/config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson13_类和对象2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson22_api_v2/config/path.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson13_类和对象2/d03_方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d04_类和对象作用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,12 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson22_api_v2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson13_类和对象2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson22_api_v2/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson13_类和对象2/d04_类和对象作用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,64 +114,74 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for lesson22_api_v2.test.test_register.test_register" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="d05_继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson22_api_v2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson13_类和对象2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lesson22_api_v2.test.test_register.test_register&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson13_类和对象2/d05_继承.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_register.test_register" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson22_api_v2/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson09_function_3_builtin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.test_register&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson09_function_3_builtin/homework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_register.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_register.test_register_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson22_api_v2/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson21_api_v1/上课代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson22_api_v2/test/test_register.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_register.test_register_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python tests.pytest in test_register.py" />
-        <item itemvalue="Python.path" />
-        <item itemvalue="Python tests.pytest for test_register.test_register" />
-        <item itemvalue="Python tests.pytest for lesson22_api_v2.test.test_register.test_register" />
+        <item itemvalue="Python tests.pytest for test_register.test_register_01" />
+        <item itemvalue="Python.d05_继承" />
+        <item itemvalue="Python.d04_类和对象作用" />
+        <item itemvalue="Python.d03_方法" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -465,30 +198,6 @@
       <workItem from="1607060503987" duration="7164000" />
       <workItem from="1607082073622" duration="2960000" />
       <workItem from="1607135795520" duration="1046000" />
-      <workItem from="1607327562902" duration="1890000" />
-      <workItem from="1607401491172" duration="11271000" />
-      <workItem from="1607565826320" duration="17053000" />
-      <workItem from="1607740747981" duration="869000" />
-      <workItem from="1608022204857" duration="2165000" />
-      <workItem from="1608088073012" duration="33262000" />
-      <workItem from="1608257083567" duration="5839000" />
-      <workItem from="1608516139756" duration="3282000" />
-      <workItem from="1608616631958" duration="16787000" />
-      <workItem from="1608714948038" duration="30934000" />
-      <workItem from="1609121811399" duration="18318000" />
-      <workItem from="1609149591992" duration="98000" />
-      <workItem from="1609207717897" duration="19894000" />
-      <workItem from="1609730933862" duration="21491000" />
-      <workItem from="1609918473503" duration="5811000" />
-      <workItem from="1609949634121" duration="39000" />
-      <workItem from="1610104466543" duration="23312000" />
-      <workItem from="1610195903604" duration="7478000" />
-      <workItem from="1610242958609" duration="4962000" />
-      <workItem from="1610364215468" duration="11707000" />
-      <workItem from="1610605805254" duration="10146000" />
-      <workItem from="1610761425741" duration="32871000" />
-      <workItem from="1611216972624" duration="14521000" />
-      <workItem from="1611302323382" duration="3287000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -504,221 +213,46 @@
       <option name="project" value="LOCAL" />
       <updated>1607136160661</updated>
     </task>
-    <task id="LOCAL-00003" summary="Merge branch 'master' of github.com:/zengcong1314/python1205&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1607327590818</created>
+    <task id="LOCAL-00003" summary="1202字符串知识">
+      <created>1607741091621</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1607327590818</updated>
+      <updated>1607741091621</updated>
     </task>
-    <task id="LOCAL-00004" summary="Merge branch 'master' of github.com:/zengcong1314/python1205&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1607418179374</created>
+    <task id="LOCAL-00004" summary="1211for_while">
+      <created>1607778970062</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1607418179374</updated>
+      <updated>1607778970062</updated>
     </task>
-    <task id="LOCAL-00005" summary="Merge branch 'master' of github.com:/zengcong1314/python1205&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1607592359106</created>
+    <task id="LOCAL-00005" summary="1218内置函数与open">
+      <created>1608380359942</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1607592359106</updated>
+      <updated>1608380359942</updated>
     </task>
-    <task id="LOCAL-00006" summary="Merge branch 'master' of github.com:/zengcong1314/python1205&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1607740779141</created>
+    <task id="LOCAL-00006" summary="1218内置函数与open">
+      <created>1609157140141</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1607740779141</updated>
+      <updated>1609157140141</updated>
     </task>
-    <task id="LOCAL-00007" summary="【函数】">
-      <created>1608271003154</created>
+    <task id="LOCAL-00007" summary="1228类与对象">
+      <created>1609164225020</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1608271003154</updated>
+      <updated>1609164225020</updated>
     </task>
-    <task id="LOCAL-00008" summary="【1221 打开文件，导入】">
-      <created>1608642687987</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1608642687987</updated>
-    </task>
-    <task id="LOCAL-00009" summary="【1223 路径、异常】">
-      <created>1608867360427</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1608867360427</updated>
-    </task>
-    <task id="LOCAL-00010" summary="【1225 类与对象】">
-      <created>1609149623567</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1609149623567</updated>
-    </task>
-    <task id="LOCAL-00011" summary="【1225 类与对象】">
-      <created>1609208204868</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1609208204868</updated>
-    </task>
-    <task id="LOCAL-00012" summary="【1228 日志】">
-      <created>1609839287946</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1609839287947</updated>
-    </task>
-    <task id="LOCAL-00013" summary="【0104 日志】">
-      <created>1609919234156</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1609919234156</updated>
-    </task>
-    <task id="LOCAL-00014" summary="【0104 日志】">
-      <created>1609919357754</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1609919357754</updated>
-    </task>
-    <task id="LOCAL-00015" summary="【0104 配置文件】">
-      <created>1609949358169</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1609949358169</updated>
-    </task>
-    <task id="LOCAL-00016" summary="【0104 日志】">
-      <created>1609949396442</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1609949396442</updated>
-    </task>
-    <task id="LOCAL-00017" summary="【0106 pytest】">
-      <created>1610174307322</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1610174307323</updated>
-    </task>
-    <task id="LOCAL-00018" summary="【0108 pytest】">
-      <created>1610204991792</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1610204991792</updated>
-    </task>
-    <task id="LOCAL-00019" summary="【0113 接口】">
-      <created>1610802571629</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1610802571629</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_for_test_register_test_register - 2021.01.22 at 14h 36m 37s.xml">
-      <configuration name="pytest for test_register.test_register" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_register_test_register - 2021.01.22 at 16h 33m 00s.xml">
-      <configuration name="pytest for test_register.test_register" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 39m 23s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 41m 38s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 43m 17s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 43m 25s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 43m 27s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 44m 46s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 44m 48s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_register_py - 2021.01.22 at 16h 53m 24s.xml">
-      <configuration name="pytest in test_register.py" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332219000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="525" y="46" width="1386" height="1070" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31146306" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4551282" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37820512" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.09045226" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27991453" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.51495725" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15988156" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3403694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.353562" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.26403326" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3900156" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32815734" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
+    <option name="totallyTimeSpent" value="34932000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -728,14 +262,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -754,467 +281,52 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="1202字符串知识" />
-    <MESSAGE value="Merge branch 'master' of github.com:/zengcong1314/python1205&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <MESSAGE value="【函数】" />
-    <MESSAGE value="【1221 打开文件，导入】" />
-    <MESSAGE value="【1223 路径、异常】" />
-    <MESSAGE value="【1225 类与对象】" />
-    <MESSAGE value="【1228 日志】" />
-    <MESSAGE value="【0104 配置文件】" />
-    <MESSAGE value="【0104 日志】" />
-    <MESSAGE value="【0106 pytest】" />
-    <MESSAGE value="【0108 pytest】" />
-    <MESSAGE value="【0113 接口】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【0113 接口】" />
+    <MESSAGE value="1211for_while" />
+    <MESSAGE value="1218内置函数与open" />
+    <MESSAGE value="1228类与对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="1228类与对象" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="367" key="GridCell.Tab.0.bottom" timestamp="1607171309423">
+    <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607171309423" />
-    <state width="1899" height="367" key="GridCell.Tab.0.center" timestamp="1607171309423">
+    <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611092907698" />
+    <state x="1015" y="118" key="CommitChangelistDialog2" timestamp="1609164223385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607171309423" />
-    <state width="1899" height="367" key="GridCell.Tab.0.left" timestamp="1607171309423">
+    <state x="1015" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609164223385" />
+    <state width="1231" height="302" key="GridCell.Tab.0.bottom" timestamp="1611098916276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607171309423" />
-    <state width="1899" height="367" key="GridCell.Tab.0.right" timestamp="1607171309423">
+    <state width="1231" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611098916276" />
+    <state width="1231" height="302" key="GridCell.Tab.0.center" timestamp="1611098916276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607171309423" />
-    <state x="957" y="552" key="chooseDestDirectoryDialog" timestamp="1607162249078">
+    <state width="1231" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611098916276" />
+    <state width="1231" height="302" key="GridCell.Tab.0.left" timestamp="1611098916276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="957" y="552" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607162249078" />
-    <state x="913" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1607169955267">
+    <state width="1231" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611098916276" />
+    <state width="1231" height="302" key="GridCell.Tab.0.right" timestamp="1611098916276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607169955267" />
+    <state width="1231" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611098916276" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1609164227503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609164227503" />
+    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1609159937776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609159937776" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson02_data_type/homework.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson07_function/demo01.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson09_function_3_builtin/homework.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson13_类和对象2/homework.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson14_logging日志处理/homework.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson15_配置文件/d05_配置文件yaml.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson15_配置文件/d06_ini配置文件.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lesson22_api_v2/test/test_register.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>port</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>db_host</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>host</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data['db']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data['db']['port']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data[db][port]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data[db]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson18_接口/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../接口/start_interface_frame/common/excelReader.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/自动化/XNWY-Study/day1/第一步.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson16_pytest/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson18_接口/1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/requests/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="809" selection-start-line="809" selection-end-line="809" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="369" selection-start-line="369" selection-end-line="369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson19_接口2/server_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#31#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson19_接口2/server_session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-          <folding>
-            <element signature="e#31#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/class_310/request_class/qingqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/class_310/request_zc/qingqiutou.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/T_API/Txin/Common/ht.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python20/Python_Automated_Testing_20/bigdata/ddt_parameter/api_un.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5580" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python20/Python_Automated_Testing_20/bigdata/Common/httprequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson19_接口2/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson19_接口2/d02request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson19_接口2/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="249">
-            <caret line="32" selection-start-line="32" selection-end-line="33" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson18_接口/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="335">
-            <caret line="122" selection-start-line="122" selection-end-line="122" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="867" column="41" lean-forward="true" selection-start-line="867" selection-start-column="41" selection-end-line="867" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/lesson01/index.py" />
-    <entry file="file://$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d01_requests库_get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d01_requests库_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d03_requests_通用请求.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson20_开始项目实施/上课代码/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="160">
-            <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/lesson01/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1020">
-            <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/lesson01/web_html.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/lesson01/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/.pytest_cache/README.md" />
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/common/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/common/yaml_handler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/common/request_handler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/common/excel_handler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15_配置文件/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/homework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15_配置文件/d01_完整的日志处理.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson15_配置文件/d02_函数封装.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="23" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/common/db_handler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson19_接口2/homework2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="27" selection-start-line="27" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/config/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/test/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/common/logger_hander.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/logs/demo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/config/path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/test/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="25" column="15" lean-forward="true" selection-start-column="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#32#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v2/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

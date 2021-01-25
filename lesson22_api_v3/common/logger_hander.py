@@ -1,6 +1,11 @@
 """日志处理器的封装"""
 #导入信息放在模块的最上面
 import logging
+import os
+
+from config import path
+
+
 def get_log(logname="root",
             logger_level="DEBUG",
             stream_handler_level="DEBUG",
@@ -29,6 +34,11 @@ def get_log(logname="root",
         file_handler.setFormatter(fmt)
 
     return logger
+
+log_file = os.path.join(path.logs_path,'demo.txt')
+print(log_file)
+# 收集器
+logger = get_log(file=log_file)
 
 if __name__ == '__main__':
     log1 = get_log(file="zc.log")
