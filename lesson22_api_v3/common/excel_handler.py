@@ -35,6 +35,16 @@ class ExcelHandler:
             all_data.append(row_dict)
         return all_data
 
+    def write(self,sheet_name,data,row,column):
+        """写入excel数据"""
+        wb = openpyxl.load_workbook(self.fpath)
+        ws = wb[sheet_name]
+        ws.cell(row=row,column=column).value = data
+        # 写入一定要保存关闭文件
+        wb.save(self.fpath)
+        wb.close()
+
+
 # 直接敲main
 if __name__ == '__main__':
     xls = ExcelHandler('test_data.xlsx')

@@ -27,3 +27,8 @@ if not os.path.exists(logs_path):
 data_path = os.path.join(root_path,'data')
 if not os.path.exists(data_path):
     os.mkdir(data_path)
+
+# yaml路径
+yaml_path = os.path.join(root_path,'config')
+if not os.path.exists(yaml_path):
+    os.mkdir(yaml_path)
