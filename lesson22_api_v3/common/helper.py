@@ -7,9 +7,13 @@ import faker
 
 def generate_new_phone():
     """自动生成手机号"""
-    fk = faker.Faker(locale='zh-CN')
-    phone = fk.phone_number()
-    return phone
+    while True:
+        fk = faker.Faker(locale='zh-CN')
+        phone = fk.phone_number()
+        if not phone_in_db():
+            return phone
+
+    #return phone
 
 
 # looker53.github.io 论坛

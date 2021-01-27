@@ -61,10 +61,10 @@ def test_register_01(test_info):
                     str(res_body),
                     row=int(test_info['case_id']) + 1,
                     column=9)
-        excel.write('register',
-                    str(res_body['code']),
-                    row=int(test_info['case_id']) + 1,
-                    column=8)
+        if res_body['code'] == expected:
+            excel.write('register','True',row=int(test_info['case_id']) + 1,column=8)
+        else:
+            excel.write('register', 'False', row=int(test_info['case_id']) + 1, column=8)
 
 # 数据驱动
 # Excel存储用例
