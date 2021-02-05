@@ -20,22 +20,32 @@ class DBHandler:
                                charset= charset,
                                database=database,
                                cursorclass=cursorclass)
-        self.cursor = self.conn.cursor()
+
 
     def query_one(self,sql):
+        self.cursor = self.conn.cursor()
         # 'select * from futureloan.member limit 10;'
+        self.conn.commit()
         self.cursor.execute(sql)
         data = self.cursor.fetchone()
+        self.cursor.close()
         return data
     def query_all(self,sql):
+        self.cursor = self.conn.cursor()
+        self.conn.commit()
         self.cursor.execute(sql)
         data = self.cursor.fetchall()
+        self.cursor.close()
         return data
 
     def query(self,sql,one=True):
+        self.cursor = self.conn.cursor()
+        self.conn.commit()
         self.cursor.execute(sql)
         if one:
+            self.cursor.close()
             return  self.cursor.fetchone()
+        self.cursor.close()
         return self.cursor.fetchall()
 
     def insert(self,sql):
@@ -44,7 +54,7 @@ class DBHandler:
         self.conn.commit()
 
     def db_colse(self):
-        self.cursor.close()
+        # self.cursor.close()
         self.conn.close()
 
 if __name__ == '__main__':
