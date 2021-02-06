@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30b79b07-8878-4104-b3a5-525acc78ec3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/.idea/lesson22_api_v3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/common/db_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/common/excel_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/common/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/common/logger_hander.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/common/request_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/common/yaml_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/config/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/config/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/data/demo.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/data/test_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/logs/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/reports/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/reports/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/test/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/test/test_recharge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/test/test_recharge_token2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/test/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/test/test_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/上课代码/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/上课代码/demo01_jsonpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/上课代码/demo02_json序列化与反序列化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson27_api_v6/上课代码/总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/lesson02_/sel_lesson1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/lesson02_/总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/python36.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson22_api_v4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson22_api_v4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/lesson02/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/../web/lesson02/总结.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lesson26_api_v5$pytest_for_test_withdraw_test_withdraw.coverage" NAME="pytest for test_withdraw.test_withdraw Coverage Results" MODIFIED="1612162750608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_withdraw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/test_withdraw.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="744" />
+    <option name="y" value="56" />
+    <option name="width" value="1318" />
+    <option name="height" value="808" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson27_api_v6" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\python36" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="pytest for test_withdraw.test_withdraw" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lesson22_api_v3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_withdraw.test_withdraw&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_withdraw.test_withdraw" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30b79b07-8878-4104-b3a5-525acc78ec3f" name="Default Changelist" comment="" />
+      <created>1612162079642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612162079642</updated>
+      <workItem from="1612162080900" duration="2362000" />
+      <workItem from="1612236763979" duration="631000" />
+    </task>
+    <task id="LOCAL-00001" summary="【0129提现接口】">
+      <created>1612163840866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612163840866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_withdraw_test_withdraw - 2021.02.01 at 14h 48m 15s.xml">
+      <configuration name="pytest for test_withdraw.test_withdraw" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_withdraw_test_withdraw - 2021.02.01 at 14h 54m 03s.xml">
+      <configuration name="pytest for test_withdraw.test_withdraw" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_withdraw_test_withdraw - 2021.02.01 at 14h 57m 57s.xml">
+      <configuration name="pytest for test_withdraw.test_withdraw" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_withdraw_test_withdraw - 2021.02.01 at 14h 59m 14s.xml">
+      <configuration name="pytest for test_withdraw.test_withdraw" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2993000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="744" y="56" width="1318" height="808" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22337043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41580042" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48856547" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="【0129提现接口】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【0129提现接口】" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>before_recharge_money['leave_amount']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>before_recharge_money</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>float(before_recharge_money['leave_amount'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>float(after_recharge_money['leave_amount'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>float(after_recharge_money['leave_amount']) == float(before_recharge_money['leave_amount']) - float(money)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/software/Python37/Lib/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_recharge_token2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-730" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_withdraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
