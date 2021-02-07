@@ -1,3 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
-.gitignore
-.idea/.name
+# Created by .ignore support plugin (hsz.mobi) 存储git提交得过滤信息
+.pytest_cache/
+asserts/
+

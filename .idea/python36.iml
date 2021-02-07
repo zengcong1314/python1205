@@ -2,15 +2,14 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/lesson21_api_v1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson22_api_v4" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson26_api_v5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson27_api_v6" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (learn-python) (2)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
   </component>
 </module>
