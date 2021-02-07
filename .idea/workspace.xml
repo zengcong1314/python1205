@@ -5,11 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="1228类与对象">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/.idea/lesson22_api_v3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/common/db_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/common/excel_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/common/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/common/logger_hander.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/common/request_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/common/yaml_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/config/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/config/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/data/demo.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/data/test_data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/logs/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/logs/py36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/middleware/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/reports/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/reports/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_add_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_audit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_recharge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/test/test_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/上课代码/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/上课代码/demo01_jsonpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/上课代码/demo02_json序列化与反序列化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson28_api_v7/上课代码/总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson27_api_v6/data/demo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_api_v6/data/demo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,47 +84,77 @@
     <SUITE FILE_PATH="coverage/python36$demo05_.coverage" NAME="demo05_字符串切片 Coverage Results" MODIFIED="1607000925012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$1202homework.coverage" NAME="1202homework Coverage Results" MODIFIED="1607001619190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01_homework" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_withdraw_py.coverage" NAME="pytest in test_withdraw.py Coverage Results" MODIFIED="1612161649519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
+    <SUITE FILE_PATH="coverage/python36$pytest_for_test_audit_test_audit.coverage" NAME="pytest for test_audit.test_audit Coverage Results" MODIFIED="1612690091320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson28_api_v7/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_withdraw_test_withdraw.coverage" NAME="pytest for test_withdraw.test_withdraw Coverage Results" MODIFIED="1612161935211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
     <SUITE FILE_PATH="coverage/python36$01.coverage" NAME="01 Coverage Results" MODIFIED="1607094061630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/python36$tuple1204.coverage" NAME="tuple1204 Coverage Results" MODIFIED="1607092534441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/python36$demo03_.coverage" NAME="demo03_如何知道我的数据类型是字符串 Coverage Results" MODIFIED="1606986272751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_item_test_add.coverage" NAME="pytest for test_add_item.test_add Coverage Results" MODIFIED="1612518997230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
+    <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_item_test_add.coverage" NAME="pytest for test_add_item.test_add Coverage Results" MODIFIED="1612678691562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1612318198062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/common" />
     <SUITE FILE_PATH="coverage/python36$yaml_handler.coverage" NAME="yaml_handler Coverage Results" MODIFIED="1612332313754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/common" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson27_api_v6/middleware/handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_recharge_mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="35" />
-              <folding>
-                <element signature="e#13#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py">
+        <entry file="file://$PROJECT_DIR$/lesson28_api_v7/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_audit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson28_api_v7/config/security.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_add_item.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_withdraw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_register.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,6 +201,14 @@
         <option value="$PROJECT_DIR$/lesson27_api_v6/conftest.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_mysql.py" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_recharge.py" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_db.py" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_withdraw.py" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/config/security.yaml" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_add_item.py" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/conftest.py" />
+        <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_audit.py" />
       </list>
     </option>
   </component>
@@ -139,8 +219,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="23" />
+    <option name="x" value="723" />
+    <option name="y" value="208" />
     <option name="width" value="1474" />
     <option name="height" value="899" />
   </component>
@@ -159,6 +239,29 @@
             <path>
               <item name="python36" type="b2602c69:ProjectViewProjectNode" />
               <item name="python36" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson28_api_v7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson28_api_v7" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson28_api_v7" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson28_api_v7" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,11 +289,11 @@
       <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\python36" />
       <recent name="D:\Project\python36\lesson27_api_v6\common" />
       <recent name="D:\Project\python36\lesson26_api_v5\common" />
       <recent name="D:\Project\python36\lesson27_api_v6\test" />
       <recent name="D:\Project\python36\lesson26_api_v5\上课代码" />
-      <recent name="D:\Project\python36\lesson26_api_v5\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_item.test_add">
+  <component name="RunManager" selected="Python tests.pytest for test_audit.test_audit">
     <configuration name="pytest for test_add_item.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +322,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_item.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_audit.test_audit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson28_api_v7/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_audit.test_audit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -270,29 +389,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_recharge_mysql.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson27_api_v6/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson27_api_v6/test/test_recharge_mysql.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_audit.test_audit" />
         <item itemvalue="Python tests.pytest for test_add_item.test_add" />
         <item itemvalue="Python tests.pytest in test_add_item.py" />
         <item itemvalue="Python tests.pytest for test_recharge_mysql.test_recharge" />
         <item itemvalue="Python tests.pytest for test_register.test_register_01" />
-        <item itemvalue="Python tests.pytest in test_recharge_mysql.py" />
       </list>
     </recent_temporary>
   </component>
@@ -405,21 +508,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_recharge_mysql_test_recharge - 2021.02.04 at 12h 55m 35s.xml">
-      <configuration name="pytest for test_recharge_mysql.test_recharge" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_recharge_mysql_test_recharge - 2021.02.04 at 12h 55m 41s.xml">
-      <configuration name="pytest for test_recharge_mysql.test_recharge" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_recharge_mysql_test_recharge - 2021.02.05 at 16h 29m 39s.xml">
-      <configuration name="pytest for test_recharge_mysql.test_recharge" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_recharge_mysql_test_recharge - 2021.02.05 at 16h 34m 44s.xml">
-      <configuration name="pytest for test_recharge_mysql.test_recharge" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_recharge_mysql_test_recharge - 2021.02.05 at 16h 35m 01s.xml">
-      <configuration name="pytest for test_recharge_mysql.test_recharge" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_add_item_py - 2021.02.05 at 17h 46m 14s.xml">
       <configuration name="pytest in test_add_item.py" configurationId="tests" />
     </history-entry>
@@ -435,28 +523,43 @@
     <history-entry file="pytest_for_test_add_item_test_add - 2021.02.05 at 17h 56m 40s.xml">
       <configuration name="pytest for test_add_item.test_add" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_add_item_test_add - 2021.02.07 at 14h 18m 04s.xml">
+      <configuration name="pytest for test_add_item.test_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_item_test_add - 2021.02.07 at 14h 18m 14s.xml">
+      <configuration name="pytest for test_add_item.test_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.07 at 16h 49m 27s.xml">
+      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.07 at 16h 50m 33s.xml">
+      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.07 at 16h 50m 50s.xml">
+      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82850000" />
+    <option name="totallyTimeSpent" value="91742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="317" y="23" width="1474" height="899" extended-state="0" />
+    <frame x="723" y="208" width="1474" height="899" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20579915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20579915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40915033" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43451142" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3124183" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43398693" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.38039216" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -502,6 +605,14 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
               </option>
             </State>
           </value>
@@ -581,6 +692,11 @@
           <line>11</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson28_api_v7/test/test_audit.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -638,113 +754,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/上课代码/demo02_json序列化与反序列化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/config/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-939671136/unicodedata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/config/config.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/test/test_recharge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/test/test_withdraw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/lesson02/sel_lesson1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/test/test_recharge_token2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="30" selection-start-line="1" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/test/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/test/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/上课代码/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="260">
-            <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/_pytest/mark/structures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="316" selection-start-line="316" selection-end-line="316" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/_pytest/assertion/rewrite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/py/_path/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="713" selection-start-line="713" selection-end-line="713" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/lesson02/总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -993,12 +1002,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/middleware/handler.py">
+    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="100">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1006,19 +1015,139 @@
     <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_recharge_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="35" />
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="e#13#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py">
+    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/middleware/handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="-526">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/common/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#11#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/config/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/common/db_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/middleware/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_withdraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="65" column="85" selection-start-line="65" selection-start-column="85" selection-end-line="65" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_recharge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="e#13#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_add_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_audit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/config/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson28_api_v7/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
