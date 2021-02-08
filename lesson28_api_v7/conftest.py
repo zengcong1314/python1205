@@ -30,6 +30,9 @@ def login_investor():
         "mobile_phone":Handler.user_config['investor_user']['phone'],
         "pwd":Handler.user_config['investor_user']['pwd']
     }
+    login_data = login_fuc(user['mobile_phone'],user['pwd'])
+    # Handler.inverstor_user_id = login_data['id']
+    # Handler.inverstor_user_token = login_data['token']
     return login_fuc(user['mobile_phone'],user['pwd'])
     # res = requests.request(method='POST',
     #                  url=Handler.yaml_config['host'] + '/member/login',

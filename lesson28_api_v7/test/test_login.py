@@ -2,17 +2,11 @@ import os
 import pytest
 import requests
 from middleware.handler import Handler
-# from common.yaml_handler import yaml_config,user_config
-# from common.logger_hander import logger
-# from common.helper import generate_new_phone
-# from common.excel_handler import ExcelHandler
-# from config.path import data_path
 
-# excel_file = os.path.join(data_path,'demo.xlsx')
-# data = ExcelHandler(excel_file).read_dict('login')
 data = Handler.excel.read_dict('login')
 @pytest.mark.parametrize('test_info',data)
 def test_login (test_info):
+    Handler.new_phone = Handler.generate_new_phone()
     actual_url = test_info['url']
     actual_method = test_info['method']
     actual_json = test_info['json']

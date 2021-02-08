@@ -17,6 +17,7 @@ sql = 'select leave_amount from member where id={}'.format(user_config['investor
 before_recharge_money = db.query(sql)['leave_amount']
 @pytest.mark.parametrize("info",data)
 def test_withdraw(info,login_investor):
+    Handler.new_phone = Handler.generate_new_phone()
     if "#member_id#" in info['json']:
         info["json"] = info["json"].replace("#member_id#",str(login_investor['id']))
     if "#wrong_member_id#" in info['json']:

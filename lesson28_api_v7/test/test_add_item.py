@@ -6,7 +6,9 @@ from middleware.handler import Handler
 data = Handler.excel.read_dict("add")
 @pytest.mark.parametrize("info",data)
 def test_add_loan(info,loan_login,db):
+
     if "#member_id#" in info["json"]:
+        print(str(loan_login["id"]))
         info["json"] = info["json"].replace("#member_id#",str(loan_login["id"]))
     if "#wrong_member_id#" in info["json"]:
         info["json"] = info["json"].replace("#wrong_member_id#",str(loan_login["id"]+10))

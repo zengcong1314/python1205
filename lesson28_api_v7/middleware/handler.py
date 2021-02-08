@@ -10,11 +10,11 @@ from config.path import config_path
 from common.excel_handler import ExcelHandler
 from common.db_handler import DBHandler
 
-yaml_path = os.path.join(config_path, 'config.yaml')
-yaml_config = read_yaml(yaml_path)
-print(yaml_config)
-user_path = os.path.join(config_path, 'security.yaml')
-user_config = read_yaml(user_path)
+# yaml_path = os.path.join(config_path, 'config.yaml')
+# yaml_config = read_yaml(yaml_path)
+# print(yaml_config)
+# user_path = os.path.join(config_path, 'security.yaml')
+# user_config = read_yaml(user_path)
 
 # class MidDBHanlder(DBHandler):
 #     def __init__(self, host=user_config['db']['host'],
@@ -34,6 +34,11 @@ user_config = read_yaml(user_path)
 #                        cursorclass=cursorclass)
 
 class MidDBHanlder(DBHandler):
+    yaml_path = os.path.join(config_path, 'config.yaml')
+    yaml_config = read_yaml(yaml_path)
+    print(yaml_config)
+    user_path = os.path.join(config_path, 'security.yaml')
+    user_config = read_yaml(user_path)
     def __init__(self):
         super().__init__(host=user_config['db']['host'],
                        port=user_config['db']['port'],
@@ -47,6 +52,14 @@ class Handler():
     """任务：中间层。common 和 调用层。
     使用项目得配置数据，填充common模块
     """
+    new_phone = ''
+    inverstor_user_id = ''
+    inverstor_user_token = ''
+    admin_user_id = ''
+    admin_user_token = ''
+    loan_user_id = ''
+    loan_user_token = ''
+
     yaml_path = os.path.join(config_path, 'config.yaml')
     yaml_config = read_yaml(yaml_path)
     print(yaml_config)
@@ -62,10 +75,10 @@ class Handler():
     excel_file = os.path.join(path.data_path, 'demo.xlsx')
     excel = ExcelHandler(excel_file)
 
-    # 辅助函数
-    #help_func = helper
-
-    def generate_new_phone(self):
+    # 新手机号码
+    new_phone = ''
+    @classmethod
+    def generate_new_phone(cls):
         """自动生成手机号"""
         fk = faker.Faker(locale='zh-CN')
         while True:
@@ -76,6 +89,7 @@ class Handler():
             # 如果数据库里面有这条记录，重新生成新的手机号码,循环，不知道什么时候结束，用while
             #db2.db_colse()
             if not phone_in_db:
+                cls.new_phone = phone
                 return phone
         return phone
 
@@ -88,7 +102,7 @@ class Handler():
     #                charset=user_config['db']['charset'],
     #                database=user_config['db']['database'],
     #                cursorclass=DictCursor)
-
+    # 数据库
     db = MidDBHanlder()
     db_class = MidDBHanlder
 if __name__ == '__main__':

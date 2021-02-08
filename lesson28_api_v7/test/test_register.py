@@ -20,17 +20,7 @@ from middleware.handler import Handler
 data = Handler.excel.read_dict('register')
 @pytest.mark.parametrize("test_info",data)
 def test_register_01(test_info):
-    # actual_url = 'http://api.lemonban.com/futureloan/member/register'
-    # actual_method = 'POST'
-    # actual_json = {"mobile_phone":"","pwd":""}
-    # actual_headers = {"X-Lemonban-Media-Type":"lemonban.v2"}
-    # expected = 2
-    # 元组要控制索引
-    # actual_url = test_info[3]
-    # actual_method = test_info[6]
-    # actual_json = test_info[4]
-    # actual_headers = test_info[5]
-    # expected = test_info[7]
+    Handler.new_phone = Handler.generate_new_phone()
     # 字典取值
     actual_url = test_info['url']
     actual_method = test_info['method']
@@ -41,7 +31,7 @@ def test_register_01(test_info):
     # 如果存在 # new_phone,
     if '#new_phone#' in actual_json:
         # 生成手机号码 13789456789 generate_new_phone
-        mobile_phone = Handler().generate_new_phone()
+        mobile_phone = Handler.generate_new_phone()
     # 替换为new_phone
         actual_json = actual_json.replace('#new_phone#',mobile_phone)
     # 通过这种方法，密码不一定知道，最好写入白名单

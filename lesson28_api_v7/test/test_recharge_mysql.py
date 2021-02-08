@@ -25,14 +25,13 @@ print(data)
 def test_recharge(info,login_investor,db):
     """充值"""
     """先要替换"""
+    Handler.inverstor_user_id = login_investor['id']
+    Handler.inverstor_user_token = login_investor['token']
+
     if "#member_id#" in info['json']:
         info["json"] = info["json"].replace('#member_id#',str(login_investor['id']))
     if "#wrong_member_id#" in info['json']:
         info["json"] = info["json"].replace('#wrong_member_id#', str(login_investor['id'] + 1))
-
-    # # token组装方式1：通过excel替换
-    # if "#token#" in info['headers']:
-    #     info["headers"] = info["headers"].replace("#token#",login['token'])
 
     # token 组装2：通过headers 添加,excel 表格里面不需要Authorization
     headers = json.loads(info["headers"])
