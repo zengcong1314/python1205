@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="" />
+    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -67,47 +70,21 @@
       <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conftest">
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_add_item.test_add">
+    <configuration name="pytest for test_add_item.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson26_api_v5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson27_api_v6/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson26_api_v5/conftest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo01_jsonpath" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson26_api_v5/上课代码" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson26_api_v5/上课代码/demo01_jsonpath.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_item.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_recharge.test_recharge" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -124,6 +101,22 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_recharge.test_recharge&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_item.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson27_api_v6/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -158,6 +151,12 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_add_item.test_add" />
+        <item itemvalue="Python tests.pytest in test_add_item.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -275,7 +274,35 @@
       <option name="project" value="LOCAL" />
       <updated>1612617151120</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="【0129充值接口】">
+      <created>1612617333349</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612617333349</updated>
+    </task>
+    <task id="LOCAL-00016" summary="【0129充值接口】">
+      <created>1612617409292</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612617409292</updated>
+    </task>
+    <task id="LOCAL-00017" summary="【0201添加项目接口】">
+      <created>1612624249827</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612624249827</updated>
+    </task>
+    <task id="LOCAL-00018" summary="【0201添加项目接口】">
+      <created>1612624312029</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612624312029</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -319,7 +346,8 @@
     <MESSAGE value="【0115接口】" />
     <MESSAGE value="【0118接口】" />
     <MESSAGE value="【0129充值接口】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【0129充值接口】" />
+    <MESSAGE value="【0201添加项目接口】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【0201添加项目接口】" />
   </component>
   <component name="WindowStateProjectService">
     <state x="359" y="229" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612097730926">
@@ -331,46 +359,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1122" y="443" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1612085596268" />
-    <state x="1015" y="118" key="CommitChangelistDialog2" timestamp="1612617149409">
+    <state x="1015" y="118" key="CommitChangelistDialog2" timestamp="1612624310626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1015" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612617149408" />
+    <state x="1015" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612624310626" />
     <state x="895" y="335" key="FileChooserDialogImpl" timestamp="1611323655659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="895" y="335" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611323655659" />
-    <state width="1331" height="275" key="GridCell.Tab.0.bottom" timestamp="1612105475716">
+    <state width="1899" height="428" key="GridCell.Tab.0.bottom" timestamp="1612624345759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1331" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612105475716" />
-    <state width="1331" height="275" key="GridCell.Tab.0.center" timestamp="1612105475716">
+    <state width="1899" height="428" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612624345759" />
+    <state width="1899" height="428" key="GridCell.Tab.0.center" timestamp="1612624345759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1331" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612105475716" />
-    <state width="1331" height="275" key="GridCell.Tab.0.left" timestamp="1612105475715">
+    <state width="1899" height="428" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612624345759" />
+    <state width="1899" height="428" key="GridCell.Tab.0.left" timestamp="1612624345759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1331" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612105475715" />
-    <state width="1331" height="275" key="GridCell.Tab.0.right" timestamp="1612105475716">
+    <state width="1899" height="428" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612624345759" />
+    <state width="1899" height="428" key="GridCell.Tab.0.right" timestamp="1612624345759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1331" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612105475716" />
-    <state x="750" y="340" key="MultipleFileMergeDialog" timestamp="1611323638573">
+    <state width="1899" height="428" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612624345759" />
+    <state x="750" y="340" key="MultipleFileMergeDialog" timestamp="1612617473805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="340" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611323638573" />
+    <state x="750" y="340" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612617473805" />
     <state x="535" y="248" key="SettingsEditor" timestamp="1612099774157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="535" y="248" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612099774157" />
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1612617161295">
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1612624314977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612617161295" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612624314977" />
     <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1609159937776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
