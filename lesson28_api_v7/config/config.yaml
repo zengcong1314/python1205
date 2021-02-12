@@ -1,0 +1,8 @@
+host: "http://api.lemonban.com/futureloan"
+login_phone: "13925214567"
+logger:
+  name: py36
+  logger_level: "DEBUG"
+  stream_handler_level: "DEBUG"
+  file: "py36.log"
+  file_handler_level: "DEBUG"
