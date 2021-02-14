@@ -83,8 +83,8 @@ class Handler():
     admin_phone = user_config['admin_user']['phone']
     admin_pwd = user_config['admin_user']['pwd']
 
-
-
+    phone = user_config['investor_user']['phone']
+    pwd = user_config['investor_user']['pwd']
     # def replace_data(self,string):
     #     import re
     #     res = re.finditer(r'#(.*?)#',string)

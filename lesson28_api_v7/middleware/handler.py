@@ -10,11 +10,11 @@ from config.path import config_path
 from common.excel_handler import ExcelHandler
 from common.db_handler import DBHandler
 
-# yaml_path = os.path.join(config_path, 'config.yaml')
-# yaml_config = read_yaml(yaml_path)
-# print(yaml_config)
-# user_path = os.path.join(config_path, 'security.yaml')
-# user_config = read_yaml(user_path)
+yaml_path = os.path.join(config_path, 'config.yaml')
+yaml_config = read_yaml(yaml_path)
+print(yaml_config)
+user_path = os.path.join(config_path, 'security.yaml')
+user_config = read_yaml(user_path)
 
 # class MidDBHanlder(DBHandler):
 #     def __init__(self, host=user_config['db']['host'],
@@ -34,11 +34,7 @@ from common.db_handler import DBHandler
 #                        cursorclass=cursorclass)
 
 class MidDBHanlder(DBHandler):
-    yaml_path = os.path.join(config_path, 'config.yaml')
-    yaml_config = read_yaml(yaml_path)
-    print(yaml_config)
-    user_path = os.path.join(config_path, 'security.yaml')
-    user_config = read_yaml(user_path)
+
     def __init__(self):
         super().__init__(host=user_config['db']['host'],
                        port=user_config['db']['port'],

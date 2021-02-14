@@ -1,0 +1,20 @@
+investor_user:
+  phone: '13925214567'
+  pwd: '12345678'
+  member_id: 1472
+
+admin_user:
+  phone: '18211111111'
+  pwd: '12345678'
+
+loan_user:
+  phone: '18211113333'
+  pwd: '12345678'
+
+db:
+  host: '8.129.91.152'
+  port: 3306
+  user: 'future'
+  password: '123456'
+  charset: 'utf8'
+  database: 'futureloan'
