@@ -5,70 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/common/db_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/common/excel_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/common/logger_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/common/yaml_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/config/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/config/path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/config/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/data/demo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/middleware/handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_homework/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson29_api_v8/test/test_invest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson29_api_v8/上课代码/d01_正则表达式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/.idea/lesson22_api_v3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/common/db_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/common/excel_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/common/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/common/logger_hander.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/common/yaml_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/config/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/config/path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/config/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/data/demo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/logs/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/logs/py36.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/middleware/handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/reports/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/reports/report2021-02-14-21-36-55.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/test_add_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/test_audit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/test_invest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/test_recharge_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/test_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson30_api_v9/test/test_withdraw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/logs/py36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/reports/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/reports/repoert2021-02-17-23-30-22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/reports/repoert2021-02-17-23-31-18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/reports/repoert2021-02-17-23-35-44.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/test/test_add_projects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/test/test_cases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/test/test_condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/test/test_interfaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/test/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_homework/test/test_register.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson28_api_v7/middleware/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson28_api_v7/middleware/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/common/yaml_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/common/yaml_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/data/demo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/data/demo.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/logs/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/logs/demo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/logs/py36.log" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/logs/py36.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/middleware/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/middleware/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/reports/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/reports/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/test/test_recharge_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/test/test_recharge_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/test/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/test/test_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/test/test_withdraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_api_v8/test/test_withdraw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/上课代码/demo01_jsonpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/上课代码/demo02_json序列化与反序列化.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_api_v8/上课代码/总结.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/common/db_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/common/db_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/common/excel_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/common/excel_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/common/logger_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/common/logger_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/config/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/config/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/data/demo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/data/demo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/middleware/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/middleware/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_homework/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson30_api_v9/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson30_api_v9/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,49 +95,7 @@
       <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.path">
-    <configuration name="path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework/config" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_homework/config/path.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson30_api_v9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson30_api_v9/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_interfaces.test_interfaces">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson29_api_v8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson29_api_v8/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_homework/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,19 +117,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_projects.test_add_projects" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson30_api_v9/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.test_login&quot;" />
+      <option name="_new_target" value="&quot;test_add_projects.test_add_projects&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_cases.test_add_cases" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cases.test_add_cases&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_interfaces.test_interfaces" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_interfaces.test_interfaces&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -221,7 +170,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson30_api_v9/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -234,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.path" />
-        <item itemvalue="Python.run (1)" />
-        <item itemvalue="Python tests.pytest for test_register.test_register_01" />
-        <item itemvalue="Python tests.pytest for test_login.test_login" />
+        <item itemvalue="Python tests.pytest for test_interfaces.test_interfaces" />
         <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.pytest for test_register.test_register_01" />
+        <item itemvalue="Python tests.pytest for test_cases.test_add_cases" />
+        <item itemvalue="Python tests.pytest for test_add_projects.test_add_projects" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613319337850</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="【0205homework】">
+      <created>1613319386235</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613319386235</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -455,38 +411,42 @@
     </state>
     <state x="359" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.728@0.0.1024.728" timestamp="1612097730926" />
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611092907698" />
-    <state x="1122" y="443" key="#xdebugger.evaluate" timestamp="1613269017439">
+    <state x="240" y="443" width="1363" height="597" key="#xdebugger.evaluate" timestamp="1613576721095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1122" y="443" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613269017439" />
-    <state x="1015" y="118" key="CommitChangelistDialog2" timestamp="1613319332883">
+    <state x="240" y="443" width="1363" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613576721095" />
+    <state x="1015" y="118" key="CommitChangelistDialog2" timestamp="1613319384469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1015" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613319332883" />
+    <state x="1015" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613319384469" />
+    <state width="504" height="466" key="DebuggerActiveHint" timestamp="1613543908448">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="504" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1613543908448" />
     <state x="895" y="335" key="FileChooserDialogImpl" timestamp="1611323655659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="895" y="335" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611323655659" />
-    <state width="1899" height="488" key="GridCell.Tab.0.bottom" timestamp="1613319347544">
+    <state width="1899" height="419" key="GridCell.Tab.0.bottom" timestamp="1613576723874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613319347544" />
-    <state width="1899" height="488" key="GridCell.Tab.0.center" timestamp="1613319347544">
+    <state width="1899" height="419" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613576723874" />
+    <state width="1899" height="419" key="GridCell.Tab.0.center" timestamp="1613576723874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="488" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613319347544" />
-    <state width="1899" height="488" key="GridCell.Tab.0.left" timestamp="1613319347544">
+    <state width="1899" height="419" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613576723874" />
+    <state width="1899" height="419" key="GridCell.Tab.0.left" timestamp="1613576723874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="488" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613319347544" />
-    <state width="1899" height="488" key="GridCell.Tab.0.right" timestamp="1613319347544">
+    <state width="1899" height="419" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613576723874" />
+    <state width="1899" height="419" key="GridCell.Tab.0.right" timestamp="1613576723874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="488" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613319347544" />
+    <state width="1899" height="419" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613576723874" />
     <state x="750" y="340" key="MultipleFileMergeDialog" timestamp="1613117609321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -495,18 +455,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="535" y="248" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612099774157" />
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1613319339745">
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1613319387878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613319339745" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1613278512253">
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613319387878" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1613554415505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1613278512253" />
-    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1609159937776">
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1613554415505" />
+    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1613555809072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609159937776" />
+    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613555809072" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interface_homework/test/test_condition.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interface_homework/test/test_interfaces.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

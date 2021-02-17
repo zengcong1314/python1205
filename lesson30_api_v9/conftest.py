@@ -1,8 +1,6 @@
 import pytest
 import requests
 from middleware.handler import Handler
-from common.db_handler import DBHandler
-# from common.yaml_handler import yaml_config,user_config
 from jsonpath import jsonpath
 
 def login_fuc(phone,pwd):
