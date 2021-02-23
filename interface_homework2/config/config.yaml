@@ -1,0 +1,8 @@
+host: "http://api.keyou.site:8000"
+
+logger:
+  name: zc
+  logger_level: "DEBUG"
+  stream_handler_level: "DEBUG"
+  file: "py36.log"
+  file_handler_level: "DEBUG"

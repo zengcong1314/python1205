@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Test Report</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
+  <body onLoad="init()">
+    <script>/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+
+function toArray(iter) {
+    if (iter === null) {
+        return null;
+    }
+    return Array.prototype.slice.call(iter);
+}
+
+function find(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return elem.querySelector(selector);
+}
+
+function find_all(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return toArray(elem.querySelectorAll(selector));
+}
+
+function sort_column(elem) {
+    toggle_sort_states(elem);
+    var colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
+    var key;
+    if (elem.classList.contains('numeric')) {
+        key = key_num;
+    } else if (elem.classList.contains('result')) {
+        key = key_result;
+    } else {
+        key = key_alpha;
+    }
+    sort_table(elem, key(colIndex));
+}
+
+function show_all_extras() {
+    find_all('.col-result').forEach(show_extras);
+}
+
+function hide_all_extras() {
+    find_all('.col-result').forEach(hide_extras);
+}
+
+function show_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.remove("collapsed");
+    expandcollapse.classList.remove("expander");
+    expandcollapse.classList.add("collapser");
+}
+
+function hide_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.add("collapsed");
+    expandcollapse.classList.remove("collapser");
+    expandcollapse.classList.add("expander");
+}
+
+function show_filters() {
+    var filter_items = document.getElementsByClassName('filter');
+    for (var i = 0; i < filter_items.length; i++)
+        filter_items[i].hidden = false;
+}
+
+function add_collapse() {
+    // Add links for show/hide all
+    var resulttable = find('table#results-table');
+    var showhideall = document.createElement("p");
+    showhideall.innerHTML = '<a href="javascript:show_all_extras()">Show all details</a> / ' +
+                            '<a href="javascript:hide_all_extras()">Hide all details</a>';
+    resulttable.parentElement.insertBefore(showhideall, resulttable);
+
+    // Add show/hide link to each result
+    find_all('.col-result').forEach(function(elem) {
+        var collapsed = get_query_parameter('collapsed') || 'Passed';
+        var extras = elem.parentNode.nextElementSibling;
+        var expandcollapse = document.createElement("span");
+        if (collapsed.includes(elem.innerHTML)) {
+            extras.classList.add("collapsed");
+            expandcollapse.classList.add("expander");
+        } else {
+            expandcollapse.classList.add("collapser");
+        }
+        elem.appendChild(expandcollapse);
+
+        elem.addEventListener("click", function(event) {
+            if (event.currentTarget.parentNode.nextElementSibling.classList.contains("collapsed")) {
+                show_extras(event.currentTarget);
+            } else {
+                hide_extras(event.currentTarget);
+            }
+        });
+    })
+}
+
+function get_query_parameter(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function init () {
+    reset_sort_headers();
+
+    add_collapse();
+
+    show_filters();
+
+    toggle_sort_states(find('.initial-sort'));
+
+    find_all('.sortable').forEach(function(elem) {
+        elem.addEventListener("click",
+                              function(event) {
+                                  sort_column(elem);
+                              }, false)
+    });
+
+};
+
+function sort_table(clicked, key_func) {
+    var rows = find_all('.results-table-row');
+    var reversed = !clicked.classList.contains('asc');
+    var sorted_rows = sort(rows, key_func, reversed);
+    /* Whole table is removed here because browsers acts much slower
+     * when appending existing elements.
+     */
+    var thead = document.getElementById("results-table-head");
+    document.getElementById('results-table').remove();
+    var parent = document.createElement("table");
+    parent.id = "results-table";
+    parent.appendChild(thead);
+    sorted_rows.forEach(function(elem) {
+        parent.appendChild(elem);
+    });
+    document.getElementsByTagName("BODY")[0].appendChild(parent);
+}
+
+function sort(items, key_func, reversed) {
+    var sort_array = items.map(function(item, i) {
+        return [key_func(item), i];
+    });
+    var multiplier = reversed ? -1 : 1;
+
+    sort_array.sort(function(a, b) {
+        var key_a = a[0];
+        var key_b = b[0];
+        return multiplier * (key_a >= key_b ? 1 : -1);
+    });
+
+    return sort_array.map(function(item) {
+        var index = item[1];
+        return items[index];
+    });
+}
+
+function key_alpha(col_index) {
+    return function(elem) {
+        return elem.childNodes[1].childNodes[col_index].firstChild.data.toLowerCase();
+    };
+}
+
+function key_num(col_index) {
+    return function(elem) {
+        return parseFloat(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function key_result(col_index) {
+    return function(elem) {
+        var strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
+                       'Skipped', 'Passed'];
+        return strings.indexOf(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function reset_sort_headers() {
+    find_all('.sort-icon').forEach(function(elem) {
+        elem.parentNode.removeChild(elem);
+    });
+    find_all('.sortable').forEach(function(elem) {
+        var icon = document.createElement("div");
+        icon.className = "sort-icon";
+        icon.textContent = "vvv";
+        elem.insertBefore(icon, elem.firstChild);
+        elem.classList.remove("desc", "active");
+        elem.classList.add("asc", "inactive");
+    });
+}
+
+function toggle_sort_states(elem) {
+    //if active, toggle between asc and desc
+    if (elem.classList.contains('active')) {
+        elem.classList.toggle('asc');
+        elem.classList.toggle('desc');
+    }
+
+    //if inactive, reset all other functions and add ascending active
+    if (elem.classList.contains('inactive')) {
+        reset_sort_headers();
+        elem.classList.remove('inactive');
+        elem.classList.add('active');
+    }
+}
+
+function is_all_rows_hidden(value) {
+  return value.hidden == false;
+}
+
+function filter_table(elem) {
+    var outcome_att = "data-test-result";
+    var outcome = elem.getAttribute(outcome_att);
+    class_outcome = outcome + " results-table-row";
+    var outcome_rows = document.getElementsByClassName(class_outcome);
+
+    for(var i = 0; i < outcome_rows.length; i++){
+        outcome_rows[i].hidden = !elem.checked;
+    }
+
+    var rows = find_all('.results-table-row').filter(is_all_rows_hidden);
+    var all_rows_hidden = rows.length == 0 ? true : false;
+    var not_found_message = document.getElementById("not-found-message");
+    not_found_message.hidden = !all_rows_hidden;
+}
+</script>
+    <h1>repoert2021-02-18-13-51-18.html</h1>
+    <p>Report generated on 18-Feb-2021 at 13:51:34 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <h2>Environment</h2>
+    <table id="environment">
+      <tr>
+        <td>JAVA_HOME</td>
+        <td>D:\zengcong\Java\jdk1.8.0_131</td></tr>
+      <tr>
+        <td>Packages</td>
+        <td>{&apos;pytest&apos;: &apos;4.4.0&apos;, &apos;py&apos;: &apos;1.8.0&apos;, &apos;pluggy&apos;: &apos;0.9.0&apos;}</td></tr>
+      <tr>
+        <td>Platform</td>
+        <td>Windows-10-10.0.18362-SP0</td></tr>
+      <tr>
+        <td>Plugins</td>
+        <td>{&apos;rerunfailures&apos;: &apos;7.0&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;, &apos;html&apos;: &apos;1.20.0&apos;, &apos;Faker&apos;: &apos;5.8.0&apos;, &apos;allure-pytest&apos;: &apos;2.6.2&apos;}</td></tr>
+      <tr>
+        <td>Python</td>
+        <td>3.7.2</td></tr></table>
+    <h2>Summary</h2>
+    <p>24 tests ran in 10.39 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">20 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">4 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">27 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <h2>Results</h2>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable result initial-sort" col="result">Result</th>
+          <th class="sortable" col="name">Test</th>
+          <th class="sortable numeric" col="duration">Duration</th>
+          <th>Links</th></tr>
+        <tr hidden="true" id="not-found-message">
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info0]::setup</td>
+          <td class="col-duration">0.74</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info1]::setup</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info2]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info3]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info4]::setup</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info5]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info6]::setup</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info7]::setup</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info8]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info9]::setup</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info10]::setup</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info11]::setup</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_add_projects.py::test_add_projects[info12]::setup</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_cases.py::test_add_cases[info0]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_cases.py::test_add_cases[info1]::setup</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_cases.py::test_add_cases[info2]::setup</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_cases.py::test_add_cases[info3]::setup</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_cases.py::test_add_cases[info4]::setup</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_cases.py::test_add_cases[info5]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_cases.py::test_add_cases[info6]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_interfaces.py::test_interfaces[info0]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_interfaces.py::test_interfaces[info1]::setup</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_interfaces.py::test_interfaces[info2]::setup</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_interfaces.py::test_interfaces[info3]::setup</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_interfaces.py::test_interfaces[info4]::setup</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_interfaces.py::test_interfaces[info5]::setup</td>
+          <td class="col-duration">0.22</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test/test_interfaces.py::test_interfaces[info6]::setup</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">@pytest.fixture()<br/>    def login():<br/>        user = {&quot;username&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;],<br/>                &quot;password&quot;:Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]}<br/>        res = requests.request(method=&#x27;POST&#x27;,<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + &#x27;/user/login/&#x27;,<br/>                               json=user)<br/>        res_body = json.loads(res.text)<br/>&gt;       token = jsonpath(res_body,&#x27;$.token&#x27;)[0]<br/><span class="error">E       TypeError: &#x27;bool&#x27; object is not subscriptable</span><br/><br/>conftest.py:16: TypeError<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">test/test_condition.py::test_condition[info0]</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 1, &#x27;expected&#x27;: 1, &#x27;json&#x27;: None, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;, data)<br/>    def test_condition(info):<br/>        if &quot;#register_name#&quot; in info[&#x27;url&#x27;]:<br/>            register_name = Handler.user_config[&#x27;user&#x27;][&#x27;register_name&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_name#&#x27;, register_name)<br/>        if &quot;#unregister_name#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_name = Handler.generate_random_str(6)<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_name#&#x27;, unregister_name)<br/>        if &quot;#register_email#&quot; in info[&#x27;url&#x27;]:<br/>            register_email = Handler.user_config[&#x27;user&#x27;][&#x27;register_email&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_email#&#x27;, register_email)<br/>        if &quot;#unregister_email#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_email = Handler.generate_random_str(9)<br/>            unregister_email = unregister_email + &quot;@qq.com&quot;<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_email#&#x27;, unregister_email)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;])<br/>        res_body = json.dumps(res.text)<br/>        #assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/>        try:<br/>            assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/>        except AssertionError as e:<br/>            Handler.logger.error(&quot;用例失败：{}&quot;.format(e))<br/>&gt;           raise e<br/><br/>test\test_condition.py:33: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 1, &#x27;expected&#x27;: 1, &#x27;json&#x27;: None, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;, data)<br/>    def test_condition(info):<br/>        if &quot;#register_name#&quot; in info[&#x27;url&#x27;]:<br/>            register_name = Handler.user_config[&#x27;user&#x27;][&#x27;register_name&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_name#&#x27;, register_name)<br/>        if &quot;#unregister_name#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_name = Handler.generate_random_str(6)<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_name#&#x27;, unregister_name)<br/>        if &quot;#register_email#&quot; in info[&#x27;url&#x27;]:<br/>            register_email = Handler.user_config[&#x27;user&#x27;][&#x27;register_email&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_email#&#x27;, register_email)<br/>        if &quot;#unregister_email#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_email = Handler.generate_random_str(9)<br/>            unregister_email = unregister_email + &quot;@qq.com&quot;<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_email#&#x27;, unregister_email)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;])<br/>        res_body = json.dumps(res.text)<br/>        #assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/>        try:<br/>&gt;           assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/><span class="error">E           assert 0 == 1</span><br/><br/>test\test_condition.py:30: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>test_condition.py           32 ERROR    用例失败：assert 0 == 1</div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">test/test_condition.py::test_condition[info2]</td>
+          <td class="col-duration">0.14</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 3, &#x27;expected&#x27;: 1, &#x27;json&#x27;: None, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;, data)<br/>    def test_condition(info):<br/>        if &quot;#register_name#&quot; in info[&#x27;url&#x27;]:<br/>            register_name = Handler.user_config[&#x27;user&#x27;][&#x27;register_name&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_name#&#x27;, register_name)<br/>        if &quot;#unregister_name#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_name = Handler.generate_random_str(6)<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_name#&#x27;, unregister_name)<br/>        if &quot;#register_email#&quot; in info[&#x27;url&#x27;]:<br/>            register_email = Handler.user_config[&#x27;user&#x27;][&#x27;register_email&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_email#&#x27;, register_email)<br/>        if &quot;#unregister_email#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_email = Handler.generate_random_str(9)<br/>            unregister_email = unregister_email + &quot;@qq.com&quot;<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_email#&#x27;, unregister_email)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;])<br/>        res_body = json.dumps(res.text)<br/>        #assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/>        try:<br/>            assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/>        except AssertionError as e:<br/>            Handler.logger.error(&quot;用例失败：{}&quot;.format(e))<br/>&gt;           raise e<br/><br/>test\test_condition.py:33: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 3, &#x27;expected&#x27;: 1, &#x27;json&#x27;: None, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;, data)<br/>    def test_condition(info):<br/>        if &quot;#register_name#&quot; in info[&#x27;url&#x27;]:<br/>            register_name = Handler.user_config[&#x27;user&#x27;][&#x27;register_name&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_name#&#x27;, register_name)<br/>        if &quot;#unregister_name#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_name = Handler.generate_random_str(6)<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_name#&#x27;, unregister_name)<br/>        if &quot;#register_email#&quot; in info[&#x27;url&#x27;]:<br/>            register_email = Handler.user_config[&#x27;user&#x27;][&#x27;register_email&#x27;]<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#register_email#&#x27;, register_email)<br/>        if &quot;#unregister_email#&quot; in info[&#x27;url&#x27;]:<br/>            unregister_email = Handler.generate_random_str(9)<br/>            unregister_email = unregister_email + &quot;@qq.com&quot;<br/>            info[&#x27;url&#x27;] = info[&#x27;url&#x27;].replace(&#x27;#unregister_email#&#x27;, unregister_email)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;])<br/>        res_body = json.dumps(res.text)<br/>        #assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/>        try:<br/>&gt;           assert json.loads(res.text)[&#x27;count&#x27;] == info[&#x27;expected&#x27;]<br/><span class="error">E           assert 0 == 1</span><br/><br/>test\test_condition.py:30: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>test_condition.py           32 ERROR    用例失败：assert 0 == 1</div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">test/test_login.py::test_login[info4]</td>
+          <td class="col-duration">0.27</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 5, &#x27;expected&#x27;: 200, &#x27;json&#x27;: &#x27;{&quot;username&quot;:&quot;zengcong&quot;,&quot;password&quot;:&quot;123456&quot;}&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;, data)<br/>    def test_login(info):<br/>        if &quot;*username*&quot; in info[&#x27;json&#x27;]:<br/>            username = Handler.generate_random_str(6)<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;*username*&#x27;, username)<br/>        if &quot;#username#&quot; in info[&#x27;json&#x27;]:<br/>            username = Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;]<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#username#&#x27;, username)<br/>        if &quot;#pwd#&quot; in info[&#x27;json&#x27;]:<br/>            pwd = Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#pwd#&#x27;, pwd)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;],<br/>                               json=json.loads(info[&#x27;json&#x27;]))<br/>        #assert res.status_code == info[&#x27;expected&#x27;]<br/>    <br/>        try:<br/>            assert res.status_code == info[&#x27;expected&#x27;]<br/>        except AssertionError as e:<br/>            Handler.logger.error(&quot;用例失败：{}&quot;.format(e))<br/>&gt;           raise e<br/><br/>test\test_login.py:30: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 5, &#x27;expected&#x27;: 200, &#x27;json&#x27;: &#x27;{&quot;username&quot;:&quot;zengcong&quot;,&quot;password&quot;:&quot;123456&quot;}&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;, data)<br/>    def test_login(info):<br/>        if &quot;*username*&quot; in info[&#x27;json&#x27;]:<br/>            username = Handler.generate_random_str(6)<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;*username*&#x27;, username)<br/>        if &quot;#username#&quot; in info[&#x27;json&#x27;]:<br/>            username = Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;]<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#username#&#x27;, username)<br/>        if &quot;#pwd#&quot; in info[&#x27;json&#x27;]:<br/>            pwd = Handler.user_config[&#x27;user&#x27;][&#x27;password&#x27;]<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#pwd#&#x27;, pwd)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;],<br/>                               json=json.loads(info[&#x27;json&#x27;]))<br/>        #assert res.status_code == info[&#x27;expected&#x27;]<br/>    <br/>        try:<br/>&gt;           assert res.status_code == info[&#x27;expected&#x27;]<br/><span class="error">E           assert 400 == 200</span><br/><span class="error">E            +  where 400 = &lt;Response [400]&gt;.status_code</span><br/><br/>test\test_login.py:27: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>test_login.py               29 ERROR    用例失败：assert 400 == 200
+ +  where 400 = &lt;Response [400]&gt;.status_code</div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info2]</td>
+          <td class="col-duration">0.27</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 3, &#x27;expected&#x27;: 400, &#x27;json&#x27;: &#x27;{&quot;username&quot;:&quot;zengcong&quot;,&quot;email&quot;:&quot;CKzQAjvJF@qq.com&quot;,&quot;password&quot;:&quot;123456&quot;,&quot;password_confirm&quot;:&quot;123456&quot;}&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;,data)<br/>    def test_register_01(info):<br/>        if &quot;#new_username#&quot;  in info[&#x27;json&#x27;]:<br/>            username = Handler.generate_random_str(6)<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#new_username#&#x27;,username)<br/>        if &quot;#old_username#&quot;  in info[&#x27;json&#x27;]:<br/>            username = Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;]<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#old_username#&#x27;,username)<br/>        if &quot;#email#&quot; in info[&#x27;json&#x27;]:<br/>            email = Handler.generate_random_str(9)<br/>            email = email + &quot;@qq.com&quot;<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#email#&#x27;,email)<br/>        if &quot;*email*&quot; in info[&#x27;json&#x27;]:<br/>            email = Handler.user_config[&#x27;user&#x27;][&#x27;register_email&#x27;]<br/>            email = email + &quot;@qq.com&quot;<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;*email*&#x27;, email)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;],<br/>                               json=json.loads(info[&#x27;json&#x27;]))<br/>        #assert res.status_code ==info[&#x27;expected&#x27;]<br/>        try:<br/>            assert res.status_code == info[&#x27;expected&#x27;]<br/>        except AssertionError as e:<br/>            Handler.logger.error(&quot;用例失败：{}&quot;.format(e))<br/>&gt;           raise e<br/><br/>test\test_register.py:32: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>info = {&#x27;TestResult&#x27;: None, &#x27;case_id&#x27;: 3, &#x27;expected&#x27;: 400, &#x27;json&#x27;: &#x27;{&quot;username&quot;:&quot;zengcong&quot;,&quot;email&quot;:&quot;CKzQAjvJF@qq.com&quot;,&quot;password&quot;:&quot;123456&quot;,&quot;password_confirm&quot;:&quot;123456&quot;}&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&quot;info&quot;,data)<br/>    def test_register_01(info):<br/>        if &quot;#new_username#&quot;  in info[&#x27;json&#x27;]:<br/>            username = Handler.generate_random_str(6)<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#new_username#&#x27;,username)<br/>        if &quot;#old_username#&quot;  in info[&#x27;json&#x27;]:<br/>            username = Handler.user_config[&#x27;user&#x27;][&#x27;login_user&#x27;]<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#old_username#&#x27;,username)<br/>        if &quot;#email#&quot; in info[&#x27;json&#x27;]:<br/>            email = Handler.generate_random_str(9)<br/>            email = email + &quot;@qq.com&quot;<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;#email#&#x27;,email)<br/>        if &quot;*email*&quot; in info[&#x27;json&#x27;]:<br/>            email = Handler.user_config[&#x27;user&#x27;][&#x27;register_email&#x27;]<br/>            email = email + &quot;@qq.com&quot;<br/>            info[&#x27;json&#x27;] = info[&#x27;json&#x27;].replace(&#x27;*email*&#x27;, email)<br/>        res = requests.request(method=info[&#x27;method&#x27;],<br/>                               url=Handler.yaml_config[&#x27;host&#x27;] + info[&#x27;url&#x27;],<br/>                               json=json.loads(info[&#x27;json&#x27;]))<br/>        #assert res.status_code ==info[&#x27;expected&#x27;]<br/>        try:<br/>&gt;           assert res.status_code == info[&#x27;expected&#x27;]<br/><span class="error">E           assert 201 == 400</span><br/><span class="error">E            +  where 201 = &lt;Response [201]&gt;.status_code</span><br/><br/>test\test_register.py:29: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>test_register.py            31 ERROR    用例失败：assert 201 == 400
+ +  where 201 = &lt;Response [201]&gt;.status_code</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_condition.py::test_condition[info1]</td>
+          <td class="col-duration">0.14</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_condition.py::test_condition[info3]</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_login.py::test_login[info0]</td>
+          <td class="col-duration">0.12</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_login.py::test_login[info1]</td>
+          <td class="col-duration">0.26</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_login.py::test_login[info2]</td>
+          <td class="col-duration">0.13</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_login.py::test_login[info3]</td>
+          <td class="col-duration">0.26</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info0]</td>
+          <td class="col-duration">0.25</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info1]</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info3]</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info4]</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info5]</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info6]</td>
+          <td class="col-duration">0.14</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info7]</td>
+          <td class="col-duration">0.16</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info8]</td>
+          <td class="col-duration">0.17</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info9]</td>
+          <td class="col-duration">0.13</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info10]</td>
+          <td class="col-duration">0.26</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info11]</td>
+          <td class="col-duration">0.12</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info12]</td>
+          <td class="col-duration">0.13</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info13]</td>
+          <td class="col-duration">0.13</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test/test_register.py::test_register_01[info14]</td>
+          <td class="col-duration">0.15</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>

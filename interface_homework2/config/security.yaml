@@ -1,0 +1,16 @@
+db:
+  host: 'www.keyou.site'
+  port: 13306
+  user: 'lemon520'
+  password: '123456'
+  charset: 'utf8'
+  database: 'test'
+
+user:
+  login_user: 'zengcong'
+  password: '123456'
+  register_name: 'zengcong'
+  register_email: '237665158@qq.com'
+  project_name: 'zc first project'
+  interface_name: '曾聪的接口'
+  case_name: '第一个测试用例'
