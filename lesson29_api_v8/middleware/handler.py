@@ -1,5 +1,5 @@
 import os
-
+import re
 import faker
 from pymysql.cursors import DictCursor
 #from common import helper
@@ -10,11 +10,11 @@ from config.path import config_path
 from common.excel_handler import ExcelHandler
 from common.db_handler import DBHandler
 
-# yaml_path = os.path.join(config_path, 'config.yaml')
-# yaml_config = read_yaml(yaml_path)
-# print(yaml_config)
-# user_path = os.path.join(config_path, 'security.yaml')
-# user_config = read_yaml(user_path)
+yaml_path = os.path.join(config_path, 'config.yaml')
+yaml_config = read_yaml(yaml_path)
+print(yaml_config)
+user_path = os.path.join(config_path, 'security.yaml')
+user_config = read_yaml(user_path)
 
 # class MidDBHanlder(DBHandler):
 #     def __init__(self, host=user_config['db']['host'],
@@ -34,11 +34,11 @@ from common.db_handler import DBHandler
 #                        cursorclass=cursorclass)
 
 class MidDBHanlder(DBHandler):
-    yaml_path = os.path.join(config_path, 'config.yaml')
-    yaml_config = read_yaml(yaml_path)
-    print(yaml_config)
-    user_path = os.path.join(config_path, 'security.yaml')
-    user_config = read_yaml(user_path)
+    # yaml_path = os.path.join(config_path, 'config.yaml')
+    # yaml_config = read_yaml(yaml_path)
+    # print(yaml_config)
+    # user_path = os.path.join(config_path, 'security.yaml')
+    # user_config = read_yaml(user_path)
     def __init__(self):
         super().__init__(host=user_config['db']['host'],
                        port=user_config['db']['port'],
@@ -75,6 +75,36 @@ class Handler():
     excel_file = os.path.join(path.data_path, 'demo.xlsx')
     excel = ExcelHandler(excel_file)
 
+    # 数据 需要动态替换 #。。。#的数据
+    investor_phone = user_config['investor_user']['phone']
+    investor_pwd = user_config['investor_user']['pwd']
+    loan_phone = user_config['loan_user']['phone']
+    loan_pwd = user_config['loan_user']['pwd']
+    admin_phone = user_config['admin_user']['phone']
+    admin_pwd = user_config['admin_user']['pwd']
+
+
+
+    # def replace_data(self,string):
+    #     import re
+    #     res = re.finditer(r'#(.*?)#',string)
+    #     for i in res:
+    #         string = string.replace(i.group(),str(getattr(self,i.group(1))))
+    #     return string
+    @classmethod
+    def replace_data(cls,string,pattern = '#(.*?)#'):
+        """数据动态替换"""
+        results = re.finditer(pattern=pattern, string=string)
+        for result in results:
+            print(result)
+            # old='#investor_phone#'
+            old_data = result.group()
+            # key = 'investor_phone'
+            key = result.group(1)
+            new_data = str(getattr(cls, key, ''))
+            string = string.replace(old_data, new_data)
+        return string
+
     # 新手机号码
     new_phone = ''
     @classmethod
@@ -106,6 +136,6 @@ class Handler():
     db = MidDBHanlder()
     db_class = MidDBHanlder
 if __name__ == '__main__':
-    Handler.logger.warning("可以正常使用吗？？")
-    h = Handler()
-    h.logger.warning("还可以吗")
+    string = '{"mobile_phone":"#investor_phone#","pwd":"#investor_pwd#","mobile_phone":"#loan_phone#","pwd":"#loan_pwd#","mobile_phone":"#admin_phone#","pwd":"#admin_pwd#"}'
+    a = Handler.replace_data(string)
+    print(a)

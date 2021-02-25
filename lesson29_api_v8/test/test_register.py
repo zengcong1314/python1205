@@ -50,7 +50,6 @@ def test_register_01(test_info):
         Handler.logger.error("用例失败：{}".format(e))
         raise e
     finally:
-        # excel = ExcelHandler(excel_file)
         excel = Handler.excel
         excel.write('register',
                     str(res_body),
@@ -61,15 +60,6 @@ def test_register_01(test_info):
         else:
             excel.write('register', 'False', row=int(test_info['case_id']) + 1, column=8)
 
-# 数据驱动
-# Excel存储用例
-# 封装 logger
-# 配置文件的编写
-# 报告
-# 程序入口
-# 夹具
-# 结果发送钉钉
-# 手机号码动态变化
 
 
 
