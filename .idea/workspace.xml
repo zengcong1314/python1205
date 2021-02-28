@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="" />
+    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/d1_mockserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/d3_接口加密测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/data.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/demo.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/demo.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/demo.log.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/demo.log.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/test_demo_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/知识扩展.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/题目.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_接口总结/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_接口总结/总结.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,8 +87,8 @@
       <recent name="D:\zengcong\py37\lesson03_data_type_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run (1)">
-    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.d3_接口加密测试">
+    <configuration name="装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_homework2/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson32_接口总结/装饰器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,76 +109,86 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_projects.test_add_projects" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="题目" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson32_接口总结/题目.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="d3_接口加密测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\zengcong\py37\lesson32_接口总结\d3_接口加密测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for d3_接口加密测试.test_recharge" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework2/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_projects.test_add_projects&quot;" />
+      <option name="_new_target" value="&quot;d3_接口加密测试.test_recharge&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_cases.test_add_cases" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in d3_接口加密测试.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework2/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cases.test_add_cases&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_interfaces.test_interfaces" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework2/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_interfaces.test_interfaces&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_register.test_register_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_homework2/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.test_register_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson32_接口总结/d3_接口加密测试.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run (1)" />
-        <item itemvalue="Python tests.pytest for test_register.test_register_01" />
-        <item itemvalue="Python tests.pytest for test_cases.test_add_cases" />
-        <item itemvalue="Python tests.pytest for test_add_projects.test_add_projects" />
+        <item itemvalue="Python.装饰器" />
+        <item itemvalue="Python tests.pytest for d3_接口加密测试.test_recharge" />
+        <item itemvalue="Python tests.pytest in d3_接口加密测试.py" />
+        <item itemvalue="Python.d3_接口加密测试" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614097238319</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="【0222接口总结】">
+      <created>1614393864235</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614393864235</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -397,19 +430,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="【0222接口总结】" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613824843380">
+    <state x="548" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614396617843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="548" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614396617843" />
+    <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614422041646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="359" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.728@0.0.1024.728" timestamp="1612097730926" />
-    <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613824843380" />
+    <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614422041646" />
     <state x="278" y="443" width="1363" height="597" key="#xdebugger.evaluate" timestamp="1613628865078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="443" width="1363" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613628865078" />
-    <state x="1015" y="118" key="CommitChangelistDialog2" timestamp="1614097233780">
+    <state x="1015" y="118" key="CommitChangelistDialog2" timestamp="1614393862619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1015" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614097233780" />
+    <state x="1015" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614393862619" />
     <state width="504" height="466" key="DebuggerActiveHint" timestamp="1613543908448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,38 +455,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="895" y="335" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611323655659" />
-    <state width="1899" height="413" key="GridCell.Tab.0.bottom" timestamp="1613629988304">
+    <state width="1902" height="294" key="GridCell.Tab.0.bottom" timestamp="1614437503474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613629988304" />
-    <state width="1899" height="413" key="GridCell.Tab.0.center" timestamp="1613629988304">
+    <state width="1902" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614437503474" />
+    <state width="1902" height="294" key="GridCell.Tab.0.center" timestamp="1614437503474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="413" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613629988304" />
-    <state width="1899" height="413" key="GridCell.Tab.0.left" timestamp="1613629988304">
+    <state width="1902" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614437503474" />
+    <state width="1902" height="294" key="GridCell.Tab.0.left" timestamp="1614437503474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="413" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613629988304" />
-    <state width="1899" height="413" key="GridCell.Tab.0.right" timestamp="1613629988304">
+    <state width="1902" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614437503474" />
+    <state width="1902" height="294" key="GridCell.Tab.0.right" timestamp="1614437503474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="998" height="201" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1611492563339" />
-    <state width="1899" height="413" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613629988304" />
-    <state x="750" y="340" key="MultipleFileMergeDialog" timestamp="1613117609321">
+    <state width="1902" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614437503474" />
+    <state x="750" y="340" key="MultipleFileMergeDialog" timestamp="1614393884655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="340" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613117609321" />
-    <state x="535" y="248" key="SettingsEditor" timestamp="1612099774157">
+    <state x="750" y="340" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614393884655" />
+    <state x="833" y="254" key="SettingsEditor" timestamp="1614420834654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="535" y="248" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612099774157" />
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1614097239926">
+    <state x="833" y="254" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614420834654" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1614393865933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614097239926" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614393865933" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1613554415505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -476,6 +513,11 @@
           <url>file://$PROJECT_DIR$/interface_homework2/test/test_register.py</url>
           <line>24</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson32_接口总结/装饰器.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
