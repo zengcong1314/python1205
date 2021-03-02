@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/d1_rorating_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/d2_time_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson32_接口总结/test_demo_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_接口总结/d2_time_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_接口总结/d2_time_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_接口总结/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_接口总结/总结.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +32,7 @@
     <SUITE FILE_PATH="coverage/python36$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1606980672958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_item_test_add_loan.coverage" NAME="pytest for test_add_item.test_add_loan Coverage Results" MODIFIED="1612751853898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson28_api_v7/test" />
     <SUITE FILE_PATH="coverage/python36$demo02_json.coverage" NAME="demo02_json序列化与反序列化 Coverage Results" MODIFIED="1612145068958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/上课代码" />
+    <SUITE FILE_PATH="coverage/python36$pytest_for_test_demo_01_test_real_world.coverage" NAME="pytest for test_demo_01.test_real_world Coverage Results" MODIFIED="1614397826546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_register_py.coverage" NAME="pytest in test_register.py Coverage Results" MODIFIED="1612404788111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_recharge_token2_test_recharge__1_.coverage" NAME="pytest for test_recharge_token2.test_recharge (1) Coverage Results" MODIFIED="1612250468210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$handler.coverage" NAME="handler Coverage Results" MODIFIED="1612405267479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/middleware" />
@@ -48,11 +47,12 @@
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_audit_test_audit.coverage" NAME="pytest for test_audit.test_audit Coverage Results" MODIFIED="1612754891598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson28_api_v7/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_withdraw_test_withdraw.coverage" NAME="pytest for test_withdraw.test_withdraw Coverage Results" MODIFIED="1612161935211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
     <SUITE FILE_PATH="coverage/python36$01.coverage" NAME="01 Coverage Results" MODIFIED="1607094061630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/python36$pytest_in_test_demo_01_py.coverage" NAME="pytest in test_demo_01.py Coverage Results" MODIFIED="1614397982779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
     <SUITE FILE_PATH="coverage/python36$tuple1204.coverage" NAME="tuple1204 Coverage Results" MODIFIED="1607092534441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/python36$demo03_.coverage" NAME="demo03_如何知道我的数据类型是字符串 Coverage Results" MODIFIED="1606986272751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_item_test_add.coverage" NAME="pytest for test_add_item.test_add Coverage Results" MODIFIED="1612678691562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1612318198062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/common" />
-    <SUITE FILE_PATH="coverage/python36$d2_time_log.coverage" NAME="d2_time_log Coverage Results" MODIFIED="1614246834888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
+    <SUITE FILE_PATH="coverage/python36$d2_time_log.coverage" NAME="d2_time_log Coverage Results" MODIFIED="1614246999552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
     <SUITE FILE_PATH="coverage/python36$yaml_handler.coverage" NAME="yaml_handler Coverage Results" MODIFIED="1612332313754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/common" />
   </component>
   <component name="FileEditorManager">
@@ -62,9 +62,21 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="140">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson32_接口总结/test_demo_01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/lesson30_api_v9/common/logger_hander.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -100,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson32_接口总结/d2_time_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#12#26#0" expanded="true" />
               </folding>
@@ -117,15 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
               <caret line="197" column="8" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="33" column="95" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -219,9 +222,10 @@
         <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_login.py" />
         <option value="$PROJECT_DIR$/lesson28_api_v7/test/test_recharge_mysql.py" />
         <option value="$PROJECT_DIR$/lesson31_jenkins/logger_handler.py" />
-        <option value="$PROJECT_DIR$/lesson32_接口总结/总结.md" />
         <option value="$PROJECT_DIR$/lesson32_接口总结/logger_handler.py" />
         <option value="$PROJECT_DIR$/lesson32_接口总结/d2_time_log.py" />
+        <option value="$PROJECT_DIR$/lesson32_接口总结/总结.md" />
+        <option value="$PROJECT_DIR$/lesson32_接口总结/test_demo_01.py" />
       </list>
     </option>
   </component>
@@ -232,10 +236,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
-    <option name="y" value="65" />
+    <option name="x" value="173" />
+    <option name="y" value="10" />
     <option name="width" value="1474" />
-    <option name="height" value="1100" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectId" id="1lEq14h1Td0rrySXpwVnRmSs2Sd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -304,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.d2_time_log">
+  <component name="RunManager" selected="Python tests.pytest in test_demo_01.py">
     <configuration name="d2_time_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,38 +353,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_item.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson27_api_v6/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_item.test_add&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_add_item.test_add_loan" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson28_api_v7/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_item.test_add_loan&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_audit.test_audit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -397,13 +369,45 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_demo_01.test_real_world" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_demo_01.test_real_world&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_demo_01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson32_接口总结/test_demo_01.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_demo_01.py" />
+        <item itemvalue="Python tests.pytest for test_demo_01.test_real_world" />
         <item itemvalue="Python.d2_time_log" />
         <item itemvalue="Python.logger_handler" />
         <item itemvalue="Python tests.pytest for test_audit.test_audit" />
-        <item itemvalue="Python tests.pytest for test_add_item.test_add_loan" />
-        <item itemvalue="Python tests.pytest for test_add_item.test_add" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +431,7 @@
       <workItem from="1612143987681" duration="11916000" />
       <workItem from="1612161901149" duration="2065000" />
       <workItem from="1612245275978" duration="33937000" />
-      <workItem from="1614239468516" duration="5888000" />
+      <workItem from="1614239468516" duration="8659000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -527,54 +531,60 @@
       <option name="project" value="LOCAL" />
       <updated>1614239605084</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="0224接口总结">
+      <created>1614246892692</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614246892692</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 10h 40m 01s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_for_test_demo_01_test_real_world - 2021.02.27 at 11h 44m 53s.xml">
+      <configuration name="pytest for test_demo_01.test_real_world" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 10h 40m 58s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 45m 23s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 10h 41m 00s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 46m 10s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 10h 43m 41s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 47m 43s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 10h 44m 07s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 49m 56s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 10h 45m 11s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 50m 08s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 11h 13m 30s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 50m 19s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 11h 15m 32s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_for_test_demo_01_test_real_world - 2021.02.27 at 11h 50m 28s.xml">
+      <configuration name="pytest for test_demo_01.test_real_world" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 11h 28m 11s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 52m 26s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_audit_test_audit - 2021.02.08 at 11h 28m 14s.xml">
-      <configuration name="pytest for test_audit.test_audit" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_01_py - 2021.02.27 at 11h 53m 04s.xml">
+      <configuration name="pytest in test_demo_01.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105491000" />
+    <option name="totallyTimeSpent" value="108262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="483" y="640" width="1474" height="1100" extended-state="0" />
-    <editor active="true" />
+    <frame x="173" y="10" width="1474" height="1099" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.208628" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.208628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.373706" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46839377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31895426" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -668,7 +678,8 @@
     <MESSAGE value="0201添加项目接口" />
     <MESSAGE value="1228类与对象" />
     <MESSAGE value="0203审核接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="0203审核接口" />
+    <MESSAGE value="0224接口总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="0224接口总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
@@ -774,11 +785,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson20_开始项目实施/上课代码/d03_requests_通用请求.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson27_api_v6/common/request_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1119,16 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson32_接口总结/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson32_接口总结/demo.log.1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1155,16 +1151,36 @@
     <entry file="file://$PROJECT_DIR$/lesson30_api_v9/common/logger_hander.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson32_接口总结/d2_time_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#12#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson32_接口总结/总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson32_接口总结/test_demo_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
