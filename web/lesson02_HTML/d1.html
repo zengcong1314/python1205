@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        h4{
+            color:red;
+        }
+        h4::before{
+            content:"Hello"
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h4>静夜思 <span>李白</span></h4>
+        <!-- 段落 -->
+        <p>床前明月光</p>
+        <p>举头望明月</p>
+    </div>
+    <h4>你真是神</h4>
+    <a href="http://www.baidu.com">点击我，跳转到百度
+        <img src="C:\Users\Administrator\Desktop\图片\8649940_220505558734_2.jpg">
+    </a>
+    <div>
+        <iframe src="http://www.baidu.com" width="800" height="800"></iframe>
+    </div>
+    <p>狼的不行的大佬</p>
+    <ul>
+        <li>子非鱼</li>
+        <li>浩仔</li>
+        <li>哈哈</li>
+        <li>阿鸡</li>
+    </ul>
+    <!-- 用户输入 -->
+    <!--action是后端服务器的地址 -->
+    <form action="http://httpbin.org/post" method="post">
+        用户名：<input name="username" type="text" placeholder="请输入用户名" readonly>
+        密码：<input name="" type="password" placeholder="密码">
+        <div>
+            你最喜欢的歌手：
+            <input type="radio" name="favor_singer" value="zhoujielun">周杰伦
+            <input type="radio" name="favor_singer" value="linjunjie">林俊杰
+            <input type="radio" name="favor_singer" value="liangjingru">梁静茹
+
+        </div>
+
+        <div>
+            <input type="checkbox" name="favor_double" value="balei">芭蕾
+            <input type="checkbox" name="favor_double" value="yujia">瑜伽
+            <input type="checkbox" name="favor_double" value="zhongguowu">中国舞
+        </div>
+
+        <div>
+            选择头像：<input name="avatar" type="file">
+        </div>
+
+        选择你的爱好：
+        <select>
+            <option>钓鱼</option>
+            <option>打游戏</option>
+            <option>搞钱</option>
+        </select>
+        <input type="submit">
+    </form>
+
+
+
+</body>
+</html>
