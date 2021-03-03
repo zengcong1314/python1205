@@ -1,3 +1,5 @@
+import copy
+from time import sleep
 
 from selenium import webdriver
 def test_start_selenium():
@@ -11,15 +13,15 @@ def test_start_selenium():
     driver.implicitly_wait(3)
     # 输入内容
     input_el.send_keys("你好，李焕英")
-    #提交
     input_el.submit()
-    driver.implicitly_wait(3)
+    #提交
+    #driver.find_element_by_xpath('//*[@id="su"]').click()
+    sleep(5)
     actual = driver.title
-    print(driver.title)
+    print("-----")
+    print('driver.title',driver.title)
+    print('actual:',actual)
     driver.quit()
-
-
-
     # 断言
     assert actual == '你好,李焕英_百度搜索'
 
