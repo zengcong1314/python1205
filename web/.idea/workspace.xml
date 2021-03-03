@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8974ed7-f865-4179-94e6-f989eb5a2327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../interface_homework/data/.idea/data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interface_homework/data/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interface_homework/data/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson01/0226总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson01/d1_selenium_基础操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson01/test_start_selenium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson02_HTML/homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson02_HTML/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson02_HTML/0301总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02_HTML/0301总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson02_HTML/d1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02_HTML/d1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
