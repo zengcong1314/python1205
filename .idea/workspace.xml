@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/lesson02_HTML/0301总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson02_HTML/d1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson02_HTML/d1_find_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson02_HTML/d2_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson01/0226总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson01/0226总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson01/test_start_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson01/test_start_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson02/sel_lesson1.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson02_HTML/sel_lesson1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson02/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson02_HTML/总结.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/d1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="280">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -202,10 +192,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="984" />
-    <option name="width" value="943" />
-    <option name="height" value="1087" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="303" />
+    <option name="y" value="44" />
+    <option name="width" value="934" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectId" id="1lEq14h1Td0rrySXpwVnRmSs2Sd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -404,7 +395,7 @@
       <workItem from="1612143987681" duration="11916000" />
       <workItem from="1612161901149" duration="2065000" />
       <workItem from="1612245275978" duration="33937000" />
-      <workItem from="1614239468516" duration="30568000" />
+      <workItem from="1614239468516" duration="31257000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -518,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614668670333</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="0301HTML">
+      <created>1614765434307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614765434308</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -554,18 +552,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130171000" />
+    <option name="totallyTimeSpent" value="130860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="984" y="0" width="943" height="1087" extended-state="0" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25594565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15545756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35257083" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34927234" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5322793" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -660,7 +657,8 @@
     <MESSAGE value="1228类与对象" />
     <MESSAGE value="0203审核接口" />
     <MESSAGE value="0224接口总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="0224接口总结" />
+    <MESSAGE value="0301HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="0301HTML" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
@@ -1170,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/d1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="280">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
