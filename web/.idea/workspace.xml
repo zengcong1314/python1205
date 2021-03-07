@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8974ed7-f865-4179-94e6-f989eb5a2327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson02_HTML/homework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson02_HTML/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/python36.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson03_xpath/d1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson03_xpath/总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/d1_等待.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/d2_窗口切换.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/d3_iframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson02_HTML/0301总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02_HTML/0301总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson02_HTML/d1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02_HTML/d1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/0226总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/0226总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/d1_selenium_基础操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/d1_selenium_基础操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/test_start_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/test_start_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/web_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/web_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson01/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson02_HTML/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02_HTML/homework.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +60,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_start_selenium.test_start_selenium">
-    <configuration name="d1_selenium_基础操作 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.d3_iframe">
+    <configuration name="d1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson01/d1_selenium_基础操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson03/d1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="d1_selenium_基础操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="d1_等待" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson04_页面交互操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\zengcong\py37\web\lesson01\d1_selenium_基础操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson04_页面交互操作/d1_等待.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sel_lesson1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d2_窗口切换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,12 +111,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson04_页面交互操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson02/sel_lesson1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson04_页面交互操作/d2_窗口切换.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="d3_iframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson04_页面交互操作" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson04_页面交互操作/d3_iframe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +150,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson01_什么是selenium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -133,29 +161,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_start_selenium.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson01/test_start_selenium.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d3_iframe" />
+        <item itemvalue="Python.d2_窗口切换" />
+        <item itemvalue="Python.d1_等待" />
+        <item itemvalue="Python.d1" />
         <item itemvalue="Python tests.pytest for test_start_selenium.test_start_selenium" />
-        <item itemvalue="Python tests.pytest in test_start_selenium.py" />
-        <item itemvalue="Python.d1_selenium_基础操作 (1)" />
-        <item itemvalue="Python.d1_selenium_基础操作" />
-        <item itemvalue="Python.sel_lesson1" />
       </list>
     </recent_temporary>
   </component>
@@ -185,22 +197,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1356" height="212" key="GridCell.Tab.0.bottom" timestamp="1614514888747">
+    <state width="998" height="267" key="GridCell.Tab.0.bottom" timestamp="1615133488734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1356" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614514888747" />
-    <state width="1356" height="212" key="GridCell.Tab.0.center" timestamp="1614514888747">
+    <state width="998" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
+    <state width="998" height="267" key="GridCell.Tab.0.center" timestamp="1615133488734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1356" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614514888747" />
-    <state width="1356" height="212" key="GridCell.Tab.0.left" timestamp="1614514888747">
+    <state width="998" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
+    <state width="998" height="267" key="GridCell.Tab.0.left" timestamp="1615133488734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1356" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614514888747" />
-    <state width="1356" height="212" key="GridCell.Tab.0.right" timestamp="1614514888747">
+    <state width="998" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
+    <state width="998" height="267" key="GridCell.Tab.0.right" timestamp="1615133488734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1356" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614514888747" />
+    <state width="998" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
     <state x="776" y="186" key="SettingsEditor" timestamp="1614481781095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
