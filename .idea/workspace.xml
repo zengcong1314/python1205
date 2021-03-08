@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/alert_demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/d4_alert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/d5_鼠标操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/d6_baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/homework2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson04_页面交互操作/d3_iframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/d3_iframe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson04_页面交互操作/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson04_页面交互操作/总结.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +32,8 @@
     <SUITE FILE_PATH="coverage/python36$demo06_.coverage" NAME="demo06_字符串操作 Coverage Results" MODIFIED="1607001253684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_add_item_py.coverage" NAME="pytest in test_add_item.py Coverage Results" MODIFIED="1612518371506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_login_test_login.coverage" NAME="pytest for test_login.test_login Coverage Results" MODIFIED="1612404939017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
+    <SUITE FILE_PATH="coverage/python36$homework.coverage" NAME="homework Coverage Results" MODIFIED="1615187489778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson04_页面交互操作" />
+    <SUITE FILE_PATH="coverage/python36$d5_.coverage" NAME="d5_鼠标操作 Coverage Results" MODIFIED="1615171716182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson04_页面交互操作" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_recharge_token2_py.coverage" NAME="pytest in test_recharge_token2.py Coverage Results" MODIFIED="1612148785648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
     <SUITE FILE_PATH="coverage/python36$demo02_.coverage" NAME="demo02_字符串 Coverage Results" MODIFIED="1606985103685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1606980672958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01" />
@@ -34,6 +42,7 @@
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_demo_01_test_real_world.coverage" NAME="pytest for test_demo_01.test_real_world Coverage Results" MODIFIED="1614397826546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_register_py.coverage" NAME="pytest in test_register.py Coverage Results" MODIFIED="1612404788111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_start_selenium_test_start_selenium.coverage" NAME="pytest for test_start_selenium.test_start_selenium Coverage Results" MODIFIED="1614671318344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson01" />
+    <SUITE FILE_PATH="coverage/python36$d6_baidu.coverage" NAME="d6_baidu Coverage Results" MODIFIED="1615172590587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson04_页面交互操作" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_recharge_token2_test_recharge__1_.coverage" NAME="pytest for test_recharge_token2.test_recharge (1) Coverage Results" MODIFIED="1612250468210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$handler.coverage" NAME="handler Coverage Results" MODIFIED="1612405267479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/middleware" />
     <SUITE FILE_PATH="coverage/python36$path.coverage" NAME="path Coverage Results" MODIFIED="1612332245448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/config" />
@@ -46,8 +55,10 @@
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_withdraw_py.coverage" NAME="pytest in test_withdraw.py Coverage Results" MODIFIED="1612161649519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
     <SUITE FILE_PATH="coverage/python36$logger_handler.coverage" NAME="logger_handler Coverage Results" MODIFIED="1614246093932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_audit_test_audit.coverage" NAME="pytest for test_audit.test_audit Coverage Results" MODIFIED="1612754891598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson28_api_v7/test" />
+    <SUITE FILE_PATH="coverage/python36$homework2.coverage" NAME="homework2 Coverage Results" MODIFIED="1615188745634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson04_页面交互操作" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_withdraw_test_withdraw.coverage" NAME="pytest for test_withdraw.test_withdraw Coverage Results" MODIFIED="1612161935211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
     <SUITE FILE_PATH="coverage/python36$01.coverage" NAME="01 Coverage Results" MODIFIED="1607094061630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/python36$d4_alert.coverage" NAME="d4_alert Coverage Results" MODIFIED="1615169214171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson04_页面交互操作" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_demo_01_py.coverage" NAME="pytest in test_demo_01.py Coverage Results" MODIFIED="1614397982779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
     <SUITE FILE_PATH="coverage/python36$d1_selenium_.coverage" NAME="d1_selenium_基础操作 Coverage Results" MODIFIED="1614668724170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson01" />
     <SUITE FILE_PATH="coverage/python36$tuple1204.coverage" NAME="tuple1204 Coverage Results" MODIFIED="1607092534441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
@@ -61,21 +72,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/总结.md">
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/总结.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/0301总结.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="832">
-                <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <first_editor relative-caret-position="255">
+                <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -83,45 +84,103 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/d1.html">
+        <entry file="file://$PROJECT_DIR$/web/lesson03_xpath/总结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-720" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="53">
+              <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="56" />
+              <folding>
+                <element signature="e#2#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/homework.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/d2_html.py">
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/homework2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="76" />
+            <state relative-caret-position="494">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding>
+                <element signature="e#99#110#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/d1_find_element.py">
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d1_等待.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="360">
+              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/lesson01/0226总结.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="140">
-                <caret line="16" selection-start-line="16" selection-end-line="16" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d2_窗口切换.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d3_iframe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d4_alert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="125" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d5_鼠标操作.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/lesson03_xpath/d1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +190,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -142,11 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson26_api_v5/上课代码/demo02_序列化与反序列换.py" />
-        <option value="$PROJECT_DIR$/lesson26_api_v5/上课代码/demo02_json序列化与反序列化.py" />
-        <option value="$PROJECT_DIR$/lesson26_api_v5/test/test_recharge.py" />
-        <option value="$PROJECT_DIR$/lesson26_api_v5/上课代码/总结.md" />
-        <option value="$PROJECT_DIR$/lesson26_api_v5/test/test_recharge_token2.py" />
         <option value="$PROJECT_DIR$/lesson26_api_v5/test/test_invest.py" />
         <option value="$PROJECT_DIR$/lesson26_api_v5/test/test_withdraw.py" />
         <option value="$PROJECT_DIR$/web/lesson02/总结.md" />
@@ -190,6 +244,14 @@
         <option value="$PROJECT_DIR$/web/lesson02_HTML/d2_html.py" />
         <option value="$PROJECT_DIR$/web/lesson02_HTML/0301总结.md" />
         <option value="$PROJECT_DIR$/web/lesson02_HTML/d1.html" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/d3_iframe.py" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/alert_demo.html" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/d4_alert.py" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/d5_鼠标操作.py" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/d6_baidu.py" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/总结.md" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/homework.py" />
+        <option value="$PROJECT_DIR$/web/lesson04_页面交互操作/homework2.py" />
       </list>
     </option>
   </component>
@@ -199,10 +261,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="303" />
-    <option name="y" value="44" />
-    <option name="width" value="934" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="834" />
+    <option name="y" value="34" />
+    <option name="width" value="1490" />
     <option name="height" value="982" />
   </component>
   <component name="ProjectId" id="1lEq14h1Td0rrySXpwVnRmSs2Sd" />
@@ -232,6 +294,18 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="lesson02_HTML" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson03_xpath" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson04_页面交互操作" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -256,11 +330,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\python36\web\lesson04_页面交互操作" />
       <recent name="D:\Project\python36" />
       <recent name="D:\Project\python36\lesson27_api_v6\common" />
       <recent name="D:\Project\python36\lesson26_api_v5\common" />
       <recent name="D:\Project\python36\lesson27_api_v6\test" />
-      <recent name="D:\Project\python36\lesson26_api_v5\上课代码" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\python36\lesson32_接口总结" />
@@ -279,8 +353,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.d1_find_element">
-    <configuration name="d1_find_element" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.homework2">
+    <configuration name="d4_alert" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,12 +362,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson02_HTML" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson04_页面交互操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson02_HTML/d1_find_element.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson04_页面交互操作/d4_alert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +376,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="d1_selenium_基础操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="d5_鼠标操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,12 +384,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson04_页面交互操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson01/d1_selenium_基础操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson04_页面交互操作/d5_鼠标操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,61 +398,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_start_selenium.test_start_selenium" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="d6_baidu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson04_页面交互操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_start_selenium.test_start_selenium&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson04_页面交互操作/d6_baidu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_demo_01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson32_接口总结" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson04_页面交互操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lesson32_接口总结/test_demo_01.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson04_页面交互操作/homework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_start_selenium.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="homework2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson04_页面交互操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/web/lesson01/test_start_selenium.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson04_页面交互操作/homework2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.d1_find_element" />
-        <item itemvalue="Python tests.pytest for test_start_selenium.test_start_selenium" />
-        <item itemvalue="Python tests.pytest in test_start_selenium.py" />
-        <item itemvalue="Python.d1_selenium_基础操作" />
-        <item itemvalue="Python tests.pytest in test_demo_01.py" />
+        <item itemvalue="Python.homework2" />
+        <item itemvalue="Python.homework" />
+        <item itemvalue="Python.d6_baidu" />
+        <item itemvalue="Python.d5_鼠标操作" />
+        <item itemvalue="Python.d4_alert" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +494,7 @@
       <workItem from="1612143987681" duration="11916000" />
       <workItem from="1612161901149" duration="2065000" />
       <workItem from="1612245275978" duration="33937000" />
-      <workItem from="1614239468516" duration="31960000" />
+      <workItem from="1614239468516" duration="40905000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -530,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614823319996</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="0301HTML">
+      <created>1615168376273</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615168376273</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -566,23 +665,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131563000" />
+    <option name="totallyTimeSpent" value="140508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="834" y="34" width="1490" height="982" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15545756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15874127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34927234" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5322793" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22759435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5318396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.37941787" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.43042454" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.37892094" />
@@ -778,108 +878,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/common/helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#11#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_recharge_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1535">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson26_api_v5/common/db_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson22_api_v4/common/db_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/common/db_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_withdraw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson27_api_v6/test/test_add_item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1131,14 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/lesson01/0226总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1182,6 +1172,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/homework.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/alert_demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d6_baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson02_HTML/总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson03_xpath/d1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson03_xpath/总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-720" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d2_窗口切换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d4_alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="125" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d1_等待.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d5_鼠标操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <element signature="e#2#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/d3_iframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson04_页面交互操作/homework2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#99#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
