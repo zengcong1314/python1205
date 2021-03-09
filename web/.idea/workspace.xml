@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8974ed7-f865-4179-94e6-f989eb5a2327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson03_xpath/d1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson03_xpath/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/d1_等待.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/d2_窗口切换.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/d3_iframe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04_页面交互操作/总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/0226总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/0226总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/d1_selenium_基础操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/d1_selenium_基础操作.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/test_start_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/test_start_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/web_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/web_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson01/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson01_什么是selenium/总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson02_HTML/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02_HTML/homework.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +173,14 @@
       <workItem from="1611901188279" duration="3087000" />
       <workItem from="1612169212159" duration="2224000" />
     </task>
+    <task id="LOCAL-00001" summary="【0306页面交互操作】">
+      <created>1615133725296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615133725296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -196,27 +189,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="【0306页面交互操作】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【0306页面交互操作】" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="998" height="267" key="GridCell.Tab.0.bottom" timestamp="1615133488734">
+    <state x="919" y="129" key="CommitChangelistDialog2" timestamp="1615133722355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
-    <state width="998" height="267" key="GridCell.Tab.0.center" timestamp="1615133488734">
+    <state x="919" y="129" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615133722355" />
+    <state width="1169" height="267" key="GridCell.Tab.0.bottom" timestamp="1615133853946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
-    <state width="998" height="267" key="GridCell.Tab.0.left" timestamp="1615133488734">
+    <state width="1169" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615133853946" />
+    <state width="1169" height="267" key="GridCell.Tab.0.center" timestamp="1615133853946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
-    <state width="998" height="267" key="GridCell.Tab.0.right" timestamp="1615133488734">
+    <state width="1169" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615133853946" />
+    <state width="1169" height="267" key="GridCell.Tab.0.left" timestamp="1615133853946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615133488734" />
+    <state width="1169" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615133853946" />
+    <state width="1169" height="267" key="GridCell.Tab.0.right" timestamp="1615133853946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1169" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615133853946" />
     <state x="776" y="186" key="SettingsEditor" timestamp="1614481781095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="186" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614481781095" />
+    <state x="913" y="295" key="Vcs.Push.Dialog.v2" timestamp="1615133727314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="913" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615133727314" />
     <state x="1182" y="300" width="672" height="678" key="search.everywhere.popup" timestamp="1614510108184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
