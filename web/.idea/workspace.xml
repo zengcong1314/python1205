@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8974ed7-f865-4179-94e6-f989eb5a2327" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05_UI操作/d1_窗口等待.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05_UI操作/总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04_页面交互操作/d1_等待.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04_页面交互操作/d1_等待.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615133725296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="【0306页面交互操作】">
+      <created>1615300877969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615300877969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -194,10 +204,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="【0306页面交互操作】" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="919" y="129" key="CommitChangelistDialog2" timestamp="1615133722355">
+    <state x="919" y="129" key="CommitChangelistDialog2" timestamp="1615300876036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="919" y="129" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615133722355" />
+    <state x="919" y="129" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615300876036" />
     <state width="1169" height="267" key="GridCell.Tab.0.bottom" timestamp="1615133853946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -214,14 +224,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1169" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615133853946" />
+    <state x="0" y="59" key="MergeDialog" timestamp="1615300928655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="59" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615300928655" />
     <state x="776" y="186" key="SettingsEditor" timestamp="1614481781095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="186" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614481781095" />
-    <state x="913" y="295" key="Vcs.Push.Dialog.v2" timestamp="1615133727314">
+    <state x="913" y="295" key="Vcs.Push.Dialog.v2" timestamp="1615300898704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615133727314" />
+    <state x="913" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615300898704" />
     <state x="1182" y="300" width="672" height="678" key="search.everywhere.popup" timestamp="1614510108184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
