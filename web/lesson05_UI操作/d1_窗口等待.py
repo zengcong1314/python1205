@@ -34,6 +34,9 @@ print(driver.current_window_handle)
 # 显性的等待，等待新窗口出现
 wait = WebDriverWait(driver,2)
 wait.until(expected_conditions.new_window_is_opened(all_handles))
+# 手工切
+driver.switch_to.window(driver.window_handles[-1])
 print(driver.title)
 driver.quit()
+
 
