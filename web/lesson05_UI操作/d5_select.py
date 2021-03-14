@@ -11,6 +11,7 @@ driver.get("file:///D:/zengcong/py37/web/lesson05_UI操作/select.html")
 
 # 点击zc
 """
+# 第一种方式选择option元素
 driver.find_element('xpath','//option[text()="zc"]').click()
 time.sleep(2)
 """

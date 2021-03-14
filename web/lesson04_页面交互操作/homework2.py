@@ -19,10 +19,10 @@ action = ActionChains(driver)
 iframe = driver.find_element('id','iframeResult')
 driver.switch_to.frame(iframe)
 # 定位一个元素
-elem1 = driver.find_element('xpath',"//div[@id='draggable']")
-elem2 = driver.find_element('xpath',"//div[@id='droppable']")
+start = driver.find_element('xpath',"//div[@id='draggable']")
+end = driver.find_element('xpath',"//div[@id='droppable']")
 # 拖拽操作
-action.drag_and_drop(elem2,elem1).perform()
+action.drag_and_drop(start,end).perform()
 time.sleep(2)
 
 driver.quit()
