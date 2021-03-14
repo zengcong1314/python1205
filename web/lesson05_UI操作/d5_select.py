@@ -21,7 +21,7 @@ s = driver.find_element('id','myselect')
 s_obj = Select(s)
 s_obj.select_by_visible_text('zc')
 # option value 属性选择
-s_obj.deselect_by_value('z')
+s_obj.select_by_value('z')
 # 通过索引
-s_obj.deselect_by_index(2)
+s_obj.select_by_index(2)
 time.sleep(2)
