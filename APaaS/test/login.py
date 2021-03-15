@@ -26,12 +26,13 @@ from Crypto.Random import get_random_bytes
 
 def encrypt(key,data):
     pad = 8 - len(data) % 8
-    padStr = str(random.randint(1,8))
+    padStr = ""
     for i in range(pad):
-        data = data + padStr
+        data = data + chr(pad)
     # data = data + padStr
     # mode = DES.MODE_CBC
-    cipher = DES.new(key, DES.MODE_CBC)
+    Des_IV = "\1\2\3\4\5\6\7\8"
+    cipher = DES.new(key, DES.MODE_CBC,Des_IV)
     iv = cipher.iv
     # plaintext = bytes(data, encoding="utf8")
     plaintext = 'ABC_abc1'.encode('utf-8')
