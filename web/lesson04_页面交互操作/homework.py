@@ -27,6 +27,7 @@ driver.find_element('xpath','//*[@id="1"]/h3/a').click()
 
 # 切换窗口
 driver.switch_to.window(driver.window_handles[-1])
+print(driver.current_url)
 # 显示等待
 wait = WebDriverWait(driver,timeout=10)
 wait.until(expected_conditions.title_contains('腾讯课堂官网'))
