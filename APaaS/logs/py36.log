@@ -1,0 +1,20 @@
+
+time: 2021-02-14 12:47:46,230---ERROR:py36:用例失败：assert 1 == 1001---test_login.py---42
+time: 2021-02-14 12:47:46,732---ERROR:py36:用例失败：assert 1 == 0---test_login.py---42
+time: 2021-02-14 12:52:50,271---ERROR:py36:用例失败：assert 1 == 1001---test_login.py---37
+time: 2021-02-14 12:52:50,768---ERROR:py36:用例失败：assert 1 == 0---test_login.py---37
+time: 2021-02-14 12:54:44,574---ERROR:py36:用例失败：assert 1 == 1001---test_login.py---37
+time: 2021-02-14 12:54:45,101---ERROR:py36:用例失败：assert 1 == 0---test_login.py---37
+time: 2021-02-14 21:19:45,902---ERROR:py36:用例失败：assert 1 == 1001---test_login.py---37
+time: 2021-02-14 21:19:46,416---ERROR:py36:用例失败：assert 1 == 0---test_login.py---37
+time: 2021-02-14 21:22:29,750---ERROR:py36:用例失败：assert 1 == 1001---test_login.py---37
+time: 2021-02-14 21:22:30,060---ERROR:py36:用例失败：assert 1 == 0---test_login.py---37
+time: 2021-02-14 21:33:09,998---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:14,285---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:14,792---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:15,286---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:15,794---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:16,329---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:16,811---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:17,338---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-02-14 21:33:18,616---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
