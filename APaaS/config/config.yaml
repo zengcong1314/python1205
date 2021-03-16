@@ -1,5 +1,6 @@
-host: "http://api.lemonban.com/futureloan"
-login_phone: "13925214567"
+host: "http://kong.poros-platform.10.74.166.198.nip.io"
+username: "13925210746"
+password: "ABC_abc1"
 logger:
   name: py36
   logger_level: "DEBUG"
