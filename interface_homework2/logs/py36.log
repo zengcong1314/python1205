@@ -10,3 +10,8 @@ time: 2021-02-18 13:55:55,931---ERROR:zc:用例失败：assert 201 == 400---test
 time: 2021-02-18 13:59:14,813---ERROR:zc:用例失败：assert 0 == 1---test_condition.py---32
 time: 2021-02-18 14:23:02,300---ERROR:zc:用例失败：assert 201 == 400
  +  where 201 = <Response [201]>.status_code---test_interfaces.py---34
+time: 2021-03-16 11:38:54,132---ERROR:zc:用例失败：assert 0 == 1---test_condition.py---33
+time: 2021-03-16 11:38:57,069---ERROR:zc:用例失败：assert 400 == 200
+ +  where 400 = <Response [400]>.status_code---test_login.py---29
+time: 2021-03-16 11:38:57,918---ERROR:zc:用例失败：assert 201 == 400
+ +  where 201 = <Response [201]>.status_code---test_register.py---34

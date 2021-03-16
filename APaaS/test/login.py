@@ -1,74 +1,46 @@
 import base64
 import requests
-import random
-def get_key():
-    url1 = 'http://kong.poros-platform.10.74.166.198.nip.io/api/poros-authcenter/secret/13925210746'
-    res = requests.request('get',url1)
-    res = res.json()
-    res_data = res['data']
-    #print(res)
-    print(res_data)
-    res_data = bytes(res_data, encoding="utf8")
-    return  res_data
-
-
 from Crypto.Cipher import DES
-from Crypto.Random import get_random_bytes
+from middleware.handler import Handler
+import pytest
 
 
+# def test_get_key():
+#     url = Handler.yaml_config['url'] + '/api/poros-authcenter/secret/'+ Handler.yaml_config['username']
+#     res = requests.request('get',url)
+#     res = res.json()
+#     res_data = res['data']
+#     return  res_data
 
-# 必须是8个字节，也就是 64 位
-# 如果是测试，找开发要 key
-# def pad(text):
-#     n = len(text) % 8
-#     s =text + (b' ' * n)
-#     return s
 
-def encrypt(key,data):
-    pad = 8 - len(data) % 8
+def test_encrypt(get_key):
+    __IV = b'\x01\x02\x03\x04\x05\x06\x07\x08'  # __IV = chr(0)*8
+    pwd = Handler.yaml_config['password']
+    pad = 8 - len(pwd) % 8
     padStr = ""
     for i in range(pad):
-        data = data + chr(pad)
-    # data = data + padStr
-    # mode = DES.MODE_CBC
-    Des_IV = "\1\2\3\4\5\6\7\8"
-    cipher = DES.new(key, DES.MODE_CBC,Des_IV)
-    iv = cipher.iv
-    # plaintext = bytes(data, encoding="utf8")
-    plaintext = 'ABC_abc1'.encode('utf-8')
-    msg = cipher.encrypt(plaintext)
-    #print(msg)
-    print('================================')
-    msg = base64.b64encode(msg)
-    return msg
+        padStr = padStr + chr(pad)
+    pwd = pwd + padStr
+    cipher = DES.new(get_key['secretKey'],DES.MODE_CBC,__IV)
+    pwd = pwd.encode('utf-8')
+    encryptPwd = cipher.encrypt(pwd)
+    encryptPwd = base64.b64encode(encryptPwd)
+    return encryptPwd
 
-def decrypt(enStr, key):
-    __IV = "\0\0\0\0\0\0\0\0"
-    cipher = DES.new(key, DES.MODE_CBC,__IV)
-    decryptByts = base64.b64decode(enStr)
-    msg = cipher.decrypt(decryptByts)
-    paddingLen = ord(msg[len(msg)-1])
-    return msg[0:-paddingLen]
-
-def login(pwd):
-    url = 'http://kong.poros-platform.10.74.166.198.nip.io/api/poros-authcenter/login'
-    data = {"grant_type":"password","isSerialize":"true","username":"13925210746","password":pwd}
+def test_login():
+    url = Handler.yaml_config['url'] + '/api/poros-authcenter/login'
+    data = {"grant_type":"password","isSerialize":"true","username": username,"password":pwd}
     res = requests.request('post',url,data=data)
+    # res = requests.request('post', url, params=data)
     print(res.json())
 
 if __name__ == '__main__':
-    res = get_key()
-    print(res)
-    res1 = encrypt(res,'ABC_abc1')
-    # res2 = decrypt(res1,res)
-    res1 = bytes.decode(res1)
-    print("加密：",res1)
-    print(type(res1))
-    # print("解密：", res2)
-    login(res1)
-    a = random.randint(1,8)
-    print(a)
-
+    secretKey = test_get_key('super_admin')
+    print(type(secretKey))
+    secretKey= bytes(secretKey, encoding="utf8")
+    encryptPwd = test_encrypt(secretKey,'123456')
+    print("加密后的字符串:",encryptPwd)
+    test_login('super_admin',encryptPwd)
 
 
 
