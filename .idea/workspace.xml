@@ -5,45 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APaaS/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/.idea/lesson22_api_v3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/common/db_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/common/excel_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/common/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/common/logger_hander.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/common/yaml_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/config/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/config/path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/config/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/data/demo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/logs/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/logs/py36.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/middleware/handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/reports/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/login2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/login3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_add_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_audit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_invest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_recharge_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_withdraw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APaaS/test/login4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APaaS/test/login.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +61,7 @@
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_audit_test_audit.coverage" NAME="pytest for test_audit.test_audit Coverage Results" MODIFIED="1612754891598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson28_api_v7/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_withdraw_test_withdraw.coverage" NAME="pytest for test_withdraw.test_withdraw Coverage Results" MODIFIED="1612161935211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
     <SUITE FILE_PATH="coverage/python36$01.coverage" NAME="01 Coverage Results" MODIFIED="1607094061630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
-    <SUITE FILE_PATH="coverage/python36$login.coverage" NAME="login Coverage Results" MODIFIED="1615802236891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
+    <SUITE FILE_PATH="coverage/python36$login.coverage" NAME="login Coverage Results" MODIFIED="1615825185156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_item_test_add.coverage" NAME="pytest for test_add_item.test_add Coverage Results" MODIFIED="1612678691562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1612318198062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/common" />
     <SUITE FILE_PATH="coverage/python36$d2_time_log.coverage" NAME="d2_time_log Coverage Results" MODIFIED="1614246999552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson32_接口总结" />
@@ -105,10 +69,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/APaaS/test/login.py">
+        <entry file="file://$PROJECT_DIR$/APaaS/test/login4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -117,10 +81,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/software/Python37/Lib/site-packages/requests/api.py">
+        <entry file="file://$PROJECT_DIR$/web/lesson6/d2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson30_api_v9/test/test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/APaaS/test/login3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -155,6 +133,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>args</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -222,9 +205,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="262" />
-    <option name="y" value="91" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
     <option name="width" value="1701" />
     <option name="height" value="1100" />
   </component>
@@ -292,6 +275,12 @@
               <item name="python36" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="lesson05_UI操作" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python36" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python36" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,7 +387,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APaaS/test/login.py" />
+      <option name="SCRIPT_NAME" value="D:\Project\python36\APaaS\test\login4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,7 +471,7 @@
       <workItem from="1612161901149" duration="2065000" />
       <workItem from="1612245275978" duration="33937000" />
       <workItem from="1614239468516" duration="42307000" />
-      <workItem from="1615619585969" duration="24345000" />
+      <workItem from="1615619585969" duration="30634000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -631,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615685709840</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="0315 apaas">
+      <created>1615802636531</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615802636531</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -667,19 +663,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166255000" />
+    <option name="totallyTimeSpent" value="172544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="262" y="91" width="1701" height="1100" extended-state="0" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1694089" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15325248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5341615" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51759833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25883576" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.516632" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -776,7 +772,8 @@
     <MESSAGE value="0301HTML" />
     <MESSAGE value="0305三大窗口切换" />
     <MESSAGE value="0308键盘输入" />
-    <option name="LAST_COMMIT_MESSAGE" value="0308键盘输入" />
+    <MESSAGE value="0315 apaas" />
+    <option name="LAST_COMMIT_MESSAGE" value="0315 apaas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
@@ -826,14 +823,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/APaaS/test/login.py</url>
+          <url>file://$PROJECT_DIR$/APaaS/test/login4.py</url>
           <line>54</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/APaaS/test/login.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -892,36 +884,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson32_接口总结/d2_time_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#12#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson32_接口总结/总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson32_接口总结/test_demo_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/lesson01/d1_selenium_基础操作.py" />
     <entry file="file://D:/software/Python37/Lib/site-packages/pluggy/manager.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1225,7 +1187,7 @@
     <entry file="file://$PROJECT_DIR$/APaaS/test/login3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1239,17 +1201,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/requests/api.py">
+    <entry file="file://$PROJECT_DIR$/web/lesson6/d2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APaaS/test/login.py">
+    <entry file="file://D:/software/Python37/Lib/site-packages/Crypto/Cipher/DES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="287">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python37/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson30_api_v9/test/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APaaS/test/login4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
