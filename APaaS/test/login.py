@@ -52,7 +52,7 @@ def decrypt(enStr, key):
 
 def login(pwd):
     url = 'http://kong.poros-platform.10.74.166.198.nip.io/api/poros-authcenter/login'
-    data = {"grant_type":"password","isSerialize":"true","username":"super_admin","password":pwd}
+    data = {"grant_type":"password","isSerialize":"true","username":"13925210746","password":pwd}
     res = requests.request('post',url,data=data)
     print(res.json())
 
