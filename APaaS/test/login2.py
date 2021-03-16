@@ -12,19 +12,11 @@ def get_key():
 
 
 from Crypto.Cipher import DES
-from Crypto.Random import get_random_bytes
 
 
-
-# 必须是8个字节，也就是 64 位
-# 如果是测试，找开发要 key
-# def pad(text):
-#     n = len(text) % 8
-#     s =text + (b' ' * n)
-#     return s
 
 def encrypt(key,s):
-    # __IV = "\0\0\0\0\0\0\0\0"
+    #__IV = "\0\0\0\0\0\0\0\0"
     cipher = DES.new(key,DES.MODE_CBC)
     iv = cipher.iv
     plaintext = '123456'.encode('utf-8')
@@ -38,10 +30,12 @@ def encrypt(key,s):
     # 后面用 base64
 class DESUtil:
     __BLOCK_SIZE_8 = BLOCK_SIZE_8 = DES.block_size
-    __IV = "\0\0\0\0\0\0\0\0" # __IV = chr(0)*8
+    __IV = b"\1\2\3\4\5\6\7\8" # __IV = chr(0)*8
     @staticmethod
     def encryt2(a, key):
-        cipher = DES.new(key, DES.MODE_CBC, DESUtil.__IV)
+        Des_IV = {1, 2, 3, 4, 5, 6, 7, 8}
+
+        cipher = DES.new(key, DES.MODE_CBC, Des_IV)
         x = DESUtil.__BLOCK_SIZE_8 - (len(a) % DESUtil.__BLOCK_SIZE_8)
         if x != 0:
             a = a + chr(x)*x

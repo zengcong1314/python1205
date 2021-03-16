@@ -1,0 +1,7 @@
+# 存储 git 提交得过滤信息
+.pytest_cache/
+assert/
+user.yaml
+.workspace.xml
+data/
+security.yaml
