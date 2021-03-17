@@ -12,10 +12,15 @@ def test_add_app(info,login):
     headers = {}
     headers['Authorization'] = login['tokenType'] + ' ' + login['accessToken']
     print(headers)
-    res = requests.request(method=info["method"],
-                           url=Handler.yaml_config['host'] + info['url'],
-                           headers=headers,
-                           json=json.loads(info["json"]))
+    if info['method'] == 'get':
+        res = requests.request(method=info["method"],
+                               url=Handler.yaml_config['host'] + info['url'],
+                               headers=headers)
+    else:
+        res = requests.request(method=info["method"],
+                               url=Handler.yaml_config['host'] + info['url'],
+                               headers=headers,
+                               json=json.loads(info["json"]))
 
 
     print(res.json())

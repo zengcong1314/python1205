@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APaaS/test/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APaaS/test/test_add_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/APaaS/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/APaaS/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/data/demo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/APaaS/data/demo.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/login2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/login3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/login4.py" beforeDir="false" afterPath="$PROJECT_DIR$/APaaS/test/login5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/test_add_item.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/test_audit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/test_invest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/APaaS/test/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/test_recharge_mysql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/test_register.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APaaS/test/test_withdraw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APaaS/test/test_add_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/APaaS/test/test_add_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaceAuto" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceAuto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_homework/reports/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework/reports/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_homework2/data/demo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework2/data/demo.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_homework2/logs/py36.log" beforeDir="false" afterPath="$PROJECT_DIR$/interface_homework2/logs/py36.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +24,7 @@
     <SUITE FILE_PATH="coverage/python36$demo06_.coverage" NAME="demo06_字符串操作 Coverage Results" MODIFIED="1607001253684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$homework.coverage" NAME="homework Coverage Results" MODIFIED="1615187489778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson04_页面交互操作" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_login_test_login.coverage" NAME="pytest for test_login.test_login Coverage Results" MODIFIED="1615882268637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
-    <SUITE FILE_PATH="coverage/python36$pytest_in_test_add_app_py.coverage" NAME="pytest in test_add_app.py Coverage Results" MODIFIED="1615885139226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
+    <SUITE FILE_PATH="coverage/python36$pytest_in_test_add_app_py.coverage" NAME="pytest in test_add_app.py Coverage Results" MODIFIED="1615903684390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
     <SUITE FILE_PATH="coverage/python36$demo02_.coverage" NAME="demo02_字符串 Coverage Results" MODIFIED="1606985103685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1606980672958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson01" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_item_test_add_loan.coverage" NAME="pytest for test_add_item.test_add_loan Coverage Results" MODIFIED="1615885719925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson30_api_v9/test" />
@@ -60,7 +42,7 @@
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_start_selenium_py.coverage" NAME="pytest in test_start_selenium.py Coverage Results" MODIFIED="1614669896476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson01" />
     <SUITE FILE_PATH="coverage/python36$demo03_.coverage" NAME="demo03_如何知道我的数据类型是字符串 Coverage Results" MODIFIED="1606986272751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$login4.coverage" NAME="login4 Coverage Results" MODIFIED="1615862680203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
-    <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_app_test_add_app.coverage" NAME="pytest for test_add_app.test_add_app Coverage Results" MODIFIED="1615886950502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
+    <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_app_test_add_app.coverage" NAME="pytest for test_add_app.test_add_app Coverage Results" MODIFIED="1615903720054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
     <SUITE FILE_PATH="coverage/python36$yaml_handler.coverage" NAME="yaml_handler Coverage Results" MODIFIED="1612332313754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/common" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_recharge_mysql_py.coverage" NAME="pytest in test_recharge_mysql.py Coverage Results" MODIFIED="1612405322498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_recharge_db_test_recharge.coverage" NAME="pytest for test_recharge_db.test_recharge Coverage Results" MODIFIED="1612405307698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
@@ -94,11 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APaaS/test/test_add_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="220">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -118,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson29_api_v8/上课代码/d01_正则表达式.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="220">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -215,8 +197,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="426" />
-    <option name="y" value="75" />
+    <option name="x" value="44" />
+    <option name="y" value="3" />
     <option name="width" value="1788" />
     <option name="height" value="1058" />
   </component>
@@ -421,8 +403,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_add_app.test_add_app" />
-        <item itemvalue="Python tests.pytest for test_add_item.test_add_loan" />
         <item itemvalue="Python tests.pytest in test_add_app.py" />
+        <item itemvalue="Python tests.pytest for test_add_item.test_add_loan" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest for test_login.test_login" />
       </list>
@@ -450,7 +432,7 @@
       <workItem from="1612245275978" duration="33937000" />
       <workItem from="1614239468516" duration="42307000" />
       <workItem from="1615619585969" duration="24345000" />
-      <workItem from="1615862007411" duration="13592000" />
+      <workItem from="1615862007411" duration="15067000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -599,22 +581,17 @@
       <option name="project" value="LOCAL" />
       <updated>1615685709840</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="0316APaaS接口自动化">
+      <created>1615888932678</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615888932679</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_add_item_test_add_loan - 2021.03.16 at 17h 08m 43s.xml">
-      <configuration name="pytest for test_add_item.test_add_loan" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 17h 09m 13s.xml">
-      <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 17h 09m 34s.xml">
-      <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 17h 10m 03s.xml">
-      <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 17h 10m 26s.xml">
       <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
     </history-entry>
@@ -633,26 +610,38 @@
     <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 17h 29m 15s.xml">
       <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 22h 07m 06s.xml">
+      <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 22h 08m 00s.xml">
+      <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_app_py - 2021.03.16 at 22h 08m 11s.xml">
+      <configuration name="pytest in test_add_app.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_app_test_add_app - 2021.03.16 at 22h 08m 44s.xml">
+      <configuration name="pytest for test_add_app.test_add_app" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179847000" />
+    <option name="totallyTimeSpent" value="181322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="426" y="75" width="1788" height="1058" extended-state="0" />
+    <frame x="44" y="3" width="1788" height="1058" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16493055" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16493055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.20703934" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.20670995" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43506494" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5054773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45238096" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.50541127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -735,7 +724,8 @@
     <MESSAGE value="0301HTML" />
     <MESSAGE value="0305三大窗口切换" />
     <MESSAGE value="0308键盘输入" />
-    <option name="LAST_COMMIT_MESSAGE" value="0308键盘输入" />
+    <MESSAGE value="0316APaaS接口自动化" />
+    <option name="LAST_COMMIT_MESSAGE" value="0316APaaS接口自动化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
@@ -812,6 +802,11 @@
           <url>file://$PROJECT_DIR$/interface_homework/conftest.py</url>
           <line>4</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/APaaS/test/test_add_app.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1130,16 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APaaS/test/test_add_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson31_jenkins/总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1152,8 +1137,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson29_api_v8/上课代码/d01_正则表达式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APaaS/test/test_add_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
