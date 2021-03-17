@@ -1,0 +1,2 @@
+time: 2021-02-17 09:52:30,458---INFO:root:这是一条日志信息---logger_handler.py---28
+time: 2021-02-17 09:52:30,459---ERROR:root:这是一条错误信息---logger_handler.py---29

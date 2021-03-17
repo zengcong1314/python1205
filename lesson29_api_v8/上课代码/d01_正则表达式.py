@@ -30,7 +30,7 @@ result = re.search(pattern=pattern,string=my_string)
 print(result)
 print(result.group())
 
-# {m,n}匹配 m-n ,最少 m 次，最多 n 次，默认使用贪婪模式
+# {m,n}匹配 m-n ,最少 m 次，最多 n 次，默认使用贪婪模式,取消贪婪模式加？
 my_string = '@yuzewcng123456'
 pattern = '.{6,9}'
 result = re.search(pattern=pattern,string=my_string)
@@ -50,26 +50,30 @@ my_string = '{"mobile_phone":"#investor_phone#","pwd":"#investor_pwd#"}'
 # 1、第一种方式
 """pattern = '#.{14}#' """
 # 2、第二种方式 ,贪婪模式
-"""pattern = '#.{,}#' """
-# 3、第三种方式，* 表示匹配0次或多次,?表示非贪婪模式 .*？常用组合：尽可能少的匹配任意字符
-pattern = '#.*#'
+"""pattern = '#.{,}#' """ # 左边是0，右边是无限大，match='#investor_phone#' 贪婪模式，如果一行有2个变量就不行
+# 3、第三种方式，* 表示匹配0次或多次,
+# ?表示非贪婪模式
+# .*？常用组合：尽可能少的匹配任意字符
+pattern = '#.*#' # match = '#investor_phone#","pwd":"#investor_pwd#'
+pattern = '#.*?#' # match = '#investor_phone#'
 result = re.search(pattern=pattern,string=my_string)
 print(result)
 
 
 my_string = '{"mobile_phone":"#investor_phone#","pwd":"#investor_pwd#"}'
-# ? 表示0次或1次
-pattern = '.?'
+# ?在数字不清楚的地方表示非贪婪模式
+# ?表示0次或1次
+pattern = '#?' # match = '{'
 result = re.search(pattern=pattern,string=my_string)
-print(result)
+print('-------------#:' , result)
 
-# \w :字母
+# \w :字母 匹配一个字母
 my_string = '{"mobile_phone":"#investor_phone#","pwd":"#investor_pwd#"}'
 pattern = '\w+'
 result = re.search(pattern=pattern,string=my_string)
 print(result)
 
-# \d:数字
+# \d:数字 匹配一个数字
 my_string = '{"mobile_phone":"#134investor_phone#","pwd":"#investor_pwd#"}'
 pattern = '\d'
 result = re.search(pattern=pattern,string=my_string)
@@ -77,7 +81,7 @@ print(result)
 
 # + 匹配任意字符1次或者任意次
 my_string = '{"mobile_phone":"#134investor_phone#","pwd":"#investor_pwd#"}'
-pattern = '\d+'
+pattern = '\d+' # '\d{2}'
 result = re.search(pattern=pattern,string=my_string)
 print(result)
 
