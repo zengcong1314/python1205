@@ -5,7 +5,7 @@ import requests
 from Crypto.Cipher import DES
 from middleware.handler import Handler
 
-@pytest.fixture()
+@pytest.fixture(scope='module')
 def get_key():
     url = Handler.yaml_config['host'] + '/api/poros-authcenter/secret/'+ Handler.yaml_config['username']
     res = requests.request('get',url)
@@ -15,7 +15,7 @@ def get_key():
     print(type(secretKey))
     return  {"secretKey":secretKey}
 
-@pytest.fixture()
+@pytest.fixture(scope='module')
 def encrypt(get_key):
     pwd = Handler.yaml_config['password']
     __IV = b'\x01\x02\x03\x04\x05\x06\x07\x08'  # __IV = chr(0)*8
@@ -30,7 +30,7 @@ def encrypt(get_key):
     encryptPwd = base64.b64encode(encryptPwd)
     return {"encryptPwd":encryptPwd}
 
-@pytest.fixture()
+@pytest.fixture(scope='module')
 def login(encrypt):
     baseurl = '/api/poros-authcenter/login'
     url = Handler.yaml_config['host'] + baseurl
@@ -41,6 +41,20 @@ def login(encrypt):
     accessToken = jsonpath(res_json, '$..accessToken')[0]
     tokenType = jsonpath(res_json, '$..tokenType')[0]
     return {"accessToken": accessToken, "tokenType": tokenType}
+
+@pytest.fixture(scope='module')
+def add_app(login):
+    headers = {}
+    headers['Authorization'] = login['tokenType'] + ' ' + login['accessToken']
+    baseurl = '/api/gks-app/v1/app'
+    url = Handler.yaml_config['host'] + baseurl
+    data = {"name":"接口自动化测试应用zc","icon":"order"}
+    # res = requests.request('post',url,data=data)
+    res = requests.request('post',url,headers=headers,
+                           json=data)
+    res_json = res.json()
+    app_id = jsonpath(res_json,'$..id')[0]
+    return {"app_id":app_id}
 
 
 

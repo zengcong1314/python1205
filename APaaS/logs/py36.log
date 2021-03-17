@@ -18,3 +18,7 @@ time: 2021-02-14 21:33:16,329---ERROR:py36:用例失败：assert 2 == 0---test_r
 time: 2021-02-14 21:33:16,811---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
 time: 2021-02-14 21:33:17,338---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
 time: 2021-02-14 21:33:18,616---ERROR:py36:用例失败：assert 2 == 0---test_register.py---37
+time: 2021-03-17 14:14:10,592---ERROR:py36:用例失败：assert 0 == None---test_worksheet.py---37
+time: 2021-03-17 14:14:11,449---ERROR:py36:用例失败：assert 0 == None---test_worksheet.py---37
+time: 2021-03-17 14:14:12,248---ERROR:py36:用例失败：assert 0 == None---test_worksheet.py---37
+time: 2021-03-17 14:14:13,149---ERROR:py36:用例失败：assert 0 == None---test_worksheet.py---37
