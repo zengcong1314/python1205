@@ -108,14 +108,15 @@ for result in results:
     my_string = my_string.replace(old_data,new_data)
 
 print(my_string)
-"""
+
 my_string = '{"mobile_phone":"#investor_phone#","pwd":"#investor_pwd#"}'
-pattern = '#(.*?)#'
+pattern = '#(.*?)#(.*?)#'
 result = re.search(pattern=pattern,string=my_string)
 print(result.group())
 # group(1)获取括号当中的内容
 # group(0)获取整个匹配内容
 # 有1个括号就有group(1)，有2个括号才有group(2)，有2个括号的情况很少。
-print(result.group(1))
-"""
+print(result.group(1)) # investor_phone
+print(result.group(2)) # ","pwd":"
+
 

@@ -4,11 +4,14 @@ import requests
 from middleware.handler import Handler
 import pytest
 
-data = Handler.excel.read_dict('app')
+data = Handler.excel.read_dict('worksheet')
 @pytest.mark.parametrize("info",data)
-def test_add_app(info,login):
+def test_worksheet(info,login,add_app):
     headers = {}
     headers['Authorization'] = login['tokenType'] + ' ' + login['accessToken']
+    if "#app_id#" in info["json"]:
+        print(str(add_app["app_id"]))
+        info["json"] = info["json"].replace("#app_id#",str(add_app["app_id"]))
     # info 取出来是字典，转化为字符串
     all_data = json.dumps(info)
     # 字符串替换
@@ -28,7 +31,6 @@ def test_add_app(info,login):
                                json=json.loads(info["json"]))
     res_body = res.json()
     print(res_body)
-    # assert res.json()['code'] == info['expected']
     try:
         assert res_body['code'] ==  info['expected']
     except AssertionError as e:
@@ -37,11 +39,11 @@ def test_add_app(info,login):
     finally:
         # excel = ExcelHandler(excel_file)
         excel = Handler.excel
-        excel.write('app',str(res_body),row=int(info['case_id']) + 1,column=8)
+        excel.write('worksheet',str(res_body),row=int(info['case_id']) + 1,column=8)
         if res_body['code'] == info['expected']:
-            excel.write('app','True',row=int(info['case_id']) + 1,column=7)
+            excel.write('worksheet','True',row=int(info['case_id']) + 1,column=7)
         else:
-            excel.write('app', 'False', row=int(info['case_id']) + 1, column=7)
+            excel.write('worksheet', 'False', row=int(info['case_id']) + 1, column=7)
     # 设置Handler对应的属性
     if info['extractor']:
         extrators = json.loads(info['extractor'])

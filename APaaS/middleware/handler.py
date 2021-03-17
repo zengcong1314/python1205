@@ -52,13 +52,9 @@ class Handler():
     """任务：中间层。common 和 调用层。
     使用项目得配置数据，填充common模块
     """
-    new_phone = ''
-    inverstor_user_id = ''
-    inverstor_user_token = ''
-    admin_user_id = ''
-    admin_user_token = ''
-    loan_user_id = ''
-    loan_user_token = ''
+    app_id= ''
+    app_id_copy = ''
+    wsId = ''
 
     yaml_path = os.path.join(config_path, 'config.yaml')
     yaml_config = read_yaml(yaml_path)
