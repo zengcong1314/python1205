@@ -52,13 +52,8 @@ class Handler():
     """任务：中间层。common 和 调用层。
     使用项目得配置数据，填充common模块
     """
-    new_phone = ''
-    inverstor_user_id = ''
-    inverstor_user_token = ''
-    admin_user_id = ''
-    admin_user_token = ''
-    loan_user_id = ''
-    loan_user_token = ''
+    app_id= ''
+    app_id_copy = ''
 
     yaml_path = os.path.join(config_path, 'config.yaml')
     yaml_config = read_yaml(yaml_path)
@@ -76,12 +71,12 @@ class Handler():
     excel = ExcelHandler(excel_file)
 
     # 数据 需要动态替换 #。。。#的数据
-    investor_phone = user_config['investor_user']['phone']
-    investor_pwd = user_config['investor_user']['pwd']
-    loan_phone = user_config['loan_user']['phone']
-    loan_pwd = user_config['loan_user']['pwd']
-    admin_phone = user_config['admin_user']['phone']
-    admin_pwd = user_config['admin_user']['pwd']
+    # investor_phone = user_config['investor_user']['phone']
+    # investor_pwd = user_config['investor_user']['pwd']
+    # loan_phone = user_config['loan_user']['phone']
+    # loan_pwd = user_config['loan_user']['pwd']
+    # admin_phone = user_config['admin_user']['phone']
+    # admin_pwd = user_config['admin_user']['pwd']
 
 
 
@@ -123,15 +118,6 @@ class Handler():
                 return phone
         return phone
 
-    # 数据库
-    # db = DBHandler(host=user_config['db']['host'],
-    #                port=user_config['db']['port'],
-    #                user=user_config['db']['user'],
-    #                password=user_config['db']['password'],
-    #                # 不要写成utf-8
-    #                charset=user_config['db']['charset'],
-    #                database=user_config['db']['database'],
-    #                cursorclass=DictCursor)
     # 数据库
     db = MidDBHanlder()
     db_class = MidDBHanlder
