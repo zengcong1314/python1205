@@ -4,18 +4,15 @@ import requests
 from middleware.handler import Handler
 import pytest
 
-data = Handler.excel.read_dict('worksheet')
+data = Handler.excel.read_dict('Data')
 @pytest.mark.parametrize("info",data)
-def test_worksheet(info,login,add_app):
-    headers = {}
-    headers['Authorization'] = login['tokenType'] + ' ' + login['accessToken']
+def test_data_screen(info,login,add_app):
     if info["json"]:
         if "#app_id#" in info["json"]:
             print(str(add_app["app_id"]))
             info["json"] = info["json"].replace("#app_id#",str(add_app["app_id"]))
-    if "#app_id#" in info["url"]:
-        print(str(add_app["app_id"]))
-        info["url"] = info["url"].replace("#app_id#", str(add_app["app_id"]))
+    headers = {}
+    headers['Authorization'] = login['tokenType'] + ' ' + login['accessToken']
     # info 取出来是字典，转化为字符串
     all_data = json.dumps(info)
     # 字符串替换
@@ -33,22 +30,25 @@ def test_worksheet(info,login,add_app):
                                url=Handler.yaml_config['host'] + info['url'],
                                headers=headers,
                                json=json.loads(info["json"]))
-    if res.json():
-        res_body = res.json()
-        print(res_body)
+    res_body = res.json()
+    print(res_body)
+    expected = json.loads(info['expected'])
+    # assert res.json()['code'] == info['expected']
+    for key,value in expected.items():
+        # 实际结果的value 怎么获取
         try:
-            assert res_body['code'] ==  info['expected']
+            jsonpath(res_body,key)[0] == value
         except AssertionError as e:
             Handler.logger.error("用例失败：{}".format(e))
             raise e
         finally:
             # excel = ExcelHandler(excel_file)
             excel = Handler.excel
-            excel.write('worksheet',str(res_body),row=int(info['case_id']) + 1,column=8)
-            if res_body['code'] == info['expected']:
-                excel.write('worksheet','True',row=int(info['case_id']) + 1,column=7)
+            excel.write('Data',str(res_body),row=int(info['case_id']) + 1,column=8)
+            if jsonpath(res_body,key)[0] == value:
+                excel.write('Data','True',row=int(info['case_id']) + 1,column=7)
             else:
-                excel.write('worksheet', 'False', row=int(info['case_id']) + 1, column=7)
+                excel.write('Data', 'False', row=int(info['case_id']) + 1, column=7)
     # 设置Handler对应的属性
     if info['extractor']:
         extrators = json.loads(info['extractor'])
@@ -57,5 +57,6 @@ def test_worksheet(info,login,add_app):
             value = jsonpath(res.json(),jsonpath_exp)[0]
             # setattr(Handler,"laon_token","sadsadsfdgt")
             setattr(Handler,prop,value)
+
 
 
