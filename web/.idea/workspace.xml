@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8974ed7-f865-4179-94e6-f989eb5a2327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson6/d1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/d2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7_文件上传/上课代码/d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7_文件上传/上课代码/d1_文件上传.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7_文件上传/总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/python36.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson04_页面交互操作/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04_页面交互操作/homework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson04_页面交互操作/homework2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04_页面交互操作/homework2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson05_UI操作/d5_select.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson05_UI操作/d5_select.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson05_UI操作/d7_JS.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson05_UI操作/d7_发送JS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson05_UI操作/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson05_UI操作/总结.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +46,39 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson05_UI操作" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson7_文件上传/上课代码" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zengcong\py37\web\lesson7_文件上传\上课代码" />
       <recent name="D:\zengcong\py37\web\lesson05_UI操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d2">
+  <component name="RunManager" selected="Python.d1_文件上传">
+    <configuration name="d1_文件上传" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson7_文件上传/上课代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson7_文件上传/上课代码/d1_文件上传.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="d2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,27 +92,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson6/d2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="d3_iframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson04_页面交互操作" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson04_页面交互操作/d3_iframe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d1_文件上传" />
         <item itemvalue="Python.d2" />
         <item itemvalue="Python.homework2" />
         <item itemvalue="Python.homework" />
         <item itemvalue="Python.d5_select" />
-        <item itemvalue="Python.d3_iframe" />
       </list>
     </recent_temporary>
   </component>
@@ -258,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="59" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615300928655" />
-    <state x="776" y="186" key="SettingsEditor" timestamp="1614481781095">
+    <state x="776" y="186" key="SettingsEditor" timestamp="1616081216244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="776" y="186" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614481781095" />
+    <state x="776" y="186" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616081216244" />
     <state x="913" y="295" key="Vcs.Push.Dialog.v2" timestamp="1615392545776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
