@@ -15,11 +15,11 @@ def login_fuc(phone,pwd):
                            headers={"X-Lemonban-Media-Type": "lemonban.v2"},
                            json=user
                            )
-    res_json = res.json()
-    token = jsonpath(res_json, '$..token')[0]
-    token_type = jsonpath(res_json, '$..token_type')[0]
-    id = jsonpath(res_json, '$..id')[0]
-    leave_amount = jsonpath(res_json, '$..leave_amount')[0]
+    res_body = res.json()
+    token = jsonpath(res_body, '$..token')[0]
+    token_type = jsonpath(res_body, '$..token_type')[0]
+    id = jsonpath(res_body, '$..id')[0]
+    leave_amount = jsonpath(res_body, '$..leave_amount')[0]
     token = " ".join([token_type, token])
     return {"id": id, "token": token, "leave_amount": leave_amount}
 

@@ -33,7 +33,8 @@ def test_audit(info,admin_login,add_loan):
     # 第二版多值断言
     """    
     for key,value in expected.items():
-        # ("code",0)
+        # ("code",0)  res_json[key]实际结果  value：预期结果
+        # ("msg","OK")
         assert res_json[key] == value
     """
 
