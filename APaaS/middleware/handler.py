@@ -92,7 +92,7 @@ class Handler():
         """数据动态替换"""
         results = re.finditer(pattern=pattern, string=string)
         for result in results:
-            print(result)
+            #print(result)
             # old='#investor_phone#'
             old_data = result.group()
             # key = 'investor_phone'

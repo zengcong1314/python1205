@@ -33,6 +33,8 @@ def test_worksheet(info,login,add_app):
                                url=Handler.yaml_config['host'] + info['url'],
                                headers=headers,
                                json=json.loads(info["json"]))
+
+
     if res.json():
         res_body = res.json()
         print(res_body)
@@ -49,6 +51,8 @@ def test_worksheet(info,login,add_app):
                 excel.write('worksheet','True',row=int(info['case_id']) + 1,column=7)
             else:
                 excel.write('worksheet', 'False', row=int(info['case_id']) + 1, column=7)
+    else:
+        print("成功！")
     # 设置Handler对应的属性
     if info['extractor']:
         extrators = json.loads(info['extractor'])
