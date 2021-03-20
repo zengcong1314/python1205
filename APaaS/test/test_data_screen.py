@@ -17,7 +17,7 @@ def test_data_screen(info,login,add_app):
     all_data = json.dumps(info)
     # 字符串替换
     info = Handler.replace_data(all_data)
-    print(info)
+    # print(info)
     # 字符串转化成字典
     info = json.loads(info)
 
@@ -31,7 +31,7 @@ def test_data_screen(info,login,add_app):
                                headers=headers,
                                json=json.loads(info["json"]))
     res_body = res.json()
-    print(res_body)
+    #print(res_body)
     expected = json.loads(info['expected'])
     # assert res.json()['code'] == info['expected']
     for key,value in expected.items():
