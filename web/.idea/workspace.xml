@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8974ed7-f865-4179-94e6-f989eb5a2327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson7_文件上传/上课代码/d1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7_文件上传/上课代码/d1_文件上传.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7_文件上传/总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/python36.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
@@ -46,13 +43,14 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson7_文件上传/上课代码" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson7_文件上传" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zengcong\py37\web\lesson7_文件上传" />
       <recent name="D:\zengcong\py37\web\lesson7_文件上传\上课代码" />
       <recent name="D:\zengcong\py37\web\lesson05_UI操作" />
     </key>
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615392543730</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="【0312文件上传】">
+      <created>1616082178574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616082178574</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -230,29 +235,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="【0306页面交互操作】" />
     <MESSAGE value="【0308页面交互操作】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【0308页面交互操作】" />
+    <MESSAGE value="【0312文件上传】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【0312文件上传】" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="919" y="129" key="CommitChangelistDialog2" timestamp="1615392540566">
+    <state x="919" y="129" key="CommitChangelistDialog2" timestamp="1616082176097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="919" y="129" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615392540566" />
-    <state width="998" height="72" key="GridCell.Tab.0.bottom" timestamp="1615737418241">
+    <state x="919" y="129" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616082176097" />
+    <state width="1029" height="302" key="GridCell.Tab.0.bottom" timestamp="1616082474142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615737418241" />
-    <state width="998" height="72" key="GridCell.Tab.0.center" timestamp="1615737418239">
+    <state width="1029" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616082474142" />
+    <state width="1029" height="302" key="GridCell.Tab.0.center" timestamp="1616082474142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="72" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615737418239" />
-    <state width="998" height="72" key="GridCell.Tab.0.left" timestamp="1615737418239">
+    <state width="1029" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616082474142" />
+    <state width="1029" height="302" key="GridCell.Tab.0.left" timestamp="1616082474142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="72" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615737418239" />
-    <state width="998" height="72" key="GridCell.Tab.0.right" timestamp="1615737418240">
+    <state width="1029" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616082474142" />
+    <state width="1029" height="302" key="GridCell.Tab.0.right" timestamp="1616082474142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="998" height="72" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615737418240" />
+    <state width="1029" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616082474142" />
     <state x="0" y="59" key="MergeDialog" timestamp="1615300928655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="186" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616081216244" />
-    <state x="913" y="295" key="Vcs.Push.Dialog.v2" timestamp="1615392545776">
+    <state x="913" y="295" key="Vcs.Push.Dialog.v2" timestamp="1616082180472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615392545776" />
+    <state x="913" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616082180472" />
     <state x="1182" y="300" width="672" height="678" key="search.everywhere.popup" timestamp="1614510108184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

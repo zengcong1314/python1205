@@ -19,12 +19,12 @@ driver.get('file:///D:/zengcong/py37/web/lesson7_文件上传/上课代码/d1.ht
 # 文件上传
 # input 可以直接通过 send_keys 发送文件路径
 f = driver.find_element('id','mfile')
-time.sleep(1)
+time.sleep(3)
 #触发点击事件，让系统的弹框出来
 f.click()
 
 # 等待,因为弹框弹出来需要时间 不能用显性等待，不在selenium里面
-time.sleep(1)
+time.sleep(3)
 # pywinauto 的send_keys
 send_keys(r'D:\zengcong\py37\web\lesson7_文件上传\性能测试总结2.png')
 # 确认提交,确定
