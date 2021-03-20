@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="0318ApaaS">
-      <change afterPath="$PROJECT_DIR$/web/lesson7_fileupload/code/d1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson7_fileupload/code/d1_文件上传.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson7_fileupload/性能测试总结2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson7_fileupload/总结.md" afterDir="false" />
+    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaceAuto" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceAuto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson7_fileupload/code/d1_文件上传.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson7_fileupload/code/d1_文件上传.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +64,7 @@
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_recharge_token2_test_recharge__1_.coverage" NAME="pytest for test_recharge_token2.test_recharge (1) Coverage Results" MODIFIED="1612250468210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$handler.coverage" NAME="handler Coverage Results" MODIFIED="1612405267479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/middleware" />
     <SUITE FILE_PATH="coverage/python36$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1615866443331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS" />
+    <SUITE FILE_PATH="coverage/python36$d1_.coverage" NAME="d1_文件上传 Coverage Results" MODIFIED="1616202045417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/lesson7_fileupload/code" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_recharge_token2_py__1_.coverage" NAME="pytest in test_recharge_token2.py (1) Coverage Results" MODIFIED="1612250497621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$demo05_.coverage" NAME="demo05_字符串切片 Coverage Results" MODIFIED="1607000925012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson02_data_type" />
     <SUITE FILE_PATH="coverage/python36$pytest_in_test_withdraw_py.coverage" NAME="pytest in test_withdraw.py Coverage Results" MODIFIED="1612161649519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
@@ -101,14 +100,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APaaS/test/test_data_screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="320">
+              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/lesson7_fileupload/code/d1_文件上传.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <element signature="e#116#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/lesson7_fileupload/总结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="40">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -150,6 +173,7 @@
         <option value="$PROJECT_DIR$/APaaS/test/test_data_screen.py" />
         <option value="$PROJECT_DIR$/APaaS/middleware/handler.py" />
         <option value="$PROJECT_DIR$/APaaS/test/test_worksheet.py" />
+        <option value="$PROJECT_DIR$/web/lesson7_fileupload/code/d1_文件上传.py" />
       </list>
     </option>
   </component>
@@ -222,6 +246,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="repository" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -257,8 +282,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_worksheet.test_worksheet">
-    <configuration name="d4_文件上传" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.d1_文件上传">
+    <configuration name="d1_文件上传" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,12 +291,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson7_fileupload/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson6/d4_文件上传.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson7_fileupload/code/d1_文件上传.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,11 +371,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d1_文件上传" />
         <item itemvalue="Python tests.pytest for test_worksheet.test_worksheet" />
         <item itemvalue="Python tests.pytest for test_data_screen.test_data_screen" />
         <item itemvalue="Python tests.pytest for test_add_app.test_add_app" />
         <item itemvalue="Python tests.pytest for test_audit.test_audit" />
-        <item itemvalue="Python.d4_文件上传" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +403,7 @@
       <workItem from="1615619585969" duration="24345000" />
       <workItem from="1615862007411" duration="13592000" />
       <workItem from="1616033047316" duration="14581000" />
-      <workItem from="1616200693713" duration="751000" />
+      <workItem from="1616200693713" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -569,7 +594,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616200725801</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="0318ApaaS">
+      <created>1616201652045</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1616201652045</updated>
+    </task>
+    <task id="LOCAL-00029" summary="0318ApaaS">
+      <created>1616201718797</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616201718797</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -605,7 +644,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195179000" />
+    <option name="totallyTimeSpent" value="196118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,22 +657,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="241" y="50" width="1532" height="972" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17941953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17941953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25775656" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.43667546" visible="true" weight="0.3116279" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293556" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49934036" weight="0.32906976" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293556" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5633245" side_tool="true" visible="true" weight="0.3116279" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49934036" weight="0.32906976" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32868758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -974,11 +1014,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APaaS/test/test_data_screen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="320">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson7_fileupload/code/d1_文件上传.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#116#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lesson7_fileupload/总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
