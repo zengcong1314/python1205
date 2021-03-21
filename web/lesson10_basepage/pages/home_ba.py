@@ -38,14 +38,16 @@ class HomePage(BasePage):
         time.sleep(2)
         # 输入课程名称
         # 随机生成一个课程名称
-        self.send_keys(self.class_input_locator)
+        self.fill(self.class_input_locator,name)
         #driver.find_element(*self.class_input_locator).send_keys(name)
         time.sleep(2)
         # 点击学期选择下拉框
+
+        time.sleep(2)
         self.click(self.term_selector_locator)
         #driver.find_element(*self.term_selector_locator).click()
         # 点击自己想要的选项
-        driver.find_element(By.XPATH, f'//*[text()="{term}"]').click()
+        driver.find_element(By.XPATH, '//li[text()="2014-2015"]').click()
         # 点击确定
         self.click(self.create_confirm_locator)
         #driver.find_element(*self.create_confirm_locator).click()

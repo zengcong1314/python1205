@@ -1,6 +1,6 @@
 """python自动化"""
 
-from web.lesson10_basepage.pages.home import HomePage
+from web.lesson10_basepage.pages.home_ba import HomePage
 from web.lesson10_basepage.common import helper
 
 
