@@ -46,7 +46,7 @@ class HomePage():
         driver.find_element(*self.term_selector_locator).click()
         time.sleep(2)
         # 点击自己想要的选项
-        driver.find_element(By.XPATH, '//li[text()="2014-2015"]').click()
+        driver.find_element(By.XPATH, f'//li[text()="2014-2015"]').click()
         time.sleep(1)
         # 点击确定
         driver.find_element(*self.create_confirm_locator).click()

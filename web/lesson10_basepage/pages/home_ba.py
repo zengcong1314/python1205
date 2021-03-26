@@ -14,7 +14,7 @@ class HomePage(BasePage):
     # 课程名称输入框
     class_input_locator = (By.XPATH, "//input[@placeholder='请输入课程名称']")
     # 学期选择框
-    term_selector_locator = (By.XPATH, "//div[@class='yearselbox']")
+    term_selector_locator = (By.XPATH, "//div[@class='yearselbox']/p")
     # 点击创建按钮
     create_confirm_locator = (By.CSS_SELECTOR, '.pop-btns > .sure')
 
@@ -42,12 +42,18 @@ class HomePage(BasePage):
         #driver.find_element(*self.class_input_locator).send_keys(name)
         time.sleep(2)
         # 点击学期选择下拉框
-
         time.sleep(2)
+        print("点击下拉框选项元素为：",driver.find_element(*self.term_selector_locator))
         self.click(self.term_selector_locator)
+        time.sleep(5)
         #driver.find_element(*self.term_selector_locator).click()
         # 点击自己想要的选项
-        driver.find_element(By.XPATH, '//li[text()="2014-2015"]').click()
+        #driver.find_element(By.XPATH, '//li[text()="2014-2015"]').click()
+        driver.find_element(By.XPATH, f'//li[text()="{term}"]').click()
+
+        # js_code = f"a = document.getElementsByTagName('p')[23];a.innerText ='{term}'"
+        # driver.execute_script(js_code)
+
         # 点击确定
         self.click(self.create_confirm_locator)
         #driver.find_element(*self.create_confirm_locator).click()
@@ -55,6 +61,8 @@ class HomePage(BasePage):
         return self
 
     def get_class(self,name):
-        # 根据课程名称定位元素
-        el = self.driver.find_element(By.XPATH, '//*[text()="{}"]'.format(name))
+
+        # 根据课程名称定位元素 f'//*[text()="{name}"]','//*[text()={}]'.format(name)
+        el = self.driver.find_element(By.XPATH, f'//*[text()="{name}"]')
+        time.sleep(2)
         return el
