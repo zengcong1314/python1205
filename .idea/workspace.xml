@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="" />
+    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/common/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/common/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/common/yaml_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/config/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/config/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/data/addclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/data/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/data/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/locator/login_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/pages/class_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/pages/home_ba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/pages/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/test/test_add_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/test/test_sign.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson10_basepage/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson10_basepage/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson10_basepage/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson10_basepage/readme.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,44 +126,39 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/lesson10_basepage/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/lesson_pre/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zengcong\py37\web\lesson_pre\pages" />
+      <recent name="D:\zengcong\py37\web\lesson_pre\locator" />
+      <recent name="D:\zengcong\py37\web\lesson_pre\data" />
+      <recent name="D:\zengcong\py37\web\lesson_pre\config" />
+      <recent name="D:\zengcong\py37\web\lesson_pre\common" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\python36\lesson32_接口总结" />
       <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\zengcong\py37\web\lesson10_basepage\pages" />
-      <recent name="D:\zengcong\py37\web\lesson10_basepage\tests" />
-      <recent name="D:\zengcong\py37\web" />
-      <recent name="D:\zengcong\py37\web\lesson8_PO\tests" />
-      <recent name="D:\zengcong\py37\web\lesson7_文件上传\上课代码" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_class_po.TestAddClass.test_add_success">
-    <configuration name="home_ba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_add_class.TestAddClass.test_add_class">
+    <configuration name="pytest for test_add_class.TestAddClass.test_add_class" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson10_basepage/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson11_pre/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson10_basepage/pages/home_ba.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_class.TestAddClass.test_add_class&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_add_class.TestAddClass.test_add_success" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -156,22 +174,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_class.TestAddClass.test_add_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_add_class_po.TestAddClass" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson10_basepage/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_class_po.TestAddClass&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -191,29 +193,45 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_class.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_sign.TestSignClass.test_sign_success" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson10_basepage/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson11_pre/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/web/lesson10_basepage/tests/test_add_class.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_sign.TestSignClass.test_sign_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for web.lesson11_pre.test.test_sign.TestSignClass.test_sign_success" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson11_pre/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;web.lesson11_pre.test.test_sign.TestSignClass.test_sign_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_class.TestAddClass.test_add_class" />
+        <item itemvalue="Python tests.pytest for test_sign.TestSignClass.test_sign_success" />
+        <item itemvalue="Python tests.pytest for web.lesson11_pre.test.test_sign.TestSignClass.test_sign_success" />
         <item itemvalue="Python tests.pytest for test_add_class_po.TestAddClass.test_add_success" />
         <item itemvalue="Python tests.pytest for test_add_class.TestAddClass.test_add_success" />
-        <item itemvalue="Python tests.pytest for test_add_class_po.TestAddClass" />
-        <item itemvalue="Python.home_ba" />
-        <item itemvalue="Python tests.pytest in test_add_class.py" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616342456601</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="0319 PO-BasePage">
+      <created>1616834393809</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1616834393809</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -538,42 +563,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1080" y="443" width="692" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1616306554827" />
-    <state x="1001" y="118" key="CommitChangelistDialog2" timestamp="1616342454283">
+    <state x="1001" y="118" key="CommitChangelistDialog2" timestamp="1616834392010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1001" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616342454283" />
+    <state x="1001" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616834392010" />
     <state x="326" y="158" width="1310" height="761" key="DiffContextDialog" timestamp="1616201057700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="326" y="158" width="1310" height="761" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616201057700" />
-    <state width="1247" height="356" key="GridCell.Tab.0.bottom" timestamp="1616342470418">
+    <state width="1332" height="219" key="GridCell.Tab.0.bottom" timestamp="1616864384007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616342470418" />
-    <state width="1247" height="356" key="GridCell.Tab.0.center" timestamp="1616342470418">
+    <state width="1332" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616864384007" />
+    <state width="1332" height="219" key="GridCell.Tab.0.center" timestamp="1616864384006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616342470418" />
-    <state width="1247" height="356" key="GridCell.Tab.0.left" timestamp="1616342470418">
+    <state width="1332" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616864384006" />
+    <state width="1332" height="219" key="GridCell.Tab.0.left" timestamp="1616864384006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616342470418" />
-    <state width="1247" height="356" key="GridCell.Tab.0.right" timestamp="1616342470418">
+    <state width="1332" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616864384006" />
+    <state width="1332" height="219" key="GridCell.Tab.0.right" timestamp="1616864384006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616342470418" />
-    <state x="595" y="280" key="MultipleFileMergeDialog" timestamp="1616203135584">
+    <state width="1332" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616864384006" />
+    <state x="595" y="280" key="MultipleFileMergeDialog" timestamp="1616834410089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="595" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616203135584" />
+    <state x="595" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616834410089" />
     <state x="730" y="156" key="SettingsEditor" timestamp="1616201873607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616201873607" />
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1616342458329">
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1616834395522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616342458329" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616834395522" />
     <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1616300935660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

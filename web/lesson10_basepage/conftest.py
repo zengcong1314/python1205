@@ -13,11 +13,12 @@ def get_driver():
     yield driver
     driver.quit()
 
+
+
 @pytest.fixture()
 def teacher_login(get_driver):
     login_page = LoginPage(get_driver)
     login_page.load().login("13925210746@163.com","admin123456")
     return get_driver
-
 
 
