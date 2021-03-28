@@ -20,3 +20,4 @@ if not os.path.exists(config_dir):
  # yaml 配置文件的路径
 yaml_file = os.path.join(config_dir,'config.yaml')
 print("yaml_file:",yaml_file)
+
