@@ -21,3 +21,7 @@ if not os.path.exists(config_dir):
 yaml_file = os.path.join(config_dir,'config.yaml')
 print("yaml_file:",yaml_file)
 
+# img 路径
+img_path = os.path.join(root_dir,'img')
+if not os.path.exists(img_path):
+    os.mkdir(img_path)
