@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/common/logger_hander.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/test/test_login_cls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/test/unit/test_basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson12/test/test_add_class.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lesson12/test/test_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson10_basepage/config/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson10_basepage/config/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/common/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/common/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/config/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/config/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/data/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/data/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/pages/class_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/pages/class_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/pages/home_ba.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/pages/home_ba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/pages/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/pages/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/test/test_add_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/test/test_add_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/test/test_sign.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/test/test_sign.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson11_pre/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson11_pre/总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson12/common/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson12/common/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson12/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson12/总结.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +109,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/lesson11_pre/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -133,14 +122,14 @@
       <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zengcong\py37\web" />
       <recent name="D:\zengcong\py37\web\lesson11_pre\test" />
       <recent name="D:\zengcong\py37\web\lesson11_pre" />
       <recent name="D:\zengcong\py37\web\lesson_pre\pages" />
       <recent name="D:\zengcong\py37\web\lesson_pre\locator" />
-      <recent name="D:\zengcong\py37\web\lesson_pre\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_login_cls.TestLogin">
+  <component name="RunManager" selected="Python tests.pytest for test_case.test_case">
     <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +172,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_case.test_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson12/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_case.test_case&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_login_cls.TestLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,29 +220,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_sign.TestSignClass.test_sign_success" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson11_pre/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sign.TestSignClass.test_sign_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_case.test_case" />
         <item itemvalue="Python tests.pytest for test_login_cls.TestLogin" />
         <item itemvalue="Python tests.pytest for test_login_cls.TestLogin.test_login_without_username_and_password" />
         <item itemvalue="Python.base" />
         <item itemvalue="Python.logger_hander" />
-        <item itemvalue="Python tests.pytest for test_sign.TestSignClass.test_sign_success" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616865589168</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="0324 异常，截图，日志">
+      <created>1616950532939</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616950532939</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -565,7 +561,8 @@
     <MESSAGE value="0308JS" />
     <MESSAGE value="0312-15 PO" />
     <MESSAGE value="0319 PO-BasePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="0319 PO-BasePage" />
+    <MESSAGE value="0324 异常，截图，日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="0324 异常，截图，日志" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
@@ -576,30 +573,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="206" y="443" width="1205" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1616912178012" />
-    <state x="1001" y="118" key="CommitChangelistDialog2" timestamp="1616865585687">
+    <state x="1001" y="118" key="CommitChangelistDialog2" timestamp="1616950529139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1001" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616865585687" />
+    <state x="1001" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616950529139" />
     <state x="326" y="158" width="1310" height="761" key="DiffContextDialog" timestamp="1616201057700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="326" y="158" width="1310" height="761" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616201057700" />
-    <state width="1235" height="356" key="GridCell.Tab.0.bottom" timestamp="1616948555057">
+    <state width="1571" height="424" key="GridCell.Tab.0.bottom" timestamp="1617205904277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616948555057" />
-    <state width="1235" height="356" key="GridCell.Tab.0.center" timestamp="1616948555057">
+    <state width="1571" height="424" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617205904277" />
+    <state width="1571" height="424" key="GridCell.Tab.0.center" timestamp="1617205904277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616948555057" />
-    <state width="1235" height="356" key="GridCell.Tab.0.left" timestamp="1616948555057">
+    <state width="1571" height="424" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617205904277" />
+    <state width="1571" height="424" key="GridCell.Tab.0.left" timestamp="1617205904276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616948555057" />
-    <state width="1235" height="356" key="GridCell.Tab.0.right" timestamp="1616948555057">
+    <state width="1571" height="424" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617205904276" />
+    <state width="1571" height="424" key="GridCell.Tab.0.right" timestamp="1617205904277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1235" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616948555057" />
+    <state width="1571" height="424" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617205904277" />
     <state x="595" y="280" key="MultipleFileMergeDialog" timestamp="1616834410089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -608,18 +605,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616201873607" />
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1616865590848">
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1616950535040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616865590848" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616950535040" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1616898615905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1616898615905" />
-    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1616950168145">
+    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1617204438828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616950168145" />
+    <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617204438828" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
