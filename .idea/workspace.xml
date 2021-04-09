@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/lesson01/d1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson02/d2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson02/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson03/d1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson03/d2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson03/d3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson03/d5_swipe封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson03/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/img/屏幕截图-2021-03-28-22-22-42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/img/屏幕截图-2021-03-29-00-20-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/img/屏幕截图-2021-03-29-00-22-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson11_pre/test/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson12/test/test_add_class.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lesson12/test/test_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lesson03/d5_swipe类封装.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lesson01/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/lesson01/总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaceAuto" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceAuto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson12/common/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson12/common/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/lesson12/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson12/总结.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +74,7 @@
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_audit_test_audit.coverage" NAME="pytest for test_audit.test_audit Coverage Results" MODIFIED="1612754891598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson28_api_v7/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_withdraw_test_withdraw.coverage" NAME="pytest for test_withdraw.test_withdraw Coverage Results" MODIFIED="1612161935211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson26_api_v5/test" />
     <SUITE FILE_PATH="coverage/python36$01.coverage" NAME="01 Coverage Results" MODIFIED="1607094061630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/python36$d5_swipe.coverage" NAME="d5_swipe类封装 Coverage Results" MODIFIED="1617937167529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/lesson03" />
     <SUITE FILE_PATH="coverage/python36$login.coverage" NAME="login Coverage Results" MODIFIED="1615802236891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APaaS/test" />
     <SUITE FILE_PATH="coverage/python36$pytest_for_test_add_item_test_add.coverage" NAME="pytest for test_add_item.test_add Coverage Results" MODIFIED="1612678691562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/test" />
     <SUITE FILE_PATH="coverage/python36$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1612318198062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson27_api_v6/common" />
@@ -100,43 +83,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lesson03/总结.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="461">
-                <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_类属性.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lesson03/d1.py">
+        <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="28" selection-start-line="28" selection-end-line="50" />
-            </state>
+            <state relative-caret-position="-180" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lesson03/d2.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/lesson03/d5_swipe类封装.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lesson03/d3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="1180">
+              <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -144,20 +106,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/lesson03/d5_swipe封装.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="343">
+              <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="42" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://D:/software/Python37/Lib/site-packages/appium/webdriver/extensions/action_helpers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-123">
-              <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -197,6 +150,7 @@
         <option value="$PROJECT_DIR$/app/lesson03/d1.py" />
         <option value="$PROJECT_DIR$/app/lesson03/d3.py" />
         <option value="$PROJECT_DIR$/app/lesson03/d5_swipe封装.py" />
+        <option value="$PROJECT_DIR$/app/lesson03/d5_swipe类封装.py" />
       </list>
     </option>
   </component>
@@ -207,8 +161,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="238" />
-    <option name="y" value="81" />
+    <option name="x" value="277" />
+    <option name="y" value="67" />
     <option name="width" value="1731" />
     <option name="height" value="971" />
   </component>
@@ -268,17 +222,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\python36\app\lesson01" />
-      <recent name="D:\Project\python36\lesson32_接口总结" />
-      <recent name="D:\zengcong\py37\lesson02_data_type" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\python36\app\lesson03" />
       <recent name="D:\Project\python36\APaaS\test" />
       <recent name="D:\Project\python36" />
       <recent name="D:\Project\python36\web\lesson04_页面交互操作" />
       <recent name="D:\Project\python36\lesson27_api_v6\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\python36\app\lesson01" />
+      <recent name="D:\Project\python36\lesson32_接口总结" />
+      <recent name="D:\zengcong\py37\lesson02_data_type" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.d3">
+  <component name="RunManager" selected="Python.d5_swipe类封装">
     <configuration name="d1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python36" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,28 +261,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/lesson03/d1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="d1_文件上传" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python36" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/lesson7_文件上传/上课代码" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/lesson7_文件上传/上课代码/d1_文件上传.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -349,6 +281,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/lesson03/d3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="d5_swipe类封装" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python36" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/lesson03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/lesson03/d5_swipe类封装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d5_swipe类封装" />
         <item itemvalue="Python.d3" />
         <item itemvalue="Python.d1" />
         <item itemvalue="Python.d1" />
         <item itemvalue="Python.d1" />
-        <item itemvalue="Python tests.pytest for test_add_class_po.TestAddClass.test_add_success" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +385,7 @@
       <workItem from="1617795491230" duration="938000" />
       <workItem from="1617849048194" duration="223000" />
       <workItem from="1617882933087" duration="2524000" />
-      <workItem from="1617885792028" duration="3920000" />
+      <workItem from="1617885792028" duration="6318000" />
     </task>
     <task id="LOCAL-00001" summary="1202字符串知识">
       <created>1607001881302</created>
@@ -650,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617439330460</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1617935346783</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1617935346783</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -686,18 +647,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224594000" />
+    <option name="totallyTimeSpent" value="226992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="855" y="84" width="1731" height="971" extended-state="0" />
-    <editor active="true" />
+    <frame x="277" y="67" width="1731" height="971" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1208857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19868343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3321386" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37275985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37136206" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -775,10 +735,10 @@
     <MESSAGE value="0305三大窗口切换" />
     <MESSAGE value="0308键盘输入" />
     <MESSAGE value="0308JS" />
-    <MESSAGE value="Merge remote-tracking branch 'remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="[0319 basepage]" />
     <MESSAGE value="[0226 app]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[0226 app]" />
+    <MESSAGE value="Merge remote-tracking branch 'remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'remotes/origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
@@ -926,13 +886,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/lesson10_basepage/tests/test_homework.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1158,20 +1111,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/software/Python37/Lib/site-packages/appium/webdriver/extensions/action_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/d04_类和对象作用.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/d05_继承.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_类和对象2/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_logging日志处理/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15_配置文件/d03_类封装.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15_配置文件/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16_pytest/test_login.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16_pytest/test_homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16_pytest/run_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16_pytest/test_什么是单元测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson18_接口/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson18_接口/server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson19_接口2/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson19_接口2/homework2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d02_类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_对象.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d03_类属性.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_类与对象/d05_实例属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/lesson03/d5_swipe封装.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="343">
+          <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="42" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/Python37/Lib/site-packages/appium/webdriver/extensions/action_helpers.py">
+    <entry file="file://$PROJECT_DIR$/app/lesson03/d5_swipe类封装.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        <state relative-caret-position="1180">
+          <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
         </state>
       </provider>
     </entry>
