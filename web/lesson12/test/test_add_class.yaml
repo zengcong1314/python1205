@@ -1,0 +1,19 @@
+-
+  action: "goto"
+  params:
+    url: "https://v4.ketangpai.com/User/login.html"
+
+-
+  action: "fill"
+  params:
+    locator: ['name','account']
+    data: '13925210746@163.com'
+-
+  action: "fill"
+  params:
+    locator: ['name','pass']
+    data: 'admin123456'
+-
+  action: "click"
+  params:
+    locator: ['xpath',"//div[contains(@class,'pt-login')]/a[@class='btn-btn']"]

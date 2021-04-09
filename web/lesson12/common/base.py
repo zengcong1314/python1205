@@ -16,7 +16,7 @@ class BasePage():
         self.driver = driver
 
 
-    def go_to(self,url):
+    def goto(self,url):
         """访问页面"""
         if url.startswith('http'):
             self.driver.get(url)
@@ -37,14 +37,14 @@ class BasePage():
         logger.info(f"元素被点击：{locator}")
         return self
 
-    def fill(self,locator,text):
+    def fill(self,locator,data):
         """输入内容"""
         try:
             el = self.driver.find_element(*locator)
         except NoSuchElementException as e:
             logger.error(f"元素无法定位{e}")
         else:
-            el.send_keys(text)
+            el.send_keys(data)
             logger.info(f"元素被输入内容：{locator}")
             return self
 
@@ -127,6 +127,9 @@ class BasePage():
         file_path = os.path.join(img_path,file_name)
         self.driver.get_screenshot_as_file(file_path)
         return self
+
+    def assert_equal(self,a,b):
+        assert a == b
 
 
 
