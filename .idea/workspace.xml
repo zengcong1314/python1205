@@ -3,16 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/lesson01/d1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson02/d2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson02/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson03/d2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson03/总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lesson01/总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/lesson01/总结.md" afterDir="false" />
-    </list>
+    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -508,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617506069508</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="0324 异常，截图，日志">
+      <created>1617839358474</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1617839358474</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -532,7 +556,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -582,10 +618,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="206" y="443" width="1205" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1616912178012" />
-    <state x="1001" y="118" key="CommitChangelistDialog2" timestamp="1617506066468">
+    <state x="1001" y="118" key="CommitChangelistDialog2" timestamp="1617839355495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1001" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617506066468" />
+    <state x="1001" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617839355495" />
     <state x="326" y="158" width="1310" height="761" key="DiffContextDialog" timestamp="1616201057700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -614,14 +650,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616201873607" />
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1617506076347">
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1617839399605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617506076347" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617839399605" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1616898615905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1616898615905" />
+    <state x="739" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617839511734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="419" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617839511734" />
     <state x="1248" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1617204438828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
