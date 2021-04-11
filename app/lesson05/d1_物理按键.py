@@ -15,5 +15,10 @@ driver = Remote(command_executor='http://127.0.0.1:4723/wd/hub',
 driver.implicitly_wait(10)
 
 # 按下物理按键
-driver.press_keycode()
+driver.press_keycode(26)
 
+# 按下音量加
+driver.press_keycode(24)
+driver.press_keycode(24)
+driver.press_keycode(24)
+driver.press_keycode(24)
