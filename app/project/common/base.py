@@ -26,7 +26,7 @@ class BasePage():
         logger.info(f"进入网页{url}")
         return self
 
-    def click(self,locator: tuple,force=False):
+    def click_web(self,locator: tuple,force=False):
         """点击"""
         el = self.driver.find_element(*locator)
         # 有时候，当元素不可点击的时候，使用el.click 不生效
@@ -35,6 +35,12 @@ class BasePage():
         else:
             self.driver.execute_script("arguments[0].click({force:true})", el)
         logger.info(f"元素被点击：{locator}")
+        return self
+
+    def click_app(self,locator):
+        """点击原生app"""
+        el = self.driver.find_element(*locator)
+        el.click()
         return self
 
     def fill(self,locator,data):
