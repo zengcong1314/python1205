@@ -29,21 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/lesson04/d1_swipe封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson04/d2_九宫格操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson04/d3_混合应用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson04/d4_basepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson04/homework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson04/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson04/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson05/d1_basepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson05/d1_物理按键.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lesson05/总结.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python36.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python36.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="10fad36d-6d94-4ca4-8a84-fb261b325e95" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -568,7 +554,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618023834020</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="【0402 九宫格】">
+      <created>1618156056047</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1618156056047</updated>
+    </task>
+    <task id="LOCAL-00040" summary="【0407 物理按键】">
+      <created>1618156134224</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1618156134224</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -643,7 +643,9 @@
     <MESSAGE value="0312-15 PO" />
     <MESSAGE value="0319 PO-BasePage" />
     <MESSAGE value="0324 异常，截图，日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="0324 异常，截图，日志" />
+    <MESSAGE value="【0402 九宫格】" />
+    <MESSAGE value="【0407 物理按键】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【0407 物理按键】" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611092907698">
@@ -654,30 +656,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="206" y="443" width="1205" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1616912178012" />
-    <state x="516" y="39" key="CommitChangelistDialog2" timestamp="1618023832002">
+    <state x="775" y="49" key="CommitChangelistDialog2" timestamp="1618156132900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="516" y="39" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618023832002" />
+    <state x="775" y="49" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1618156132900" />
     <state x="326" y="158" width="1310" height="761" key="DiffContextDialog" timestamp="1616201057700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="326" y="158" width="1310" height="761" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616201057700" />
-    <state width="1248" height="257" key="GridCell.Tab.0.bottom" timestamp="1618146424323">
+    <state width="1248" height="158" key="GridCell.Tab.0.bottom" timestamp="1618156159688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1248" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618146424323" />
-    <state width="1248" height="257" key="GridCell.Tab.0.center" timestamp="1618146424323">
+    <state width="1248" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618156159688" />
+    <state width="1248" height="158" key="GridCell.Tab.0.center" timestamp="1618156159688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1248" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618146424323" />
-    <state width="1248" height="257" key="GridCell.Tab.0.left" timestamp="1618146424323">
+    <state width="1248" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618156159688" />
+    <state width="1248" height="158" key="GridCell.Tab.0.left" timestamp="1618156159688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1248" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618146424323" />
-    <state width="1248" height="257" key="GridCell.Tab.0.right" timestamp="1618146424323">
+    <state width="1248" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618156159688" />
+    <state width="1248" height="158" key="GridCell.Tab.0.right" timestamp="1618156159688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1248" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618146424323" />
+    <state width="1248" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618156159688" />
     <state x="595" y="280" key="MultipleFileMergeDialog" timestamp="1618023852889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -686,10 +688,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616201873607" />
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1618023836398">
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2" timestamp="1618156135392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618023836398" />
+    <state x="1009" y="283" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618156135392" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1616898615905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
