@@ -3,6 +3,7 @@ import time
 from datetime import datetime
 
 from selenium.webdriver import ActionChains,Chrome
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
@@ -137,10 +138,18 @@ class BasePage():
     def assert_equal(self,a,b):
         assert a == b
 
+    def get_toast(self,text):
+        """获取toast弹框 获取弹框只能使用uiautomator2"""
+        el = self.driver.find_element(By.XPATH,f'//*[contains(@text,"{text}")]')
+        return el
+
 
 
 
     # 窗口切换
+
+
+
 if __name__ == '__main__':
     # 访问百度
     driver = Chrome()
