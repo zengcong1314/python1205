@@ -4,7 +4,7 @@ from appium.webdriver import Remote
 class BasePage:
     def __init__(self,driver):
         self.driver = driver
-        self.size = driver.get_window_sizt()
+        self.size = driver.get_window_size()
         self.height = self.size['height']
         self.width = self.size['width']
 

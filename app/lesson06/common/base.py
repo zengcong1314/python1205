@@ -13,8 +13,11 @@ from web.lesson11_pre.config.path import img_path
 
 class BasePage():
     host = ''
-    def __init__(self,driver: Chrome):
+    def __init__(self,driver):
         self.driver = driver
+        self.size = driver.get_window_size()
+        self.height = self.size['height']
+        self.width = self.size['width']
 
 
     def goto(self,url):
@@ -63,7 +66,7 @@ class BasePage():
     # el.name el.href
     # 把方法变成属性，调用时可以不加括号
     @property
-    def name(self,locator):
+    def get_name(self,locator):
         # 获取元素的name属性
         return self.get_attribute(locator,'name')
 
@@ -83,7 +86,7 @@ class BasePage():
         elem_start = self.driver.find_element(*start_locator)
         elem_end = self.driver.find_element(*end_locator)
         action = ActionChains(self.driver)
-        action.double_click(elem_start,elem_end).perform()
+        action.drag_and_drop(elem_start,elem_end).perform()
         return self
 
     def hover(self,locator):
@@ -142,6 +145,45 @@ class BasePage():
         """获取toast弹框 获取弹框只能使用uiautomator2"""
         el = self.driver.find_element(By.XPATH,f'//*[contains(@text,"{text}")]')
         return el
+
+    def swipe_left(self, offset=0.9):
+        """封装swipe"""
+
+        self.driver.swipe(start_x=self.width * offset,
+                          start_y=self.height * 0.5,
+                          end_x=self.width * (1 - offset),
+                          end_y=self.height * 0.5)
+
+    def swipe_right(self, offset=0.9):
+        """封装swipe"""
+        self.driver.swipe(start_x=self.width * (1 - offset),
+                          start_y=self.height * 0.5,
+                          end_x=self.width * offset,
+                          end_y=self.height * 0.5)
+
+    def swipe_up(self, offset=0.9):
+        """封装swipe"""
+        self.driver.swipe(start_x=self.width * 0.5,
+                          start_y=self.height * offset,
+                          end_x=self.width * 0.5,
+                          end_y=self.height * (1 - offset))
+
+    def swipe_down(self, offset=0.9):
+        """封装swipe"""
+        self.driver.swipe(start_x=self.width * 0.5,
+                          start_y=self.height * (1 - offset),
+                          end_x=self.width * 0.5,
+                          end_y=self.height * offset)
+
+    def swipe1(self,direct='left',offset=0.9):
+        if direct == 'left':
+            return self.swipe_left(offset)
+        elif direct == 'right':
+            return self.swipe_right(offset)
+        elif direct == 'up':
+            return self.swipe_up(offset)
+        else:
+            return self.swipe_down(offset)
 
 
 
