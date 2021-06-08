@@ -7,6 +7,15 @@ import pytest
 data = Handler.excel.read_dict('app')
 @pytest.mark.parametrize("info",data)
 def test_add_app(info,login):
+    if info["json"]:
+        if '#app_name#' in info["json"] :
+            info["json"] = info["json"].replace('#app_name#',Handler.yaml_config['app']['app_name'])
+        if '#icon#' in info["json"]:
+            info["json"] = info["json"].replace('#icon#', Handler.yaml_config['app']['app_icon'])
+        if '#alter_app_name#' in info["json"]:
+            info["json"] = info["json"].replace('#alter_app_name#', Handler.yaml_config['app']['alter_app_name'])
+        if '#copy_app_name#' in info["json"]:
+            info["json"] = info["json"].replace('#copy_app_name#', Handler.yaml_config['app']['copy_app_name'])
     headers = {}
     headers['Authorization'] = login['tokenType'] + ' ' + login['accessToken']
     # info 取出来是字典，转化为字符串
@@ -16,6 +25,7 @@ def test_add_app(info,login):
     print(info)
     # 字符串转化成字典
     info = json.loads(info)
+
 
     if info['method'] == 'get':
         res = requests.request(method=info["method"],

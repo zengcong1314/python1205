@@ -1,6 +1,11 @@
 host: "http://kong.poros-platform.10.74.166.198.nip.io"
 username: "13925210746"
 password: "ABC_abc1"
+app:
+  app_name: "接口自动化测试应用"
+  app_icon: "order"
+  alter_app_name: "修改后的测试应用"
+  copy_app_name: "接口自动化测试应用-副本"
 logger:
   name: py36
   logger_level: "DEBUG"
